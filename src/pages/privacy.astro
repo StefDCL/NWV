@@ -1,0 +1,121 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHero from '../components/PageHero.astro';
+import { site } from '../data/site';
+---
+<Base title="Privacyverklaring" description="Hoe de Nievdonckse Watersport Vereniging vzw omgaat met je persoonsgegevens.">
+  <PageHero title="Privacyverklaring" eyebrow="Juridisch" crumbs={[{ label: 'Privacy' }]} image="/media/site/hero-3.webp" />
+  <section class="section">
+    <div class="container prose">
+      <h2>Algemeen</h2>
+      <p>
+        De Nievdonckse Watersport Vereniging vzw, verder NWV genoemd, hecht veel waarde aan je privacy en de bescherming van je
+        persoonsgegevens. In deze privacyverklaring willen we heldere en transparante informatie geven over hoe wij omgaan met
+        persoonsgegevens. Wij doen er alles aan om je privacy te waarborgen en gaan daarom zorgvuldig om met persoonsgegevens. De NWV houdt
+        zich in alle gevallen aan de toepasselijke wet- en regelgeving, waaronder de Algemene Verordening Gegevensbescherming (GDPR).
+      </p>
+      <p>Dit brengt met zich mee dat wij in ieder geval:</p>
+      <ul>
+        <li>je persoonsgegevens verwerken in overeenstemming met het doel waarvoor ze zijn verstrekt; deze doelen en het type persoonsgegevens zijn beschreven in deze privacyverklaring;</li>
+        <li>de verwerking van je persoonsgegevens beperken tot enkel die gegevens die nodig zijn voor de doeleinden waarvoor ze worden verwerkt;</li>
+        <li>passende technische en organisatorische maatregelen hebben genomen zodat de beveiliging van je persoonsgegevens gewaarborgd is;</li>
+        <li>geen persoonsgegevens doorgeven aan andere partijen, tenzij dit nodig is voor de uitvoering van de doeleinden waarvoor ze zijn verstrekt;</li>
+        <li>op de hoogte zijn van je rechten als betrokken persoon omtrent je persoonsgegevens, je hierop willen attent maken en deze willen respecteren;</li>
+        <li>de gegevens onmiddellijk uit onze database verwijderen indien dit gevraagd wordt.</li>
+      </ul>
+      <p>
+        Als NWV zijn wij verantwoordelijk voor de verwerking van je persoonsgegevens. Heb je na het doornemen van onze privacyverklaring, of in
+        het algemeen, vragen hierover of wil je contact met ons opnemen, dan kan dat via: {site.vzw}, {site.adres.straat}, {site.adres.postcode} Berlare –
+        <a href={`mailto:${site.email.algemeen}`}>{site.email.algemeen}</a>.
+      </p>
+
+      <h2>1.1 Waarom verwerken wij persoonsgegevens?</h2>
+      <p>Je persoonsgegevens worden door NWV verwerkt voor de volgende doeleinden en rechtsgronden:</p>
+      <ul>
+        <li>om te kunnen deelnemen aan de activiteiten van NWV (uitvoering overeenkomst);</li>
+        <li>het versturen van nieuwsbrieven en uitnodigingen (gerechtvaardigd belang);</li>
+        <li>het bekomen van subsidiëring door de overheid (wettelijke verplichting);</li>
+        <li>het doorgeven van gegevens aan de overkoepelende organisatie WWSV voor de familie- en individuele lidmaatschappen;</li>
+        <li>abonnementen op het tijdschrift ‘Varen’.</li>
+      </ul>
+
+      <h2>1.2 Welke gegevens verwerken we?</h2>
+      <ul>
+        <li>Identiteitsgegevens: naam, voornaam, adres, telefoonnummer, e-mail;</li>
+        <li>Identiteitsgegevens uitgegeven door de overheid: identiteitskaartnummer, rijksregisternummer;</li>
+        <li>Persoonlijke kenmerken: geslacht, geboortedatum, geboorteplaats, nationaliteit.</li>
+      </ul>
+
+      <h2>1.3 Wie verwerkt de gegevens?</h2>
+      <ul>
+        <li>De overkoepelende federatie Wind en Watersport Vlaanderen;</li>
+        <li>Aquamedia, uitgeverij van het tijdschrift ‘Varen’;</li>
+        <li>Partners waarmee we samenwerken voor de organisatie van onze activiteiten.</li>
+      </ul>
+
+      <h2>1.4 Verstrekking aan derden</h2>
+      <p>De gegevens die je aan ons geeft, kunnen wij aan derde partijen verstrekken als dit noodzakelijk is voor de hierboven beschreven doeleinden. Zo maken wij gebruik van een derde partij (verwerker) voor:</p>
+      <ul>
+        <li>het verzorgen van de internetomgeving (webhosting);</li>
+        <li>het verzorgen van IT-infrastructuur (o.a. IT-netwerk);</li>
+        <li>het verzorgen (en verspreiden) van nieuwsbrieven en uitnodigingen.</li>
+      </ul>
+      <p>
+        Wij geven nooit persoonsgegevens door aan andere verwerkers dan diegene waarmee we een verwerkersovereenkomst hebben afgesloten of die
+        aangeven de GDPR-wetgeving te volgen. Verder geven wij de verstrekte gegevens niet aan derden door, tenzij dit wettelijk verplicht en/of
+        toegestaan is, zoals bijvoorbeeld in het kader van een politioneel of gerechtelijk onderzoek.
+      </p>
+      <p>
+        Wij verstrekken geen persoonsgegevens van leden aan andere leden. Wil een lid een ander lid contacteren, dan kan de vraag tot contactname
+        via een e-mail aan de ledenadministratie (<a href={`mailto:${site.email.algemeen}`}>{site.email.algemeen}</a>) worden doorgegeven.
+      </p>
+      <p>
+        Wij kunnen persoonsgegevens ook delen met derden als je ons daarvoor toestemming geeft. Deze toestemming kan te allen tijde ingetrokken
+        worden, zonder dat dit afbreuk doet aan de rechtmatigheid van de verwerking vóór de intrekking. Wij verstrekken geen persoonsgegevens aan
+        partijen die gevestigd zijn buiten de EU.
+      </p>
+
+      <h2>1.5 Minderjarigen</h2>
+      <p>Wij verwerken alleen persoonsgegevens van personen jonger dan 18 jaar als daarvoor schriftelijke toestemming is gegeven door de ouder of wettelijke vertegenwoordiger.</p>
+
+      <h2>1.6 Bewaartermijn</h2>
+      <p>De NWV bewaart persoonsgegevens niet langer dan noodzakelijk voor het doel waarvoor ze zijn verstrekt, of dan op grond van de wet vereist is. De NWV verbindt zich ertoe de gegevens niet langer bij te houden dan tot 1 jaar na het einde van het lidmaatschap.</p>
+
+      <h2>1.7 Beveiliging van de gegevens</h2>
+      <ul>
+        <li>Alle personen die namens NWV van je gegevens kennis kunnen nemen, zijn gehouden aan geheimhouding daarvan.</li>
+        <li>We hanteren een gebruikersnaam- en wachtwoordbeleid op al onze systemen in de cloud.</li>
+        <li>We pseudonimiseren en zorgen voor de encryptie van persoonsgegevens als daar aanleiding toe is.</li>
+        <li>We maken back-ups van de persoonsgegevens om ze te kunnen herstellen bij fysieke of technische incidenten.</li>
+        <li>We testen en evalueren regelmatig onze maatregelen.</li>
+        <li>Onze medewerkers zijn geïnformeerd over het belang van de bescherming van persoonsgegevens.</li>
+      </ul>
+
+      <h2>1.8 Je rechten omtrent je gegevens</h2>
+      <p>
+        Je hebt recht op inzage, kopie, aanpassing of het wissen van de persoonsgegevens die wij ontvangen hebben. Je kan ook bezwaar indienen
+        tegen de verwerking van je persoonsgegevens (of een deel ervan) door ons of door een van onze verwerkers. Ook heb je het recht om de
+        verstrekte gegevens door ons te laten overdragen aan jezelf of, in jouw opdracht, rechtstreeks aan een andere partij. Wij kunnen je vragen
+        je te legitimeren voordat wij op deze verzoeken ingaan.
+      </p>
+
+      <h2>1.9 Klachten</h2>
+      <p>
+        Heb je een klacht over de verwerking van je persoonsgegevens, neem dan rechtstreeks contact met ons op via
+        <a href={`mailto:${site.email.algemeen}`}>{site.email.algemeen}</a>. Je hebt altijd het recht een klacht in te dienen bij de
+        Gegevensbeschermingsautoriteit (GBA), Drukpersstraat 35, 1000 Brussel –
+        <a href="https://www.gegevensbeschermingsautoriteit.be" rel="noopener" target="_blank">www.gegevensbeschermingsautoriteit.be</a>.
+      </p>
+
+      <h2>1.10 Foto’s en deze website</h2>
+      <p>
+        Op deze website verschijnt beeldmateriaal dat tijdens onze activiteiten werd gemaakt. Kampfoto’s delen we enkel met de ouders via
+        WhatsApp. Wens je niet dat een foto online staat? Meld het via <a href={`mailto:${site.email.webbeheer}`}>{site.email.webbeheer}</a>.
+        De website gebruikt geen trackers of advertentiecookies; zie ook ons <a href="/cookies/">cookiebeleid</a>.
+      </p>
+
+      <h2>1.11 Wijziging privacyverklaring</h2>
+      <p>De NWV kan deze privacyverklaring steeds wijzigen. De oorspronkelijke versie dateert van 18 mei 2018.</p>
+    </div>
+  </section>
+</Base>

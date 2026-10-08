@@ -1,0 +1,7309 @@
+[
+ {
+  "datum": "2026-09-20",
+  "naam": "Septemberwedstrijd",
+  "titel": "20/09/2026 Septemberwedstrijd",
+  "groepen": [
+   {
+    "klasse": "Zeilboten handicap berekening",
+    "rijen": [
+     [
+      "1. De Beelde Brecht",
+      "Laser Radial"
+     ],
+     [
+      "2. Bracke Xavier",
+      "Laser"
+     ],
+     [
+      "3. Desplenter Karel",
+      "Laser"
+     ],
+     [
+      "4. De Bie Bert & De Meyer Erik",
+      "Fireball"
+     ],
+     [
+      "5. Hautekiet Mark",
+      "Laser"
+     ],
+     [
+      "6. Van Roy Davy",
+      "Laser"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Optimist",
+    "rijen": [
+     [
+      "1. Bettens Remi"
+     ],
+     [
+      "2. De Bie Anemone"
+     ]
+    ],
+    "notities": []
+   }
+  ]
+ },
+ {
+  "datum": "2026-04-19",
+  "naam": "Voorjaarswedstrijd",
+  "titel": "19/04/2026 Voorjaarswedstrijd",
+  "groepen": [
+   {
+    "klasse": "Zeilboten volgens handicap berekening",
+    "rijen": [
+     [
+      "1. De Beelde Brecht",
+      "Laser Radial"
+     ],
+     [
+      "2. De Clercq Glen",
+      "RS Aero 7"
+     ],
+     [
+      "3. De Clercq Stef",
+      "RS Aero 7"
+     ],
+     [
+      "4. Desplenter Karel",
+      "Laser"
+     ],
+     [
+      "5. Van Cauwenberghe Christine",
+      "RS Neo"
+     ],
+     [
+      "6. Van Roy Davy",
+      "Laser"
+     ]
+    ],
+    "notities": [
+     "Zeilboten volgens handicap berekening\r\n1. De Beelde Brecht\t        Laser Radial\r\n2. De Clercq Glen\t        RS Aero 7\r\n3. De Clercq Stef\t        RS Aero 7\r\n4. Desplenter Karel\t        Laser\r\n5. Van Cauwenberghe Christine\tRS Neo\r\n6. Van Roy Davy\t                Laser"
+    ]
+   }
+  ]
+ },
+ {
+  "datum": "2026-04-06",
+  "naam": "Openingswedstrijd",
+  "titel": "06/04/2026 Openingswedstrijd",
+  "groepen": [
+   {
+    "klasse": "Zeilboten volgens handicap berekening",
+    "rijen": [
+     [
+      "1. Heuninckx Walter",
+      "Laser"
+     ],
+     [
+      "2. Hautekiet Mark",
+      "Laser"
+     ],
+     [
+      "3. De Bie Bert-De Roy D.",
+      "Sharpie"
+     ],
+     [
+      "4. Vercauteren Louise",
+      "Ilca 4"
+     ]
+    ],
+    "notities": [
+     "Zeilboten volgens handicap berekening\r\n1. Heuninckx Walter\t  Laser\r\n2. Hautekiet Mark\t  Laser\r\n3. De Bie Bert-De Roy D.  Sharpie\r\n4. Vercauteren Louise\t  Ilca 4"
+    ]
+   }
+  ]
+ },
+ {
+  "datum": "2025-10-18",
+  "naam": "Beker van de voorzitter",
+  "titel": "18/10/2025 Beker van de voorzitter",
+  "groepen": [
+   {
+    "klasse": "Zeilboten volgens handicap berekening",
+    "rijen": [
+     [
+      "1. Bracke Xavier",
+      "Laser"
+     ],
+     [
+      "2. Desplenter Karel",
+      "Laser"
+     ],
+     [
+      "3. De Clercq Stef",
+      "Laser"
+     ],
+     [
+      "4. Van Der Wilt Sophie",
+      "Laser"
+     ],
+     [
+      "5. De Meyer Erik",
+      "Laser"
+     ],
+     [
+      "6. Hautkiet Mark",
+      "Laser"
+     ],
+     [
+      "7. Fahy Bart",
+      "Laser"
+     ],
+     [
+      "8. Hautekiet Bram",
+      "Laser"
+     ],
+     [
+      "9. Vercauteren Louise",
+      "Laser 4.7"
+     ],
+     [
+      "10. Van Hauwermeiren A.",
+      "Laser"
+     ]
+    ],
+    "notities": [
+     "Zeilboten volgens handicap berekening\r\n1. Bracke Xavier\tLaser\r\n2. Desplenter Karel\tLaser\r\n3. De Clercq Stef\tLaser\r\n4. Van Der Wilt Sophie\tLaser\r\n5. De Meyer Erik\tLaser\r\n6. Hautkiet Mark\tLaser\r\n7. Fahy Bart\t\tLaser\r\n8. Hautekiet Bram\tLaser\r\n9. Vercauteren Louise\tLaser 4.7\r\n10. Van Hauwermeiren A.\tLaser"
+    ]
+   }
+  ]
+ },
+ {
+  "datum": "2025-10-05",
+  "naam": "Herfstwedstrijd",
+  "titel": "5/10/2025 Herfstwedstrijd",
+  "groepen": [
+   {
+    "klasse": "Zeilboten volgens handicap berekening",
+    "rijen": [
+     [
+      "1. De Bie Lien",
+      "Laser Radial"
+     ],
+     [
+      "2. Bracke Xavier",
+      "Laser"
+     ],
+     [
+      "3. Desplenter Karel",
+      "Laser Radial"
+     ],
+     [
+      "4. De Bie Bert & De Meyer Erik",
+      "Fireball"
+     ],
+     [
+      "5. De Beelde Brecht & Robbe",
+      "420"
+     ],
+     [
+      "6. De Kock Pieter",
+      "Laser Radial"
+     ],
+     [
+      "7. De Bie Jan, De Backer Julie"
+     ],
+     [
+      "& Van Lierde Leen",
+      "Laser Bahia"
+     ],
+     [
+      "8. Van Roy Davy",
+      "Laser"
+     ]
+    ],
+    "notities": [
+     "Zeilboten volgens handicap berekening\r\n1. De Bie Lien\t                Laser Radial\r\n2. Bracke Xavier\t        Laser\r\n3. Desplenter Karel\t        Laser Radial\r\n4. De Bie Bert & De Meyer Erik\tFireball\r\n5. De Beelde Brecht & Robbe\t420\r\n6. De Kock Pieter\t        Laser Radial\r\n7. De Bie Jan, De Backer Julie \r\n\t     & Van Lierde Leen\tLaser Bahia\r\n8. Van Roy Davy\t\t\tLaser"
+    ]
+   }
+  ]
+ },
+ {
+  "datum": "2025-09-21",
+  "naam": "Septemberwedstrijd",
+  "titel": "21/09/2025 Septemberwedstrijd",
+  "groepen": [
+   {
+    "klasse": "Zeilboten volgens handicap berekening",
+    "rijen": [
+     [
+      "1. Bracke Xavier",
+      "Laser"
+     ],
+     [
+      "2. De Beelde Brecht",
+      "Laser Radial"
+     ],
+     [
+      "3. Hautekiet Mark",
+      "Laser"
+     ],
+     [
+      "4. Van Roy Davy",
+      "Laser"
+     ]
+    ],
+    "notities": [
+     "Zeilboten volgens handicap berekening\r\n1. Bracke Xavier\tLaser\r\n2. De Beelde Brecht\tLaser Radial\r\n3. Hautekiet Mark\tLaser\r\n4. Van Roy Davy\t\tLaser"
+    ]
+   }
+  ]
+ },
+ {
+  "datum": "2025-09-07",
+  "naam": "Starterswedstrijd",
+  "titel": "7/09/2025 Starterswedstrijd",
+  "groepen": [
+   {
+    "klasse": "Zeilboten volgens handicap berekening",
+    "rijen": [
+     [
+      "1. Desplenter Karel",
+      "Laser"
+     ],
+     [
+      "2. De Bie Bert",
+      "Laser"
+     ],
+     [
+      "3. Vanden Baviére Erika",
+      "Laser Radial"
+     ],
+     [
+      "4. Van Der Wilt Sophie",
+      "Laser"
+     ],
+     [
+      "5. De Beelde Robbe & Felix Finn"
+     ],
+     [
+      "6. Van Roy Davy",
+      "Laser"
+     ]
+    ],
+    "notities": [
+     "Zeilboten volgens handicap berekening\r\n1. Desplenter Karel        Laser\r\n2. De Bie Bert\t           Laser\r\n3. Vanden Baviére Erika\t   Laser Radial\r\n4. Van Der Wilt Sophie\t   Laser\r\n5. De Beelde Robbe & Felix Finn\r\n6. Van Roy Davy            Laser"
+    ]
+   }
+  ]
+ },
+ {
+  "datum": "2025-05-18",
+  "naam": "beker NWV Handicap",
+  "titel": "18/05/2025 beker NWV Handicap",
+  "groepen": [
+   {
+    "klasse": "Zeilboten volgens handicap berekening",
+    "rijen": [
+     [
+      "1. Bracke Xavier",
+      "Laser"
+     ],
+     [
+      "2. Mertens Stephanie",
+      "Laser"
+     ],
+     [
+      "3. Declerckq Stef",
+      "Laser"
+     ],
+     [
+      "4. Van Cauwenberghe Christine",
+      "RS Neo"
+     ]
+    ],
+    "notities": [
+     "Zeilboten volgens handicap berekening\r\n1. Bracke Xavier\tLaser\r\n2. Mertens Stephanie\tLaser\r\n3. Declerckq Stef\tLaser\r\n4. Van Cauwenberghe Christine\tRS Neo"
+    ]
+   }
+  ]
+ },
+ {
+  "datum": "2025-05-04",
+  "naam": "Voorjaarswedstrijd",
+  "titel": "04/05/2025 Voorjaarswedstrijd",
+  "groepen": [
+   {
+    "klasse": "zeilboten volgens handicap berekening",
+    "rijen": [
+     [
+      "1. Bracke Xavier",
+      "Laser"
+     ],
+     [
+      "2. De Beelde Brecht",
+      "Laser Radial"
+     ],
+     [
+      "3. De Clercq Stef",
+      "Laser"
+     ],
+     [
+      "4. Desplenter Karel",
+      "Laser"
+     ],
+     [
+      "5. Van Der Wilt Sophie",
+      "Laser Radial"
+     ],
+     [
+      "6. Hautekiet Mark",
+      "Laser"
+     ],
+     [
+      "7. De Kock Pieter",
+      "Laser Radial"
+     ]
+    ],
+    "notities": [
+     "Eervolle vermelding voor Mertens Pauline op Optimist",
+     "zeilboten volgens handicap berekening\r\n1. Bracke Xavier \t\tLaser\r\n2. De Beelde Brecht\t\tLaser Radial\r\n3. De Clercq Stef\t\tLaser\r\n4. Desplenter Karel\t\tLaser\r\n5. Van Der Wilt Sophie\t\tLaser Radial\r\n6. Hautekiet Mark\t\tLaser\r\n7. De Kock Pieter\t\tLaser Radial\r\n\r\nEervolle vermelding voor Mertens Pauline op Optimist"
+    ]
+   }
+  ]
+ },
+ {
+  "datum": "2025-04-21",
+  "naam": "Nationale Wedstrijd",
+  "titel": "21/04/2025 Nationale Wedstrijd",
+  "groepen": [
+   {
+    "klasse": "Spirou",
+    "rijen": [
+     [
+      "1. VERCAUTEREN Louise BEL",
+      "017",
+      "NWV"
+     ],
+     [
+      "2. van NIEUWENHUYSE MASSET Jentel BEL 105 SNEH"
+     ],
+     [
+      "3. van NIEUWENHUYSE MASSET Lia",
+      "BEL 046 SNEH"
+     ],
+     [
+      "4. MARTENS Rune",
+      "BEL 055",
+      "WVD"
+     ],
+     [
+      "5. VAN DEN BOSSCHE Lou",
+      "BEL 037 BRYC"
+     ],
+     [
+      "6. BUSSCHODTS Vincent",
+      "BEL 110 WVD"
+     ],
+     [
+      "7. BAUDE Ethan",
+      "BEL 059",
+      "SNEH"
+     ],
+     [
+      "8. VAN GESTEL Neel",
+      "BEL 054"
+     ],
+     [
+      "9. DEJAEGHERE Cato",
+      "BEL 114",
+      "WVD"
+     ],
+     [
+      "10. SCHWENNER Oskar",
+      "BEL 103 GYC"
+     ],
+     [
+      "11. JANSSENS Noor",
+      "BEL 042 WVD"
+     ],
+     [
+      "12. TALBOT Léopold",
+      "BEL 013",
+      "GYC"
+     ],
+     [
+      "13. VERCAUTEREN Sien BEL 019",
+      "ZSCBroechem"
+     ],
+     [
+      "14. VAN HOOF Martin",
+      "BEL 035",
+      "WVD"
+     ],
+     [
+      "15. BUSSCHODTS Mattheo",
+      "BEL 052 WVD"
+     ],
+     [
+      "16. LAMMENS Alexander",
+      "BEL 034"
+     ],
+     [
+      "17. OECHIES Karlijne",
+      "BEL 045",
+      "VVW Turnhout"
+     ],
+     [
+      "1. VAN LAER Pieter",
+      "BEL 900",
+      "RCNR"
+     ],
+     [
+      "2. BONHOMME Hugo",
+      "BEL 873",
+      "RCNR"
+     ],
+     [
+      "3. VERWEIRE Noetje",
+      "BEL 913",
+      "VVW I-O"
+     ],
+     [
+      "4. COULEMBIER",
+      "Hannes BEL 95",
+      "NWV"
+     ],
+     [
+      "5. LANCKRIET Maxime",
+      "ESP 10",
+      "VVW I-O"
+     ],
+     [
+      "6. LAMBRECHT Fleur",
+      "BEL 989",
+      "NWV"
+     ]
+    ],
+    "notities": [
+     "Spirou\r\n  1. VERCAUTEREN Louise BEL   017   NWV  \r\n  2. van NIEUWENHUYSE MASSET Jentel BEL 105 SNEH  \r\n  3. van NIEUWENHUYSE MASSET Lia  BEL 046 SNEH\r\n  4. MARTENS Rune   BEL 055   WVD                     \r\n  5. VAN DEN BOSSCHE Lou   BEL 037 BRYC              \r\n  6. BUSSCHODTS Vincent   BEL 110 WVD                   \r\n  7. BAUDE Ethan   BEL 059   SNEH                              \r\n  8. VAN GESTEL Neel   BEL 054                                    \r\n  9. DEJAEGHERE Cato   BEL 114   WVD                       \r\n  10. SCHWENNER Oskar   BEL 103 GYC                          \r\n  11. JANSSENS Noor   BEL 042 WVD                            \r\n  12. TALBOT Léopold   BEL 013  GYC                            \r\n  13. VERCAUTEREN Sien BEL 019   ZSCBroechem         \r\n  14. VAN HOOF Martin   BEL 035  WVD                         \r\n  15. BUSSCHODTS Mattheo   BEL 052 WVD                  \r\n  16. LAMMENS Alexander   BEL 034                              \r\n  17. OECHIES Karlijne   BEL 045   VVW Turnhout",
+     "Europe",
+     "Europe\r\n    1. VAN LAER Pieter    BEL 900   RCNR  \r\n    2. BONHOMME Hugo      BEL 873   RCNR  \r\n    3. VERWEIRE Noetje    BEL 913   VVW I-O\r\n    4. COULEMBIER  Hannes BEL 95   NWV       \r\n    5. LANCKRIET Maxime   ESP 10   VVW I-O                \r\n    6. LAMBRECHT Fleur    BEL 989   NWV"
+    ]
+   }
+  ]
+ },
+ {
+  "datum": "2025-04-06",
+  "naam": "Openingswedstrijd",
+  "titel": "06/04/2025 Openingswedstrijd",
+  "groepen": [
+   {
+    "klasse": "Zeilboten volgens handicap berekening",
+    "rijen": [
+     [
+      "1. Bracke Xavier",
+      "Laser"
+     ],
+     [
+      "2. De Clercq Stef",
+      "Laser Radial"
+     ],
+     [
+      "3. De Bie Bert",
+      "Laser"
+     ],
+     [
+      "4. De Beelde Brecht",
+      "Laser Radial"
+     ],
+     [
+      "5. Van Der Wilt Sophie",
+      "Laser Radial"
+     ],
+     [
+      "6. Hautekiet Mark",
+      "Laser"
+     ],
+     [
+      "7. Van Cauwenberghe Christine RS Neo"
+     ]
+    ],
+    "notities": [
+     "Zeilboten volgens handicap berekening\r\n1. Bracke Xavier        Laser\r\n2. De Clercq Stef       Laser Radial\t \r\n3. De Bie Bert          Laser\r\n4. De Beelde Brecht     Laser Radial\r\n5. Van Der Wilt Sophie  Laser Radial\r\n6. Hautekiet Mark       Laser\r\n7. Van Cauwenberghe Christine RS Neo"
+    ]
+   }
+  ]
+ },
+ {
+  "datum": "2024-10-19",
+  "naam": "Wisseltrofee van de voorzitter",
+  "titel": "19/10/2024 Wisseltrofee van de voorzitter",
+  "groepen": [
+   {
+    "klasse": "volgens handicap berekening",
+    "rijen": [
+     [
+      "1. Desplenter Karel",
+      "Laser"
+     ],
+     [
+      "2. Bracke Xavier",
+      "Laser"
+     ],
+     [
+      "3. De Clercq Stef",
+      "Laser"
+     ],
+     [
+      "4. Lambrecht Fleur-Buggenhout Ella",
+      "Finn"
+     ]
+    ],
+    "notities": [
+     "volgens handicap berekening\r\n1. Desplenter Karel\tLaser\r\n2. Bracke Xavier\tLaser\r\n3. De Clercq Stef\tLaser\r\n4. Lambrecht Fleur-Buggenhout Ella\tFinn"
+    ]
+   }
+  ]
+ },
+ {
+  "datum": "2024-10-06",
+  "naam": "Herfstwedstrijd",
+  "titel": "6/10/2024 Herfstwedstrijd",
+  "groepen": [
+   {
+    "klasse": "volgens handicap berekening",
+    "rijen": [
+     [
+      "1. Heuninckx Walter",
+      "Laser"
+     ],
+     [
+      "2. De Clercq Stef",
+      "Laser"
+     ],
+     [
+      "3. De Beelde Brecht",
+      "Laser"
+     ],
+     [
+      "4. Desplenter Karel",
+      "Laser"
+     ],
+     [
+      "5. De Clercq GLenn",
+      "RS Aero 7"
+     ],
+     [
+      "6. Van Laethem Silke",
+      "Europe"
+     ],
+     [
+      "7. Van Cauwenberghe Christine",
+      "RS Neo"
+     ],
+     [
+      "8. Bracke Laurens",
+      "Laser"
+     ]
+    ],
+    "notities": [
+     "volgens handicap berekening\r\n1. Heuninckx Walter\tLaser\r\n2. De Clercq Stef\tLaser\r\n3. De Beelde Brecht\tLaser\r\n4. Desplenter Karel\tLaser\r\n5. De Clercq GLenn\tRS Aero 7\r\n6. Van Laethem Silke\tEurope\r\n7. Van Cauwenberghe Christine\tRS Neo\r\n8. Bracke Laurens\tLaser"
+    ]
+   }
+  ]
+ },
+ {
+  "datum": "2024-09-01",
+  "naam": "STARTERSWEDSTRIJD",
+  "titel": "1/09/2024 STARTERSWEDSTRIJD",
+  "groepen": [
+   {
+    "klasse": "volgens handicap berekening",
+    "rijen": [
+     [
+      "1. De Beelde Brecht",
+      "Laser"
+     ],
+     [
+      "2. Desplenter Karel",
+      "Laser"
+     ],
+     [
+      "3. Van Der Wilt Sophie",
+      "Laser"
+     ],
+     [
+      "4. De Clercq Stef",
+      "Laser"
+     ],
+     [
+      "5. Hautekiet Mark",
+      "Laser"
+     ],
+     [
+      "6. Vercauteren Louise",
+      "Spirou"
+     ],
+     [
+      "7. Van Cauwenberghe Christine",
+      "RS Neo"
+     ],
+     [
+      "8. Hautekiet Bram",
+      "Laser"
+     ]
+    ],
+    "notities": [
+     "volgens handicap berekening\r\n1. De Beelde Brecht\tLaser\r\n2. Desplenter Karel\tLaser\r\n3. Van Der Wilt Sophie\tLaser\r\n4. De Clercq Stef\tLaser\r\n5. Hautekiet Mark\tLaser\r\n6. Vercauteren Louise\tSpirou\r\n7. Van Cauwenberghe Christine\tRS Neo\r\n8. Hautekiet Bram\tLaser"
+    ]
+   }
+  ]
+ },
+ {
+  "datum": "2024-09-01",
+  "naam": "Q-CUP 3",
+  "titel": "1/09/2024 Q-CUP 3",
+  "groepen": [
+   {
+    "klasse": "Optimist",
+    "rijen": [
+     [
+      "1. Maxime Glorie Farrerons",
+      "RYCB"
+     ],
+     [
+      "2. Daan Dumon"
+     ],
+     [
+      "3. Thorsten Van Mierop Q-kids"
+     ],
+     [
+      "4. Juul Gheldof RBSC Heusden"
+     ],
+     [
+      "5. Matthijs Crynen"
+     ],
+     [
+      "6. Bernard Thierens"
+     ],
+     [
+      "7. Eva Blomme Sailing Team West NPT"
+     ],
+     [
+      "8. Blomme Hannah"
+     ],
+     [
+      "9. Arya Van Mierop Q-kids"
+     ],
+     [
+      "10. Staf Vercauteren ZSC Broechem"
+     ],
+     [
+      "11. Alexis D'Hondt"
+     ],
+     [
+      "12. Eva Dumon HZC"
+     ],
+     [
+      "13. Guus Beirens NWV"
+     ],
+     [
+      "14. George Jeurissen De Simone"
+     ],
+     [
+      "15. Timeo D'Hondt"
+     ],
+     [
+      "16. Sien Vercauteren ZSC Broechem"
+     ],
+     [
+      "17. Lou De Kesel",
+      "Q kids"
+     ],
+     [
+      "18. Yana Waem"
+     ],
+     [
+      "19. Bendt Gheldof RBSC Heusden"
+     ],
+     [
+      "20. Vittoria Jeurissen De",
+      "Simone"
+     ],
+     [
+      "21. Sophie Dumon HZC"
+     ],
+     [
+      "22. Alix Thierens"
+     ],
+     [
+      "1. Maxime Glorie Farrerons",
+      "RYCB",
+      "2. Daan Dumon",
+      "3. Thorsten Van Mierop Q-kids",
+      "4. Juul Gheldof RBSC Heusden",
+      "5. Matthijs Crynen",
+      "6. Bernard Thierens",
+      "7. Eva Blomme Sailing Team West NPT",
+      "8. Blomme Hannah",
+      "9. Arya Van Mierop Q-kids",
+      "10. Staf Vercauteren ZSC Broechem",
+      "11. Alexis D'Hondt",
+      "12. Eva Dumon HZC",
+      "13. Guus Beirens NWV",
+      "14. George Jeurissen De Simone",
+      "15. Timeo D'Hondt",
+      "16. Sien Vercauteren ZSC Broechem",
+      "17. Lou De Kesel",
+      "Q kids",
+      "18. Yana Waem",
+      "19. Bendt Gheldof RBSC Heusden",
+      "20. Vittoria Jeurissen De",
+      "Simone",
+      "21. Sophie Dumon HZC",
+      "22. Alix Thierens"
+     ]
+    ],
+    "notities": []
+   }
+  ]
+ },
+ {
+  "datum": "2024-06-30",
+  "naam": "Zomerwedstrijd",
+  "titel": "30/06/2024 Zomerwedstrijd",
+  "groepen": [
+   {
+    "klasse": "volgens handicap berekening",
+    "rijen": [
+     [
+      "1. De Beelde Brecht",
+      "Laser"
+     ],
+     [
+      "2. Bracke Xavier",
+      "Laser"
+     ],
+     [
+      "3. Heuninckx Walter",
+      "Laser"
+     ],
+     [
+      "4. Desplenter Karel",
+      "Laser"
+     ],
+     [
+      "5. Van Cauwenberghe Christine",
+      "RS Neo"
+     ],
+     [
+      "6. De Clercq Stef",
+      "RS Aero 7"
+     ],
+     [
+      "7. Librecht Gilles",
+      "Laser"
+     ]
+    ],
+    "notities": [
+     "volgens handicap berekening\r\n1. De Beelde Brecht\tLaser\r\n2. Bracke Xavier\tLaser\r\n3. Heuninckx Walter\tLaser\r\n4. Desplenter Karel\tLaser\r\n5. Van Cauwenberghe Christine\tRS Neo\r\n6. De Clercq Stef\tRS Aero 7\r\n7. Librecht Gilles\tLaser"
+    ]
+   }
+  ]
+ },
+ {
+  "datum": "2024-05-04",
+  "naam": "Q-Cup Plus Optimist",
+  "titel": "4/05/2024 Q-Cup Plus Optimist",
+  "groepen": [
+   {
+    "klasse": "",
+    "rijen": [
+     [
+      "1. Maxime Glorie Farrerons - RYCB"
+     ],
+     [
+      "2. Hannah Blomme - Sailing Team West"
+     ],
+     [
+      "3. Lara Waem - RYCB"
+     ],
+     [
+      "4. Sepp Van Impe - NWV"
+     ],
+     [
+      "5. Marthe Pierloot"
+     ],
+     [
+      "6. Jules Boagert - NWV"
+     ],
+     [
+      "7. Guus Beirens - NWV"
+     ],
+     [
+      "8. Yana Waem - RYCB"
+     ],
+     [
+      "9. Lou",
+      "Bogaert - NWV"
+     ],
+     [
+      "10. Jelte Wouters - WVD Mechelen"
+     ]
+    ],
+    "notities": []
+   }
+  ]
+ },
+ {
+  "datum": "2024-04-14",
+  "naam": "Openingswedstrijd",
+  "titel": "14/04/2024 Openingswedstrijd",
+  "groepen": [
+   {
+    "klasse": "Laser",
+    "rijen": [
+     [
+      "1. Desplenter Karel",
+      "Laser"
+     ],
+     [
+      "2. De Beelde Brecht",
+      "Laser"
+     ],
+     [
+      "3. De Clercq Stef",
+      "Laser"
+     ],
+     [
+      "4. Dutrieu Philippe",
+      "Laser"
+     ],
+     [
+      "5. Van Cauwenberghe Christine",
+      "RS Neo"
+     ],
+     [
+      "1. Desplenter Karel",
+      "Laser",
+      "2. De Beelde Brecht",
+      "Laser",
+      "3. De Clercq Stef",
+      "Laser",
+      "4. Dutrieu Philippe",
+      "Laser",
+      "5. Van Cauwenberghe Christine",
+      "RS Neo"
+     ]
+    ],
+    "notities": []
+   }
+  ]
+ },
+ {
+  "datum": "2024-04-01",
+  "naam": "Nationale wedstrijd Spirou en Europe",
+  "titel": "1/04/2024 Nationale wedstrijd Spirou en Europe",
+  "groepen": [
+   {
+    "klasse": "Spirou",
+    "rijen": [
+     [
+      "1. Van Campfort Thiebe BEL 105 ZSC Broechem"
+     ],
+     [
+      "2. Franck Miles BEL 032 SNEH"
+     ],
+     [
+      "3. Janquart Maxime BEL 056 KYCN"
+     ],
+     [
+      "4. Martens Rune BEL 054 WVD"
+     ],
+     [
+      "5. Vercauteren Louise BEL 017 NWV"
+     ],
+     [
+      "6. Van Nieuwenhuyse Masset Jentel BEL 006 SYCOD"
+     ],
+     [
+      "7. Baude Ethan BEL 059 SNEH"
+     ],
+     [
+      "8. Talpot Leopold BEL 103 GYC"
+     ],
+     [
+      "9. Van Nieuwenhuyse Masset Lia BEL 019 SYCOD"
+     ],
+     [
+      "10. Janssens Noor BEL 113 WVD"
+     ],
+     [
+      "1. Van Campfort Thiebe BEL 105 ZSC Broechem",
+      "2. Franck Miles BEL 032 SNEH",
+      "3. Janquart Maxime BEL 056 KYCN",
+      "4. Martens Rune BEL 054 WVD",
+      "5. Vercauteren Louise BEL 017 NWV",
+      "6. Van Nieuwenhuyse Masset Jentel BEL 006 SYCOD",
+      "7. Baude Ethan BEL 059 SNEH",
+      "8. Talpot Leopold BEL 103 GYC",
+      "9. Van Nieuwenhuyse Masset Lia BEL 019 SYCOD",
+      "10. Janssens Noor BEL 113 WVD"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Europe",
+    "rijen": [
+     [
+      "1. Van Laer Pieter BEL 900 RCNV"
+     ],
+     [
+      "2. Da Col Alice ITA 26 BRYC"
+     ],
+     [
+      "3. De Bie Lien NED 733 NWV"
+     ],
+     [
+      "4. Rogers Hugo BEL 983 BRYC"
+     ],
+     [
+      "5. Bonhomme Eric BEL 908 RCNV"
+     ],
+     [
+      "6. Baude Tamara BEL 944 SNEH"
+     ],
+     [
+      "7. Boedt Clement BEL 972 RCVD"
+     ],
+     [
+      "8. Bonhomme Hugo BEL 873 RCNV"
+     ],
+     [
+      "9. Rogers Ella BEL 376 BRYC"
+     ],
+     [
+      "10. Hoens Otto BEL 984 RBSC"
+     ],
+     [
+      "11. Bencic Bruno BEL 1027"
+     ],
+     [
+      "12. Geboers Frederic BEL 1033 ZSC Broechem"
+     ],
+     [
+      "13. Marnef Sterre ESP 550 ZSC Broechem"
+     ],
+     [
+      "14. Hofman Laure BEL 958 NWV"
+     ],
+     [
+      "15. Heyman Femke BEL 950 NWV"
+     ],
+     [
+      "16. Coulembier Hannes BEL 95(7) NWV"
+     ],
+     [
+      "1. Van Laer Pieter BEL 900 RCNV",
+      "2. Da Col Alice ITA 26 BRYC",
+      "3. De Bie Lien NED 733 NWV",
+      "4. Rogers Hugo BEL 983 BRYC",
+      "5. Bonhomme Eric BEL 908 RCNV",
+      "6. Baude Tamara BEL 944 SNEH",
+      "7. Boedt Clement BEL 972 RCVD",
+      "8. Bonhomme Hugo BEL 873 RCNV",
+      "9. Rogers Ella BEL 376 BRYC",
+      "10. Hoens Otto BEL 984 RBSC",
+      "11. Bencic Bruno BEL 1027",
+      "12. Geboers Frederic BEL 1033 ZSC Broechem",
+      "13. Marnef Sterre ESP 550 ZSC Broechem",
+      "14. Hofman Laure BEL 958 NWV",
+      "15. Heyman Femke BEL 950 NWV",
+      "16. Coulembier Hannes BEL 95(7) NWV"
+     ]
+    ],
+    "notities": [
+     "Door een IT probleem geen wedstrijduitslagen in 2023"
+    ]
+   }
+  ]
+ },
+ {
+  "datum": "2022-10-01",
+  "naam": "Oktoberwedstrijd",
+  "titel": "Oktoberwedstrijd 1 okt 2022",
+  "groepen": [
+   {
+    "klasse": "Zeilboten – volgens handicap berekening",
+    "rijen": [
+     [
+      "1. De Clercq Stef",
+      "RS Aero 7"
+     ],
+     [
+      "2. De Beelde Brecht",
+      "Laser Radial"
+     ],
+     [
+      "3. Desplenter Karel",
+      "Laser"
+     ],
+     [
+      "4. De Clercq Glen",
+      "RS Aero 7"
+     ],
+     [
+      "5. Hofman Laure",
+      "Spirou"
+     ],
+     [
+      "6. Librecht Gilles",
+      "RS Tera Pro"
+     ],
+     [
+      "7. Librecht Noah",
+      "Europe"
+     ]
+    ],
+    "notities": [
+     "volgens handicap berekening\r\n1. De Clercq Stef\tRS Aero 7\r\n2. De Beelde Brecht\tLaser Radial\r\n3. Desplenter Karel\tLaser\r\n4. De Clercq Glen\tRS Aero 7\r\n5. Hofman Laure\t\tSpirou\r\n6. Librecht Gilles\tRS Tera Pro\r\n7. Librecht Noah\tEurope"
+    ]
+   }
+  ]
+ },
+ {
+  "datum": "2022-09-19",
+  "naam": "Herfstwedstrijd",
+  "titel": "Herfstwedstrijd 19 sept 2022",
+  "groepen": [
+   {
+    "klasse": "Zeilboten – volgens handicap berekening",
+    "rijen": [
+     [
+      "1. Heuninckx Walter",
+      "Laser"
+     ],
+     [
+      "2. De Beelde Brecht",
+      "Laser"
+     ],
+     [
+      "3. Hofman Laure",
+      "Spirou"
+     ]
+    ],
+    "notities": [
+     "volgens handicap berekening\r\n1. Heuninckx Walter\tLaser\r\n2. De Beelde Brecht\tLaser\r\n3. Hofman Laure\t\tSpirou"
+    ]
+   }
+  ]
+ },
+ {
+  "datum": "2022-09-04",
+  "naam": "Septemberwedstrijd",
+  "titel": "Septemberwedstrijd 4 sept 2022",
+  "groepen": [
+   {
+    "klasse": "Zeilboten – volgens handicap berekening",
+    "rijen": [
+     [
+      "1. De Beelde Brecht",
+      "Laser"
+     ],
+     [
+      "2. Heuninckx Walter",
+      "Laser"
+     ],
+     [
+      "3. Van Der Wilt Sohie",
+      "Laser"
+     ],
+     [
+      "4. Coulembier Hannes",
+      "Europe"
+     ],
+     [
+      "5. Molin Roger",
+      "Laser"
+     ],
+     [
+      "6. Fahy Bart",
+      "Laser"
+     ],
+     [
+      "7. Van Cauwenberghe Christine",
+      "RS Neo"
+     ],
+     [
+      "8. Meyvaert Erwin",
+      "Laser"
+     ]
+    ],
+    "notities": [
+     "volgens handicap berekening\r\n1. De Beelde Brecht\tLaser\r\n2. Heuninckx Walter\tLaser\r\n3. Van Der Wilt Sohie\tLaser\r\n4. Coulembier Hannes\tEurope\r\n5. Molin Roger\t\tLaser\r\n6. Fahy Bart\t\tLaser\r\n7. Van Cauwenberghe Christine\tRS Neo\r\n8. Meyvaert Erwin\tLaser"
+    ]
+   }
+  ]
+ },
+ {
+  "datum": "2022-06-26",
+  "naam": "Zomerwedstrijd",
+  "titel": "Zomerwedstrijd 26 juni 2022",
+  "groepen": [
+   {
+    "klasse": "Zeilboten – volgens handicap berekening",
+    "rijen": [
+     [
+      "1. De Clercq Stef",
+      "RS Aero 7"
+     ],
+     [
+      "2. De Beelde Brecht",
+      "Laser"
+     ],
+     [
+      "3. Desplenter Karel",
+      "Laser"
+     ],
+     [
+      "4. Molin Roger",
+      "Laser Radial"
+     ],
+     [
+      "5. Librecht Noah",
+      "Europe"
+     ],
+     [
+      "6. Bart Fahy",
+      "Laser"
+     ],
+     [
+      "7. Librecht Gilles",
+      "RS Tera Pro"
+     ]
+    ],
+    "notities": [
+     "volgens handicap berekening\r\n1. De Clercq Stef\tRS Aero 7\r\n2. De Beelde Brecht\tLaser\r\n3. Desplenter Karel\tLaser\r\n4. Molin Roger\t\tLaser Radial\r\n5. Librecht Noah\tEurope\r\n6. Bart Fahy\t\tLaser\r\n7. Librecht Gilles\tRS Tera Pro"
+    ]
+   }
+  ]
+ },
+ {
+  "datum": "2022-05-14",
+  "naam": "Voorjaarswedstrijd",
+  "titel": "Voorjaarswedstrijd 14 mei 2022",
+  "groepen": [
+   {
+    "klasse": "Zeilboten – volgens handicap berekening",
+    "rijen": [
+     [
+      "1. Heuninckx Walter",
+      "Laser"
+     ],
+     [
+      "2. De Beelde Brecht",
+      "Laser"
+     ],
+     [
+      "3. Molin Roger",
+      "Laser"
+     ],
+     [
+      "4. Van Cauwenberghe Christine",
+      "RS Neo"
+     ],
+     [
+      "5. De Clercq Stef",
+      "RS Aero 7"
+     ]
+    ],
+    "notities": [
+     "volgens handicap berekening\r\n1. Heuninckx Walter\tLaser\r\n2. De Beelde Brecht\tLaser\r\n3. Molin Roger\t\tLaser\r\n4. Van Cauwenberghe Christine\tRS Neo\r\n5. De Clercq Stef\tRS Aero 7"
+    ]
+   },
+   {
+    "klasse": "Spirou",
+    "rijen": [
+     [
+      "1. Hofman Laure"
+     ],
+     [
+      "2. De Bilde Alessio"
+     ],
+     [
+      "1. Hofman Laure",
+      "2. De Bilde Alessio"
+     ]
+    ],
+    "notities": []
+   }
+  ]
+ },
+ {
+  "datum": "2022-04-30",
+  "naam": "Openingswedstrijd",
+  "titel": "Openingswedstrijd 30 april 2022",
+  "groepen": [
+   {
+    "klasse": "Zeilboten – volgens handicap berekening",
+    "rijen": [
+     [
+      "1. Heuninckx Walter",
+      "Laser"
+     ],
+     [
+      "2. De Clercq Stef",
+      "RS Aero 7"
+     ],
+     [
+      "3. Desplenter Karel",
+      "Laser"
+     ],
+     [
+      "4. Van Cauwenberghe Christine",
+      "RS Neo"
+     ]
+    ],
+    "notities": [
+     "volgens handicap berekening\r\n1. Heuninckx Walter\t\tLaser\r\n2. De Clercq Stef\t\tRS Aero 7\r\n3. Desplenter Karel\t\tLaser\r\n4. Van Cauwenberghe Christine   RS Neo"
+    ]
+   },
+   {
+    "klasse": "Optimist",
+    "rijen": [
+     [
+      "1. Praet Thibeau"
+     ],
+     [
+      "2. Heyse Ade"
+     ],
+     [
+      "1. Praet Thibeau",
+      "2. Heyse Ade"
+     ]
+    ],
+    "notities": []
+   }
+  ]
+ },
+ {
+  "datum": "2021-10-31",
+  "naam": "Beker Johan Devocht",
+  "titel": "Beker Johan Devocht 31 okt. 2021",
+  "groepen": [
+   {
+    "klasse": "Zeilboten – volgens handicap berekening",
+    "rijen": [
+     [
+      "1. Desplenter Karel",
+      "Laser Radial"
+     ],
+     [
+      "2. De Beelde Brecht",
+      "Laser Radial"
+     ],
+     [
+      "3. Vaereman Fleur",
+      "Europe"
+     ],
+     [
+      "4. Coulembier Hannes",
+      "Europe"
+     ],
+     [
+      "5. Hofman Laure",
+      "Spirou"
+     ],
+     [
+      "6. Vansever Charlotte",
+      "Spirou"
+     ]
+    ],
+    "notities": [
+     "volgens handicap berekening\r\n1. Desplenter Karel\tLaser Radial\r\n2. De Beelde Brecht\tLaser Radial\r\n3. Vaereman Fleur \tEurope\r\n4. Coulembier Hannes \tEurope\r\n5. Hofman Laure \tSpirou\r\n6. Vansever Charlotte\tSpirou"
+    ]
+   }
+  ]
+ },
+ {
+  "datum": "2021-10-02",
+  "naam": "Mosselwedstrijd",
+  "titel": "Mosselwedstrijd 2 okt. 2021",
+  "groepen": [
+   {
+    "klasse": "Zeilboten – volgens handicap berekening",
+    "rijen": [
+     [
+      "1. Heuninckx Walter",
+      "Laser"
+     ],
+     [
+      "2. De Beelde Brecht",
+      "Laser"
+     ],
+     [
+      "3. Desplenter Karel",
+      "Laser"
+     ],
+     [
+      "4. Fahy Bart",
+      "Laser"
+     ],
+     [
+      "5. Roels Hanne",
+      "Europe"
+     ],
+     [
+      "6. Librecht Noah",
+      "Europe"
+     ]
+    ],
+    "notities": [
+     "volgens handicap berekening\r\n1. Heuninckx Walter\tLaser\r\n2. De Beelde Brecht\tLaser\r\n3. Desplenter Karel\tLaser\r\n4. Fahy Bart\t\tLaser\r\n5. Roels Hanne\t\tEurope\r\n6. Librecht Noah \tEurope"
+    ]
+   },
+   {
+    "klasse": "RS Tera – SPIROU/ RS Tera:",
+    "rijen": [
+     [
+      "1. Verweire Noetje",
+      "Spirou"
+     ],
+     [
+      "2. Hofman Laure",
+      "Spirou"
+     ],
+     [
+      "3. Libbrecht Gilles",
+      "RS Tera"
+     ],
+     [
+      "4. De Bilde Alessio",
+      "RS Tera"
+     ],
+     [
+      "5. De Vrome Matteo",
+      "RS Tera"
+     ],
+     [
+      "6. Winne Pepijn",
+      "RS Tera"
+     ]
+    ],
+    "notities": [
+     "SPIROU/ RS Tera:\r\n1. Verweire Noetje\tSpirou\r\n2. Hofman Laure\t\tSpirou\r\n3. Libbrecht Gilles\tRS Tera\r\n4. De Bilde Alessio\tRS Tera\r\n5. De Vrome Matteo\tRS Tera\r\n6. Winne Pepijn\t\tRS Tera"
+    ]
+   },
+   {
+    "klasse": "Gele Optimisten",
+    "rijen": [
+     [
+      "1. Bultynck Nicolas"
+     ],
+     [
+      "2. Willems Bo"
+     ],
+     [
+      "3. Baeke Thieu"
+     ],
+     [
+      "4. Buys Jef"
+     ],
+     [
+      "5. Heyse Ade"
+     ],
+     [
+      "6. Baetens Goble Nathan"
+     ],
+     [
+      "7. De Witte Warre"
+     ],
+     [
+      "8. De Keyser Corneel"
+     ],
+     [
+      "9. De Wolf Yaill"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Q Kids",
+    "rijen": [
+     [
+      "1. Seymortier Charles"
+     ],
+     [
+      "2. Lenaerts Lander"
+     ],
+     [
+      "3. Buys Marie"
+     ],
+     [
+      "4. Houben Gust"
+     ],
+     [
+      "5. De Smet Daniil"
+     ],
+     [
+      "6. Camut Florent"
+     ],
+     [
+      "7. De Keyser Thobias"
+     ],
+     [
+      "8. Raats Jules"
+     ],
+     [
+      "9. De Smet Maxim"
+     ]
+    ],
+    "notities": []
+   }
+  ]
+ },
+ {
+  "datum": "2021-08-29",
+  "naam": "Starterswedstrijd",
+  "titel": "Starterswedstrijd 29 aug. 2021",
+  "groepen": [
+   {
+    "klasse": "Zeilboten – volgens handicap berekening",
+    "rijen": [
+     [
+      "1.",
+      "Heuninckx Walter"
+     ],
+     [
+      "2.",
+      "Van Durme Matthias"
+     ],
+     [
+      "3.",
+      "De Beelde Brecht"
+     ],
+     [
+      "4.",
+      "Molin Roger"
+     ],
+     [
+      "5.",
+      "Daelman Julie"
+     ],
+     [
+      "6.",
+      "Fahy Bart"
+     ],
+     [
+      "7.",
+      "Supply Tim"
+     ]
+    ],
+    "notities": [
+     "volgens handicap berekening\r\n1.\tHeuninckx Walter\r\n2.\tVan Durme Matthias\r\n3.\tDe Beelde Brecht\r\n4.\tMolin Roger\r\n5.\tDaelman Julie\r\n6.\tFahy Bart\r\n7.\tSupply Tim"
+    ]
+   },
+   {
+    "klasse": "Europe",
+    "rijen": [
+     [
+      "1.",
+      "De Smet Karel"
+     ],
+     [
+      "2.",
+      "De Smet Jules"
+     ],
+     [
+      "3.",
+      "Vaereman Fleur"
+     ],
+     [
+      "4.",
+      "Van Acker Matisse"
+     ],
+     [
+      "5.",
+      "Librecht Noah"
+     ],
+     [
+      "1.",
+      "De Smet Karel",
+      "2.",
+      "De Smet Jules",
+      "3.",
+      "Vaereman Fleur",
+      "4.",
+      "Van Acker Matisse",
+      "5.",
+      "Librecht Noah"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "RS Tera",
+    "rijen": [
+     [
+      "1.",
+      "Libbrecht Gilles"
+     ],
+     [
+      "2.",
+      "De Bilde Alessio"
+     ],
+     [
+      "3.",
+      "De Vrome Matteo"
+     ],
+     [
+      "1.",
+      "Libbrecht Gilles",
+      "2.",
+      "De Bilde Alessio",
+      "3.",
+      "De Vrome Matteo"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Gele Optimisten",
+    "rijen": [
+     [
+      "1.",
+      "De Witte Warre"
+     ],
+     [
+      "2.",
+      "De Smet Kirill"
+     ],
+     [
+      "3.",
+      "Baetens Goble Nathan"
+     ],
+     [
+      "4.",
+      "Kerkhof Rosalie"
+     ],
+     [
+      "5.",
+      "De Keyser Corneel"
+     ],
+     [
+      "1.",
+      "De Witte Warre",
+      "2.",
+      "De Smet Kirill",
+      "3.",
+      "Baetens Goble Nathan",
+      "4.",
+      "Kerkhof Rosalie",
+      "5.",
+      "De Keyser Corneel"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Q Kids Optimisten",
+    "rijen": [
+     [
+      "1.",
+      "Camut Florent"
+     ],
+     [
+      "2.",
+      "Praet Thibeau"
+     ],
+     [
+      "3.",
+      "Kerkhof Basile"
+     ],
+     [
+      "4.",
+      "De Smet Maxim"
+     ],
+     [
+      "5.",
+      "De Smet Danill"
+     ],
+     [
+      "6.",
+      "De Keyser Thobias"
+     ],
+     [
+      "1.",
+      "Camut Florent",
+      "2.",
+      "Praet Thibeau",
+      "3.",
+      "Kerkhof Basile",
+      "4.",
+      "De Smet Maxim",
+      "5.",
+      "De Smet Danill",
+      "6.",
+      "De Keyser Thobias"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Windsurfen",
+    "rijen": [
+     [
+      "1. Vanden Baviére Luc"
+     ],
+     [
+      "1. Vanden Baviére Luc"
+     ]
+    ],
+    "notities": []
+   }
+  ]
+ },
+ {
+  "datum": "2021-06-20",
+  "naam": "Zomerwedstrijd",
+  "titel": "Zomerwedstrijd 20 juni 2021",
+  "groepen": [
+   {
+    "klasse": "Zeilboten – volgens handicap berekening",
+    "rijen": [
+     [
+      "1. Heuninckx Walter",
+      "Laser"
+     ],
+     [
+      "2. Van Durme Matthia",
+      "Laser"
+     ],
+     [
+      "3. Desplenter Karel",
+      "Laser"
+     ],
+     [
+      "4. De Clercq Stef",
+      "RS Aero 7"
+     ],
+     [
+      "5. De Beelde Brecht",
+      "Laser"
+     ],
+     [
+      "6. Vaereman Fleur",
+      "Europe"
+     ],
+     [
+      "7. De Clercq Glen",
+      "RS Aero 7"
+     ],
+     [
+      "8. Molin Roger",
+      "Laser Radial"
+     ],
+     [
+      "9. Van Cauwenberghe",
+      "RS Neo"
+     ],
+     [
+      "10. Meyvaert Erwin",
+      "Laser"
+     ]
+    ],
+    "notities": [
+     "volgens handicap berekening\r\n1. Heuninckx Walter \tLaser\r\n2. Van Durme Matthia\tLaser\r\n3. Desplenter Karel \tLaser\r\n4. De Clercq Stef   \tRS Aero 7\r\n5. De Beelde Brecht \tLaser\r\n6. Vaereman Fleur   \tEurope\r\n7. De Clercq Glen   \tRS Aero 7\r\n8. Molin Roger      \tLaser Radial\r\n9. Van Cauwenberghe \tRS Neo\r\n10. Meyvaert Erwin  \tLaser"
+    ]
+   },
+   {
+    "klasse": "Optimist",
+    "rijen": [
+     [
+      "1. Van Durme Loïc"
+     ],
+     [
+      "2. Heylen Giulia"
+     ],
+     [
+      "3. Praet Thibeau"
+     ],
+     [
+      "4. De Smet Daniil"
+     ],
+     [
+      "5. De Vreeze Alix"
+     ],
+     [
+      "6. Buys Marie"
+     ],
+     [
+      "7. De Smet Maxim"
+     ],
+     [
+      "8. De Keyser Thobias"
+     ],
+     [
+      "9. Roels Saan"
+     ],
+     [
+      "10. De Vreeze Edward"
+     ],
+     [
+      "1. Van Durme Loïc",
+      "2. Heylen Giulia",
+      "3. Praet Thibeau",
+      "4. De Smet Daniil",
+      "5. De Vreeze Alix",
+      "6. Buys Marie",
+      "7. De Smet Maxim",
+      "8. De Keyser Thobias",
+      "9. Roels Saan",
+      "10. De Vreeze Edward"
+     ]
+    ],
+    "notities": []
+   }
+  ]
+ },
+ {
+  "datum": "2020-09-27",
+  "naam": "Mosselwedstrijd",
+  "titel": "Mosselwedstrijd 27 sept. 2020",
+  "groepen": [
+   {
+    "klasse": "Zeilboten – volgens handicap berekening",
+    "rijen": [
+     [
+      "1. Bracke Xavier",
+      "Laser"
+     ],
+     [
+      "2. De Smet Jules",
+      "Europe"
+     ],
+     [
+      "3. Van Laethem Silke",
+      "Europe"
+     ],
+     [
+      "4. Vergote Stijn",
+      "Europe"
+     ],
+     [
+      "5. Roels Hanne",
+      "Europe"
+     ],
+     [
+      "6. De Clercq Stef",
+      "RS Aero7"
+     ]
+    ],
+    "notities": [
+     "volgens handicap berekening\r\n1. Bracke Xavier\tLaser\t\r\n2. De Smet Jules\tEurope\r\n3. Van Laethem Silke\tEurope\t\r\n4. Vergote Stijn\tEurope\r\n5. Roels Hanne\t\tEurope\r\n6. De Clercq Stef\tRS Aero7"
+    ]
+   },
+   {
+    "klasse": "Optimist",
+    "rijen": [
+     [
+      "1. De Pelsmaeker Michiel"
+     ],
+     [
+      "2. Corbiau Leon"
+     ],
+     [
+      "3. Lenaerts Matthijs"
+     ],
+     [
+      "4. Buys Juul"
+     ],
+     [
+      "5. Meert Victor"
+     ],
+     [
+      "6. Borghijs Sander"
+     ],
+     [
+      "7. Borghijs Hannelien"
+     ],
+     [
+      "8. Raats Jules"
+     ],
+     [
+      "1. De Pelsmaeker Michiel",
+      "2. Corbiau Leon",
+      "3. Lenaerts Matthijs",
+      "4. Buys Juul",
+      "5. Meert Victor",
+      "6. Borghijs Sander",
+      "7. Borghijs Hannelien",
+      "8. Raats Jules"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "RS Tera / Spirou",
+    "rijen": [
+     [
+      "1. Heyman Femke",
+      "Spirou"
+     ],
+     [
+      "2. Hofman Laure",
+      "RS Tera"
+     ],
+     [
+      "1. Heyman Femke",
+      "Spirou",
+      "2. Hofman Laure",
+      "RS Tera"
+     ]
+    ],
+    "notities": []
+   }
+  ]
+ },
+ {
+  "datum": "2020-09-13",
+  "naam": "Herfstwedstrijd",
+  "titel": "Herfstwedstrijd 13 sept. 2020",
+  "groepen": [
+   {
+    "klasse": "Zeilboten – volgens handicap berekening",
+    "rijen": [
+     [
+      "1. Desplenter Karel",
+      "Laser"
+     ],
+     [
+      "2. Heuninck Walter",
+      "Laser"
+     ],
+     [
+      "3. Van Durme Matthias",
+      "Laser"
+     ],
+     [
+      "4. Molin Roger",
+      "Laser"
+     ],
+     [
+      "5. De Beelde Brecht",
+      "Europe"
+     ],
+     [
+      "6. Fahy Bart",
+      "Laser"
+     ],
+     [
+      "7. Librecht Noah",
+      "Europe"
+     ]
+    ],
+    "notities": [
+     "volgens handicap berekening\r\n1. Desplenter Karel\tLaser\t\r\n2. Heuninck Walter\tLaser\r\n3. Van Durme Matthias\tLaser\t\r\n4. Molin Roger\t\tLaser\r\n5. De Beelde Brecht\tEurope\r\n6. Fahy Bart\t\tLaser\r\n7. Librecht Noah\tEurope"
+    ]
+   },
+   {
+    "klasse": "Optimist",
+    "rijen": [
+     [
+      "1. Van Durme Loïc"
+     ],
+     [
+      "2. Kerkhof Basile"
+     ],
+     [
+      "1. Van Durme Loïc",
+      "2. Kerkhof Basile"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "RS Tera / Spirou",
+    "rijen": [
+     [
+      "1. Vaereman Fleur",
+      "Spirou"
+     ],
+     [
+      "2. De Cleir Quinten",
+      "Spirou"
+     ],
+     [
+      "3. Librecht Gilles",
+      "RS Tera"
+     ],
+     [
+      "1. Vaereman Fleur",
+      "Spirou",
+      "2. De Cleir Quinten",
+      "Spirou",
+      "3. Librecht Gilles",
+      "RS Tera"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Windsurfen",
+    "rijen": [
+     [
+      "1. Vanden Baviére Luc"
+     ],
+     [
+      "1. Vanden Baviére Luc"
+     ]
+    ],
+    "notities": []
+   }
+  ]
+ },
+ {
+  "datum": "2019-10-20",
+  "naam": "Beker Johan Devocht",
+  "titel": "Beker Johan Devocht 20 okt. 2019",
+  "groepen": [
+   {
+    "klasse": "Zeilboten – volgens handicap berekening",
+    "rijen": [
+     [
+      "1. Heuninckx Walter",
+      "Laser"
+     ],
+     [
+      "2. De Smet Karel",
+      "Europe"
+     ],
+     [
+      "3. Molin Roger",
+      "Laser"
+     ],
+     [
+      "4. Desplenter Karel",
+      "Laser"
+     ],
+     [
+      "5. Van Acker Matisse",
+      "Laser"
+     ],
+     [
+      "6. Bracke Xavier",
+      "Laser"
+     ],
+     [
+      "7. Vergote Stijn",
+      "Splash"
+     ],
+     [
+      "8. Meyvaert Erwin",
+      "Laser"
+     ],
+     [
+      "9. Fahy Bart",
+      "Laser"
+     ]
+    ],
+    "notities": [
+     "volgens handicap berekening\r\n1. Heuninckx Walter\tLaser\r\n2. De Smet Karel\tEurope\r\n3. Molin Roger\t\tLaser\r\n4. Desplenter Karel\tLaser\r\n5. Van Acker Matisse\tLaser\r\n6. Bracke Xavier\tLaser\r\n7. Vergote Stijn\tSplash\r\n8. Meyvaert Erwin\tLaser\r\n9. Fahy Bart\t\tLaser"
+    ]
+   },
+   {
+    "klasse": "Optimist",
+    "rijen": [
+     [
+      "1. Minnoye Tiebe"
+     ],
+     [
+      "2. Minnoye Yaana"
+     ],
+     [
+      "1. Minnoye Tiebe",
+      "2. Minnoye Yaana"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "RS Tera / Spirou",
+    "rijen": [
+     [
+      "1. Vaereman Fleur"
+     ],
+     [
+      "2. De Smet Jules"
+     ],
+     [
+      "3. Vanden Abbeele Em"
+     ],
+     [
+      "4. Van Laethem Silke"
+     ],
+     [
+      "1. Vaereman Fleur",
+      "2. De Smet Jules",
+      "3. Vanden Abbeele Em",
+      "4. Van Laethem Silke"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Windsurfen",
+    "rijen": [
+     [
+      "1. Vanden Baviére Luc"
+     ],
+     [
+      "1. Vanden Baviére Luc"
+     ]
+    ],
+    "notities": []
+   }
+  ]
+ },
+ {
+  "datum": "2019-10-06",
+  "naam": "Mosselwedstrijd",
+  "titel": "Mosselwedstrijd 6 okt. 2019",
+  "groepen": [
+   {
+    "klasse": "Zeilboten – volgens handicap berekening",
+    "rijen": [
+     [
+      "1. De Smet Karel",
+      "Europe"
+     ],
+     [
+      "2. Bracke Xavier",
+      "Laser"
+     ],
+     [
+      "3. Heuninckx Walter",
+      "Laser"
+     ],
+     [
+      "4. Desplenter Karel",
+      "Laser"
+     ],
+     [
+      "5. De Leenheer Emmanuel",
+      "Contender"
+     ]
+    ],
+    "notities": [
+     "volgens handicap berekening\r\n1. De Smet Karel\tEurope\r\n2. Bracke Xavier\tLaser\r\n3. Heuninckx Walter\tLaser\r\n4. Desplenter Karel\tLaser\r\n5. De Leenheer Emmanuel\tContender"
+    ]
+   },
+   {
+    "klasse": "Optimist",
+    "rijen": [
+     [
+      "1. Buys Juul"
+     ],
+     [
+      "2. Lenaerts Matthijs"
+     ],
+     [
+      "3. Meert Victor"
+     ],
+     [
+      "4. Lenaerts Lander"
+     ],
+     [
+      "5. Lenaerts Lente"
+     ],
+     [
+      "1. Buys Juul",
+      "2. Lenaerts Matthijs",
+      "3. Meert Victor",
+      "4. Lenaerts Lander",
+      "5. Lenaerts Lente"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "RS Tera",
+    "rijen": [
+     [
+      "1. De Smet Jules"
+     ],
+     [
+      "2. Van Laethem Silke"
+     ],
+     [
+      "3. Vergote Stijn"
+     ],
+     [
+      "4. Beirens Victor"
+     ],
+     [
+      "1. De Smet Jules",
+      "2. Van Laethem Silke",
+      "3. Vergote Stijn",
+      "4. Beirens Victor"
+     ]
+    ],
+    "notities": []
+   }
+  ]
+ },
+ {
+  "datum": "2019-09-15",
+  "naam": "Herfstwedstrijd",
+  "titel": "Herfstwedstrijd 15 sept. 2019",
+  "groepen": [
+   {
+    "klasse": "Zeilboten – volgens handicap berekening",
+    "rijen": [
+     [
+      "1. De Smet Karel",
+      "Europe"
+     ],
+     [
+      "2. Van Durme Matthias",
+      "Laser"
+     ],
+     [
+      "3. Heuninckx Walter",
+      "Laser"
+     ],
+     [
+      "4. Molin Roger",
+      "Laser"
+     ],
+     [
+      "5. David Nancy",
+      "Laser"
+     ],
+     [
+      "6. Meyvaert Erwin",
+      "Laser"
+     ],
+     [
+      "7. Van Acker Matisse",
+      "Europe"
+     ],
+     [
+      "8. Vanden Abbeele Jules",
+      "Splash"
+     ],
+     [
+      "9. Fahy Bart",
+      "Supernova"
+     ]
+    ],
+    "notities": [
+     "volgens handicap berekening\r\n1. De Smet Karel\tEurope\r\n2. Van Durme Matthias\tLaser\r\n3. Heuninckx Walter\tLaser\r\n4. Molin Roger\t\tLaser\r\n5. David Nancy\t\tLaser\r\n6. Meyvaert Erwin\tLaser\r\n7. Van Acker Matisse\tEurope\r\n8. Vanden Abbeele Jules\tSplash\r\n9. Fahy Bart\t\tSupernova"
+    ]
+   },
+   {
+    "klasse": "RS Tera Pro",
+    "rijen": [
+     [
+      "1. De Smet Jules"
+     ],
+     [
+      "2. Van Laethem Silke"
+     ],
+     [
+      "3. Vanden Abbeele Emiel"
+     ],
+     [
+      "1. De Smet Jules",
+      "2. Van Laethem Silke",
+      "3. Vanden Abbeele Emiel"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Windsurfen",
+    "rijen": [
+     [
+      "1. Vanden Baviére Luc"
+     ],
+     [
+      "1. Vanden Baviére Luc"
+     ]
+    ],
+    "notities": []
+   }
+  ]
+ },
+ {
+  "datum": "2019-08-31",
+  "naam": "Starterswedstrijd",
+  "titel": "Starterswedstrijd 31 aug. 2019",
+  "groepen": [
+   {
+    "klasse": "Zeilboten – volgens handicap berekening",
+    "rijen": [
+     [
+      "1. Van Durme Mathias",
+      "Laser"
+     ],
+     [
+      "2. Desplenter Karel",
+      "Laser"
+     ],
+     [
+      "3. Van Acker Matisse",
+      "Europe"
+     ],
+     [
+      "4. Meyvaert Erwin",
+      "Laser"
+     ],
+     [
+      "5. Librecht Noah",
+      "Splash"
+     ],
+     [
+      "6. David Nancy",
+      "Laser"
+     ],
+     [
+      "7. De Clercq Glen",
+      "RS Neo"
+     ],
+     [
+      "8. Heuninckx Walter",
+      "Laser"
+     ],
+     [
+      "9. Van Der Wilt Sophie",
+      "Laser"
+     ],
+     [
+      "10. Keymeulen Michiel",
+      "Laser"
+     ],
+     [
+      "11. De Schamphelaere A.",
+      "Splash"
+     ],
+     [
+      "12. De Leenheer E.",
+      "Contender"
+     ],
+     [
+      "13. Keymeulen Celien",
+      "Laser"
+     ]
+    ],
+    "notities": [
+     "volgens handicap berekening\r\n1. Van Durme Mathias\tLaser\r\n2. Desplenter Karel\tLaser\r\n3. Van Acker Matisse\tEurope\r\n4. Meyvaert Erwin\tLaser\r\n5. Librecht Noah \tSplash\r\n6. David Nancy\t\tLaser\r\n7. De Clercq Glen\tRS Neo\r\n8. Heuninckx Walter\tLaser\r\n9. Van Der Wilt Sophie\tLaser\r\n10. Keymeulen Michiel\tLaser\r\n11. De Schamphelaere A.\tSplash\r\n12. De Leenheer E.\tContender\r\n13. Keymeulen Celien\tLaser"
+    ]
+   },
+   {
+    "klasse": "Optimist",
+    "rijen": [
+     [
+      "1. Buys Juul"
+     ],
+     [
+      "2. Vanderdonck Bob"
+     ],
+     [
+      "3. Van Durme Loic"
+     ],
+     [
+      "4. Hofman Laure"
+     ],
+     [
+      "5. Meert Victor"
+     ],
+     [
+      "6. Vanderdonck Lode"
+     ],
+     [
+      "7. Librecht Gilles"
+     ],
+     [
+      "8. De Cubber Maxim"
+     ],
+     [
+      "9. Keymeulen Axelle"
+     ],
+     [
+      "10. Dauw Linde"
+     ],
+     [
+      "11. De Cubber Thibau"
+     ],
+     [
+      "12. Serrien Patrick"
+     ],
+     [
+      "1. Buys Juul",
+      "2. Vanderdonck Bob",
+      "3. Van Durme Loic",
+      "4. Hofman Laure",
+      "5. Meert Victor",
+      "6. Vanderdonck Lode",
+      "7. Librecht Gilles",
+      "8. De Cubber Maxim",
+      "9. Keymeulen Axelle",
+      "10. Dauw Linde",
+      "11. De Cubber Thibau",
+      "12. Serrien Patrick"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "RS Tera_Spirou",
+    "rijen": [
+     [
+      "1. Casear Mathieu"
+     ],
+     [
+      "2. Palmans Dorien"
+     ],
+     [
+      "3. Heyman Femke"
+     ],
+     [
+      "4. D'Hondt Noor"
+     ],
+     [
+      "5. De Smet Jules"
+     ],
+     [
+      "6. Van Laethem Silke"
+     ],
+     [
+      "7. Tytgat Robijn"
+     ],
+     [
+      "8. Roels Hanne"
+     ],
+     [
+      "1. Casear Mathieu",
+      "2. Palmans Dorien",
+      "3. Heyman Femke",
+      "4. D'Hondt Noor",
+      "5. De Smet Jules",
+      "6. Van Laethem Silke",
+      "7. Tytgat Robijn",
+      "8. Roels Hanne"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Windsurfen",
+    "rijen": [
+     [
+      "1. Vanden Baviére Luc"
+     ],
+     [
+      "1. Vanden Baviére Luc"
+     ]
+    ],
+    "notities": []
+   }
+  ]
+ },
+ {
+  "datum": "2019-06-29",
+  "naam": "Zomerwedstrijd",
+  "titel": "Zomerwedstrijd 29 juni 2019",
+  "groepen": [
+   {
+    "klasse": "Zeilboten – volgens handicap berekening",
+    "rijen": [
+     [
+      "1. Bracke Xavier",
+      "Laser"
+     ],
+     [
+      "2. Molin Roger",
+      "Laser"
+     ],
+     [
+      "3. David Nancy",
+      "Laser"
+     ],
+     [
+      "4. De Clercq Stef",
+      "RS Aero 7"
+     ],
+     [
+      "5. Vergote Stijn",
+      "Splash"
+     ],
+     [
+      "6. Desplenter Karel Laser"
+     ],
+     [
+      "7. Hamers Cas",
+      "Laser"
+     ],
+     [
+      "8. Meyvaert Erwin",
+      "Laser"
+     ],
+     [
+      "9. Fahy Bart",
+      "Laser"
+     ],
+     [
+      "10. De Clercq Glen",
+      "RS Neo"
+     ],
+     [
+      "11. Van Acker Matis Europe"
+     ]
+    ],
+    "notities": [
+     "volgens handicap berekening\r\n1. Bracke Xavier    Laser\r\n2. Molin Roger      Laser\r\n3. David Nancy      Laser\r\n4. De Clercq Stef   RS Aero 7\r\n5. Vergote Stijn    Splash\r\n6. Desplenter Karel Laser\r\n7. Hamers Cas       Laser\r\n8. Meyvaert Erwin   Laser\r\n9. Fahy Bart        Laser\r\n10. De Clercq Glen  RS Neo\r\n11. Van Acker Matis Europe"
+    ]
+   },
+   {
+    "klasse": "Optimist",
+    "rijen": [
+     [
+      "1. Buys Juul"
+     ],
+     [
+      "2. Coulembier Hannes"
+     ],
+     [
+      "3. Hofman Laure"
+     ],
+     [
+      "1. Buys Juul",
+      "2. Coulembier Hannes",
+      "3. Hofman Laure"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "RS Tera",
+    "rijen": [
+     [
+      "1. Van Laethem Silke"
+     ],
+     [
+      "2. De Cleir Quinten"
+     ],
+     [
+      "3. Roels Hanne"
+     ],
+     [
+      "1. Van Laethem Silke",
+      "2. De Cleir Quinten",
+      "3. Roels Hanne"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Spirou",
+    "rijen": [
+     [
+      "1. Casaer Mathieu"
+     ],
+     [
+      "2. Vaereman Fleur"
+     ],
+     [
+      "3. Casaer Valerie"
+     ],
+     [
+      "4. Casaer Guillaume"
+     ],
+     [
+      "1. Casaer Mathieu",
+      "2. Vaereman Fleur",
+      "3. Casaer Valerie",
+      "4. Casaer Guillaume"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Windsurfen",
+    "rijen": [
+     [
+      "1. Vanden Baviére Luc"
+     ],
+     [
+      "1. Vanden Baviére Luc"
+     ]
+    ],
+    "notities": []
+   }
+  ]
+ },
+ {
+  "datum": "2019-06-16",
+  "naam": "Beker NWV",
+  "titel": "Beker NWV 16 juni 2019",
+  "groepen": [
+   {
+    "klasse": "Zeilboten – volgens handicap berekening",
+    "rijen": [
+     [
+      "1. Bracke Xavier",
+      "Laser"
+     ],
+     [
+      "2. Heuninckx Walter",
+      "Laser"
+     ],
+     [
+      "3. Molin Roger",
+      "Laser"
+     ],
+     [
+      "4. De Beelde Brecht",
+      "Laser"
+     ],
+     [
+      "5. Heunicnkx Aroun",
+      "Laser"
+     ],
+     [
+      "6. Schelkens Dirk",
+      "Laser"
+     ],
+     [
+      "7. David Nancy",
+      "Laser"
+     ],
+     [
+      "8. Ferket Niels",
+      "Splash"
+     ],
+     [
+      "9. Meyvaert Erwin",
+      "Laser"
+     ],
+     [
+      "10. Fahy Bart",
+      "Laser"
+     ],
+     [
+      "11. Palmans Nicolas",
+      "Volksboot"
+     ]
+    ],
+    "notities": [
+     "volgens handicap berekening\r\n1. Bracke Xavier     Laser\r\n2. Heuninckx Walter  Laser\r\n3. Molin Roger       Laser\r\n4. De Beelde Brecht  Laser\r\n5. Heunicnkx Aroun   Laser\r\n6. Schelkens Dirk    Laser\r\n7. David Nancy       Laser\r\n8. Ferket Niels      Splash\r\n9. Meyvaert Erwin    Laser\r\n10. Fahy Bart        Laser\r\n11. Palmans Nicolas  Volksboot"
+    ]
+   },
+   {
+    "klasse": "Optimist Club",
+    "rijen": [
+     [
+      "1. Vanderdonck Bob"
+     ],
+     [
+      "2. Vanderdonck Lode"
+     ],
+     [
+      "3. Meert Victor"
+     ],
+     [
+      "4. Beirens Victor"
+     ],
+     [
+      "5. Stroobants Arnau"
+     ],
+     [
+      "6. Coulembier Hanne"
+     ],
+     [
+      "7. Palmans Silke"
+     ],
+     [
+      "1. Vanderdonck Bob",
+      "2. Vanderdonck Lode",
+      "3. Meert Victor",
+      "4. Beirens Victor",
+      "5. Stroobants Arnau",
+      "6. Coulembier Hanne",
+      "7. Palmans Silke"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Optimist Wedstrijd",
+    "rijen": [
+     [
+      "1. Lenaerts Matthijs"
+     ],
+     [
+      "2. Buys Juul"
+     ],
+     [
+      "3. Depelsmaeker Mich"
+     ],
+     [
+      "1. Lenaerts Matthijs",
+      "2. Buys Juul",
+      "3. Depelsmaeker Mich"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "RS Tera",
+    "rijen": [
+     [
+      "1. Van Laethem Silke"
+     ],
+     [
+      "2. Vanden Abbeele Jules"
+     ],
+     [
+      "3. Roels Hanne"
+     ],
+     [
+      "1. Van Laethem Silke",
+      "2. Vanden Abbeele Jules",
+      "3. Roels Hanne"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Spirou",
+    "rijen": [
+     [
+      "1. Vaereman Fleur"
+     ],
+     [
+      "2. Aerts Elin"
+     ],
+     [
+      "1. Vaereman Fleur",
+      "2. Aerts Elin"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Windsurfen",
+    "rijen": [
+     [
+      "1. Vanden Baviére Luc"
+     ],
+     [
+      "1. Vanden Baviére Luc"
+     ]
+    ],
+    "notities": []
+   }
+  ]
+ },
+ {
+  "datum": "2019-05-19",
+  "naam": "Voorjaarswedstrijd",
+  "titel": "Voorjaarswedstrijd 19 mei 2019",
+  "groepen": [
+   {
+    "klasse": "Zeilboten – volgens handicap berekening",
+    "rijen": [
+     [
+      "1. Heuninckx Walter",
+      "Laser"
+     ],
+     [
+      "2. Bracke Xavier",
+      "Laser"
+     ],
+     [
+      "3. Meyvaert Erwin",
+      "Laser"
+     ],
+     [
+      "4. Ferket Niels",
+      "Splash"
+     ],
+     [
+      "5. Fahy Bart",
+      "Laser"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Optimist",
+    "rijen": [
+     [
+      "1. Buys Juul"
+     ],
+     [
+      "2. De Pelsmaeker Michiel"
+     ],
+     [
+      "3. Lenaerts Matthijs"
+     ],
+     [
+      "4. Meert Victor"
+     ],
+     [
+      "5. Hofman Laure"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Spirou / RS Tera",
+    "rijen": [
+     [
+      "1. Vaereman Fleur"
+     ],
+     [
+      "2. Vergote Stijn"
+     ],
+     [
+      "3. Librecht Noa"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Windsurfen",
+    "rijen": [
+     [
+      "1. Vanden Baviére Luc"
+     ]
+    ],
+    "notities": []
+   }
+  ]
+ },
+ {
+  "datum": "2019-05-05",
+  "naam": "Openingswedstrijd",
+  "titel": "Openingswedstrijd 5 mei 2019",
+  "groepen": [
+   {
+    "klasse": "Zeilboten – volgens handicap berekening",
+    "rijen": [
+     [
+      "1. De Smet Karel",
+      "Europe"
+     ],
+     [
+      "2. Heuninck Walter",
+      "Laser"
+     ],
+     [
+      "3. Vets Jorre",
+      "Europe"
+     ],
+     [
+      "4. Desplenter Karel",
+      "Laser"
+     ],
+     [
+      "5. Libreccht Noah",
+      "Splash"
+     ],
+     [
+      "6. Meyvaert Erwin",
+      "Laser"
+     ],
+     [
+      "7. Hamers Cas",
+      "Splash"
+     ],
+     [
+      "8. Fahy Bart",
+      "Laser"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Optimist",
+    "rijen": [
+     [
+      "1. De Pelsmaeker Michiel"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Spirou / RS Tera",
+    "rijen": [
+     [
+      "1. De Smet Jules"
+     ],
+     [
+      "2. Vaereman Fleur"
+     ],
+     [
+      "3. Tytgat Robijn"
+     ],
+     [
+      "4. D' Hondt Noor"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Windsurfen",
+    "rijen": [
+     [
+      "1. Vanden Baviére Luc"
+     ]
+    ],
+    "notities": []
+   }
+  ]
+ },
+ {
+  "datum": "2018-12-31",
+  "naam": "Regelmatigheidscriterium 2018",
+  "titel": "Regelmatigheidscriterium 2018",
+  "groepen": [
+   {
+    "klasse": "Jeugdklassement:",
+    "rijen": [
+     [
+      "1. Fleur Vaereman, 2. Matisse Van Acker, 3. Juul Buys"
+     ],
+     [
+      "Volwassenen",
+      "Walter Heuninckx"
+     ]
+    ],
+    "notities": []
+   }
+  ]
+ },
+ {
+  "datum": "2018-10-21",
+  "naam": "Beker Devocht Johan",
+  "titel": "Beker Devocht Johan 21 oktober 2018",
+  "groepen": [
+   {
+    "klasse": "Laser",
+    "rijen": [
+     [
+      "1. Van Acker Matisse"
+     ],
+     [
+      "2. De Bie Jan"
+     ],
+     [
+      "3. Heuninckx Walter"
+     ],
+     [
+      "4. Meyvaert Erwin"
+     ],
+     [
+      "5. Fieremans (Spanker)"
+     ]
+    ],
+    "notities": []
+   }
+  ]
+ },
+ {
+  "datum": "2018-10-07",
+  "naam": "Mosselwedstrijd",
+  "titel": "Mosselwedstrijd 7 oktober 2018",
+  "groepen": [
+   {
+    "klasse": "Laser",
+    "rijen": [
+     [
+      "1. Heuninckx Walter"
+     ],
+     [
+      "2. Bracke Xavier"
+     ],
+     [
+      "3. De Beelde Brecht"
+     ],
+     [
+      "4. Desplenter Karel"
+     ],
+     [
+      "5. De Bie Tineke"
+     ],
+     [
+      "6. Fahy Bart"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "RS Tera Sport",
+    "rijen": [
+     [
+      "1. De Smet Jules"
+     ],
+     [
+      "2. Ferket Niels"
+     ],
+     [
+      "3. Coulembier Hannes"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Europe",
+    "rijen": [
+     [
+      "1. Vets Jelle"
+     ],
+     [
+      "2. De Smet Karel"
+     ],
+     [
+      "3. Schelkens Martijn"
+     ],
+     [
+      "4. Vets Seppe"
+     ],
+     [
+      "5. Van Acker Matisse"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Optimist",
+    "rijen": [
+     [
+      "1. Buys Juul"
+     ],
+     [
+      "2. Vaereman Fleur"
+     ],
+     [
+      "3. Lenaerts Matthijs"
+     ],
+     [
+      "4. Heyman Femke"
+     ],
+     [
+      "5. De Pelsmaecker Michiel"
+     ],
+     [
+      "6. Vanden Abbeele Emiel"
+     ],
+     [
+      "7. Van Der Donck Bob"
+     ],
+     [
+      "8. Van Der Donck Lode"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Windsurfen",
+    "rijen": [
+     [
+      "1. Vanden Baviére Luc"
+     ]
+    ],
+    "notities": []
+   }
+  ]
+ },
+ {
+  "datum": "2018-09-16",
+  "naam": "Laatste beker Directeur DDS",
+  "titel": "Laatste beker Directeur DDS 16 september 2018",
+  "groepen": [
+   {
+    "klasse": "Zeilboten – volgens handicap berekening",
+    "rijen": [
+     [
+      "1. De Smet Karel",
+      "Europe"
+     ],
+     [
+      "2. Heuninckx Walter",
+      "Laser"
+     ],
+     [
+      "3. Van Acker Matisse",
+      "Laser"
+     ],
+     [
+      "4. Molin Roger",
+      "Laser"
+     ],
+     [
+      "5. Schelkens Martijn",
+      "Europe"
+     ],
+     [
+      "6. Van Haute Renaat",
+      "Laser"
+     ],
+     [
+      "7. De Smet Jules",
+      "RS Tera Pro"
+     ],
+     [
+      "8. Vanden Baviére Hilde",
+      "Laser"
+     ],
+     [
+      "9. Fieremans & Eeman",
+      "Volksboot"
+     ],
+     [
+      "10. Meyvaert Erwin",
+      "Laser"
+     ],
+     [
+      "11. Van Bergen An",
+      "Laser"
+     ],
+     [
+      "12. Hamers Cas",
+      "Splash"
+     ],
+     [
+      "13. Vanden Baviére Karel",
+      "420"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Optimist",
+    "rijen": [
+     [
+      "1. Buys Juul"
+     ],
+     [
+      "2. Lenaerts Matthijs"
+     ],
+     [
+      "3. Vaereman Fleur"
+     ],
+     [
+      "4. Heyman Femke"
+     ],
+     [
+      "5. De Pelsmaecker Michiel"
+     ],
+     [
+      "6. Vanden Baviére Margo"
+     ],
+     [
+      "7. Vanden Baviére Luka"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Windsurfen",
+    "rijen": [
+     [
+      "1. Vanden Baviére Luc"
+     ]
+    ],
+    "notities": []
+   }
+  ]
+ },
+ {
+  "datum": "2018-09-01",
+  "naam": "Starterswedstrijd",
+  "titel": "Starterswedstrijd 1 september 2018",
+  "groepen": [
+   {
+    "klasse": "Zeilboten – volgens handicap berekening",
+    "rijen": [
+     [
+      "1.",
+      "Schelkens Martijn",
+      "Europe"
+     ],
+     [
+      "2.",
+      "Van Acker Matisse",
+      "Laser"
+     ],
+     [
+      "3.",
+      "Schelkens Dirk",
+      "Laser"
+     ],
+     [
+      "4.",
+      "Van Bergen An",
+      "Laser"
+     ],
+     [
+      "5.",
+      "Meyvaert Erwin met",
+      "420"
+     ],
+     [
+      "Jan Van Cauwenberge"
+     ],
+     [
+      "6.",
+      "Palmans Dorien",
+      "Spirou"
+     ],
+     [
+      "7.",
+      "Keymeulen Celien",
+      "Splash"
+     ],
+     [
+      "8.",
+      "Keymeulen Michiel",
+      "Laser"
+     ],
+     [
+      "9.",
+      "Desmet Jules",
+      "RS Tera"
+     ],
+     [
+      "10.",
+      "D'Hondt Noor",
+      "RS Tera"
+     ],
+     [
+      "11.",
+      "Anseeuw Kasper",
+      "RS Tera"
+     ],
+     [
+      "12.",
+      "Librecht Noah",
+      "RS Tera"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Optimist",
+    "rijen": [
+     [
+      "1.",
+      "Palmans Silke"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Windsurfen",
+    "rijen": [
+     [
+      "1.",
+      "Verschuere Julie"
+     ],
+     [
+      "2.",
+      "Joren Van Cauwenberge"
+     ]
+    ],
+    "notities": []
+   }
+  ]
+ },
+ {
+  "datum": "2018-06-30",
+  "naam": "Zomerwedstrijd",
+  "titel": "Zomerwedstrijd 30 juni 2018",
+  "groepen": [
+   {
+    "klasse": "Zeilboten – volgens handicap berekening",
+    "rijen": [
+     [
+      "1.",
+      "Schelkens Martijn",
+      "Europe"
+     ],
+     [
+      "2.",
+      "Desplenter Karel",
+      "Laser"
+     ],
+     [
+      "3.",
+      "Molin Roger",
+      "Laser"
+     ],
+     [
+      "4.",
+      "Schelkens Dirk",
+      "Laser"
+     ],
+     [
+      "5.",
+      "Heuninckx Walter",
+      "Laser"
+     ],
+     [
+      "6.",
+      "Van Acker Matisse",
+      "Laser"
+     ],
+     [
+      "7.",
+      "De Clercq Stef",
+      "RS Aero 7"
+     ],
+     [
+      "8.",
+      "De Clercq Glen",
+      "RS Neo"
+     ],
+     [
+      "9.",
+      "Buys Lowie",
+      "RS Tera"
+     ],
+     [
+      "10.",
+      "Meyvaert Erwin",
+      "Laser"
+     ],
+     [
+      "11.",
+      "Hamers Cas",
+      "RS Tera"
+     ],
+     [
+      "12.",
+      "Van Bergen An",
+      "Laser"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Optimist",
+    "rijen": [
+     [
+      "1.",
+      "Vaereman Fleur"
+     ],
+     [
+      "2.",
+      "Buys Juul"
+     ],
+     [
+      "3.",
+      "Heyman Femke"
+     ],
+     [
+      "4.",
+      "Vanden Abbeele Emiel"
+     ],
+     [
+      "5.",
+      "Beirens Victor"
+     ],
+     [
+      "6.",
+      "Vanden Abbeele Jules"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Windsurfen",
+    "rijen": [
+     [
+      "1.",
+      "Vanden Baviére Luc"
+     ]
+    ],
+    "notities": []
+   }
+  ]
+ },
+ {
+  "datum": "2018-05-21",
+  "naam": "Beker NWV",
+  "titel": "Beker NWV 21 mei 2018",
+  "groepen": [
+   {
+    "klasse": "Lasers",
+    "rijen": [
+     [
+      "1.",
+      "Heuninckx Walter"
+     ],
+     [
+      "2.",
+      "Van Acker Matisse"
+     ],
+     [
+      "3.",
+      "Molin Roger"
+     ],
+     [
+      "4.",
+      "David Nancy"
+     ],
+     [
+      "5.",
+      "Van Der Wilt Sophie"
+     ],
+     [
+      "6.",
+      "Van Cauwenberge Jan"
+     ],
+     [
+      "7.",
+      "Meyvaert Erwin"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Spirou",
+    "rijen": [
+     [
+      "1.",
+      "Aerts Sander"
+     ],
+     [
+      "2.",
+      "Aerts Elin"
+     ],
+     [
+      "3.",
+      "Van Cauwenberge Maren"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Optimist",
+    "rijen": [
+     [
+      "1.",
+      "Vaereman Fleur"
+     ],
+     [
+      "2.",
+      "Buys Juul"
+     ],
+     [
+      "3.",
+      "Heyman Femke"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Windsurfen",
+    "rijen": [
+     [
+      "1.",
+      "Van Cauwenberge Joren"
+     ],
+     [
+      "2.",
+      "Vanden Baviére Luc"
+     ]
+    ],
+    "notities": []
+   }
+  ]
+ },
+ {
+  "datum": "2018-05-06",
+  "naam": "Voorjaarswedstrijd",
+  "titel": "Voorjaarswedstrijd 6 mei 2018",
+  "groepen": [
+   {
+    "klasse": "Zeilboten – volgens handicap berekening",
+    "rijen": [
+     [
+      "1.",
+      "De Smet Karel",
+      "Europe"
+     ],
+     [
+      "2.",
+      "Heuninckx Walter",
+      "Laser"
+     ],
+     [
+      "3.",
+      "Molin Roger",
+      "Laser"
+     ],
+     [
+      "4.",
+      "David Nancy",
+      "Laser"
+     ],
+     [
+      "5.",
+      "Bracke Xavier",
+      "Laser"
+     ],
+     [
+      "6.",
+      "Desplenter Karel",
+      "Laser"
+     ],
+     [
+      "7.",
+      "Van Haute Renaat",
+      "Laser"
+     ],
+     [
+      "8.",
+      "De Clercq Noor-Van Hee Too",
+      "420"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "RS Tera",
+    "rijen": [
+     [
+      "1.",
+      "Van Acker Matisse"
+     ],
+     [
+      "2.",
+      "De Smet Jules"
+     ],
+     [
+      "3.",
+      "Buys Lowie"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Optimist",
+    "rijen": [
+     [
+      "1.",
+      "Vaereman Fleur"
+     ],
+     [
+      "2.",
+      "Buys Juul"
+     ],
+     [
+      "3.",
+      "Heyman Femke"
+     ],
+     [
+      "4.",
+      "Vanden Abbeele Emiel"
+     ],
+     [
+      "5.",
+      "Vanden Abbeele Jules"
+     ]
+    ],
+    "notities": []
+   }
+  ]
+ },
+ {
+  "datum": "2018-04-22",
+  "naam": "Openingswedstrijd",
+  "titel": "Openingswedstrijd 22 april 2018",
+  "groepen": [
+   {
+    "klasse": "Zeilboten – volgens handicap berekening",
+    "rijen": [
+     [
+      "1.",
+      "De Beelde Brecht",
+      "Laser"
+     ],
+     [
+      "2.",
+      "David Nancy",
+      "Laser"
+     ],
+     [
+      "3.",
+      "Van Acker Matisse",
+      "Laser"
+     ],
+     [
+      "4.",
+      "Heuninck Walter",
+      "Laser"
+     ],
+     [
+      "5.",
+      "De Clercq Stef",
+      "RS Aero 7"
+     ],
+     [
+      "6.",
+      "Desplenter Karel",
+      "Laser"
+     ],
+     [
+      "7.",
+      "Vanhaute Renaat",
+      "Laser"
+     ],
+     [
+      "8.",
+      "Meyvaert Erwin",
+      "Laser"
+     ],
+     [
+      "9.",
+      "Hamers Cas",
+      "Splash"
+     ],
+     [
+      "10.",
+      "Molin Roger",
+      "Laser"
+     ],
+     [
+      "11.",
+      "Vanden Baviére Hilde",
+      "Laser"
+     ],
+     [
+      "12.",
+      "Fieremans Bernard&Arne",
+      "Spanker"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Optimist",
+    "rijen": [
+     [
+      "1.",
+      "Vaereman Fleur"
+     ],
+     [
+      "2.",
+      "Heyman Femke"
+     ],
+     [
+      "3.",
+      "Buys Juul"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Windsurfen",
+    "rijen": [
+     [
+      "1.",
+      "Vanden Baviére Luc"
+     ]
+    ],
+    "notities": []
+   }
+  ]
+ },
+ {
+  "datum": "2017-12-31",
+  "naam": "Regelmatigheidscriterium 2017",
+  "titel": "Regelmatigheidscriterium 2017",
+  "groepen": [
+   {
+    "klasse": "Jeugdklassement:",
+    "rijen": [
+     [
+      "1. Matijn Schelkens, 2. Dorien Palmans, 3. Matisse Van Acker"
+     ],
+     [
+      "Volwassenen"
+     ],
+     [
+      "1. Erwin Meyvaert"
+     ]
+    ],
+    "notities": []
+   }
+  ]
+ },
+ {
+  "datum": "2017-10-22",
+  "naam": "Wedstrijd Beker Johan Devocht",
+  "titel": "Wedstrijd Beker Johan Devocht: 22 oktober 2017",
+  "groepen": [
+   {
+    "klasse": "Eénmansboten",
+    "rijen": [
+     [
+      "1.",
+      "De Beelde Brecht",
+      "Laser"
+     ],
+     [
+      "2.",
+      "Schelkens Dirk",
+      "Laser"
+     ],
+     [
+      "3.",
+      "Desplenter Karel",
+      "Laser"
+     ],
+     [
+      "4.",
+      "De Lausnay William",
+      "Finn"
+     ],
+     [
+      "5.",
+      "Vanden Baviére Karel",
+      "Laser"
+     ],
+     [
+      "6.",
+      "Meyvaert Erwin",
+      "Laser"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "RS Tera",
+    "rijen": [
+     [
+      "1.",
+      "Van Acker Matisse"
+     ],
+     [
+      "2.",
+      "De Smet Jules"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Europe",
+    "rijen": [
+     [
+      "1.",
+      "Vets Jorre"
+     ],
+     [
+      "2.",
+      "Vets Jelle"
+     ],
+     [
+      "3.",
+      "De Clercq Manu"
+     ],
+     [
+      "4.",
+      "De Smet Karel"
+     ],
+     [
+      "5.",
+      "Schelkens Martijn"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Optimist",
+    "rijen": [
+     [
+      "1.",
+      "Palmans Dorien"
+     ],
+     [
+      "2.",
+      "Buys Juul"
+     ],
+     [
+      "3.",
+      "Vanden Baviére Margo"
+     ],
+     [
+      "4.",
+      "Vanden Baviére Luka"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Windsurfen",
+    "rijen": [
+     [
+      "1.",
+      "Verschuere Julie"
+     ],
+     [
+      "2.",
+      "Vanden Baviére Luc"
+     ]
+    ],
+    "notities": []
+   }
+  ]
+ },
+ {
+  "datum": "2017-10-08",
+  "naam": "Mosselwedstrijd",
+  "titel": "Mosselwedstrijd: 8 oktober 2017",
+  "groepen": [
+   {
+    "klasse": "Eénmans- en meermansboten",
+    "rijen": [
+     [
+      "1.",
+      "De Smet Karel",
+      "Europe"
+     ],
+     [
+      "2.",
+      "Heuninckx Walter",
+      "Laser"
+     ],
+     [
+      "3.",
+      "David Nancy",
+      "Laser"
+     ],
+     [
+      "4.",
+      "Schelkens Martijn",
+      "Europe"
+     ],
+     [
+      "5.",
+      "Van Acker Matisse",
+      "Laser"
+     ],
+     [
+      "6.",
+      "De Beelde Brecht",
+      "Laser"
+     ],
+     [
+      "7.",
+      "Desplenter Karel",
+      "Laser"
+     ],
+     [
+      "8.",
+      "De Clercq stef",
+      "RS Aero"
+     ],
+     [
+      "9.",
+      "De Vusser Mathis",
+      "Laser"
+     ],
+     [
+      "10.",
+      "De Lausnay William",
+      "Finn"
+     ],
+     [
+      "11.",
+      "Fieremans Bernard-"
+     ],
+     [
+      "Eeman Luc",
+      "Spanker"
+     ],
+     [
+      "12.",
+      "Meyvaert Erwin",
+      "Laser"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "RS Tera",
+    "rijen": [
+     [
+      "1.",
+      "De Smet Jules"
+     ],
+     [
+      "2.",
+      "De Clercq Glen"
+     ],
+     [
+      "3.",
+      "Van Damme Mauro"
+     ],
+     [
+      "4.",
+      "De Wilde Emma"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Optimist",
+    "rijen": [
+     [
+      "1.",
+      "Palmans Dorien"
+     ],
+     [
+      "2.",
+      "Heyman Femke"
+     ],
+     [
+      "3.",
+      "Buys Juul"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Windsurfen",
+    "rijen": [
+     [
+      "1.",
+      "Verschuere Julie"
+     ],
+     [
+      "2.",
+      "Vanden Baviére Luc"
+     ]
+    ],
+    "notities": []
+   }
+  ]
+ },
+ {
+  "datum": "2017-09-17",
+  "naam": "Beker Directeur DDS",
+  "titel": "Beker Directeur DDS: 17 september 2017",
+  "groepen": [
+   {
+    "klasse": "Eénmans- en meermansboten",
+    "rijen": [
+     [
+      "1.",
+      "De Smet Karel",
+      "Europe"
+     ],
+     [
+      "2.",
+      "Heuninckx Walter",
+      "Laser"
+     ],
+     [
+      "3.",
+      "Schelkens Martijn",
+      "Europe"
+     ],
+     [
+      "4.",
+      "Vanden Baviére Karel",
+      "Laser"
+     ],
+     [
+      "5.",
+      "Desplenter Karel",
+      "Laser"
+     ],
+     [
+      "6.",
+      "David Nancy",
+      "Laser"
+     ],
+     [
+      "7.",
+      "Meyvaert Erwin",
+      "Laser"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Windsurfen",
+    "rijen": [
+     [
+      "1.",
+      "Vanden Baviére Luc"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "RS Tera en Spirou",
+    "rijen": [
+     [
+      "1.",
+      "Van Acker Matisse",
+      "RS Tera"
+     ],
+     [
+      "2.",
+      "De Smet Jules",
+      "RS Tera"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Optimist",
+    "rijen": [
+     [
+      "1.",
+      "Palmans Dorien"
+     ],
+     [
+      "2.",
+      "Vanden Baviére Margo"
+     ],
+     [
+      "3.",
+      "Brewee Mathis"
+     ],
+     [
+      "4.",
+      "Minnoye Yaana"
+     ],
+     [
+      "5.",
+      "Neirinck Matteo"
+     ],
+     [
+      "6.",
+      "Vanden Baviére Luka"
+     ],
+     [
+      "7.",
+      "Verwaeren Emiel"
+     ],
+     [
+      "8.",
+      "Aerts Elin"
+     ],
+     [
+      "9.",
+      "Beirnaert Tibo"
+     ],
+     [
+      "10.",
+      "Librecht Noah"
+     ]
+    ],
+    "notities": []
+   }
+  ]
+ },
+ {
+  "datum": "2017-09-02",
+  "naam": "Starterswedstrijd",
+  "titel": "Starterswedstrijd: 2 september 2017",
+  "groepen": [
+   {
+    "klasse": "Eénmans- en meermansboten",
+    "rijen": [
+     [
+      "1.",
+      "De Smet Karel",
+      "Europe"
+     ],
+     [
+      "2.",
+      "David Nancy",
+      "Laser"
+     ],
+     [
+      "3.",
+      "Schelkens Martijn",
+      "Splash"
+     ],
+     [
+      "4.",
+      "Van Acker Matisse",
+      "Splash"
+     ],
+     [
+      "5.",
+      "Van Der Wilt Sophie",
+      "Laser"
+     ],
+     [
+      "6.",
+      "De Clercq Stef",
+      "RS Aero"
+     ],
+     [
+      "7.",
+      "Fahy Wout",
+      "Laser"
+     ],
+     [
+      "8.",
+      "Meyvaert Erwin",
+      "Laser"
+     ],
+     [
+      "9.",
+      "Schelkens Dirk",
+      "Laser"
+     ],
+     [
+      "10.",
+      "De Clerq Noor &"
+     ],
+     [
+      "Van Hee Too",
+      "420"
+     ],
+     [
+      "11.",
+      "Devloo Manu &"
+     ],
+     [
+      "Devloo Tim",
+      "445"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Windsurfen",
+    "rijen": [
+     [
+      "1.",
+      "Casaer Mathieu"
+     ],
+     [
+      "2.",
+      "Vanden Baviére Luc"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "RS Tera en Spirou",
+    "rijen": [
+     [
+      "1.",
+      "Casaer Valerie",
+      "Spirou"
+     ],
+     [
+      "2.",
+      "De Clercq Glen",
+      "RS Tera"
+     ],
+     [
+      "3.",
+      "Van Damme Mauro",
+      "RS Tera"
+     ],
+     [
+      "4.",
+      "Van Impe Gill",
+      "RS Tera"
+     ],
+     [
+      "5.",
+      "De Smet Jules",
+      "RS Tera"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Optimist",
+    "rijen": [
+     [
+      "1.",
+      "Brewee Mathis"
+     ],
+     [
+      "2.",
+      "Keymeulen Michiel"
+     ],
+     [
+      "3.",
+      "Palmans Dorien"
+     ],
+     [
+      "4.",
+      "Librecht Noah"
+     ],
+     [
+      "5.",
+      "Dauw Linde"
+     ],
+     [
+      "6.",
+      "Colembier Hannes"
+     ],
+     [
+      "7.",
+      "Minnoye Yaana"
+     ],
+     [
+      "8.",
+      "Buys Juul"
+     ],
+     [
+      "9.",
+      "Vanden Baviére Luka"
+     ],
+     [
+      "10.",
+      "Beirens Victor"
+     ],
+     [
+      "11.",
+      "Vanden Baviére Margo"
+     ],
+     [
+      "12.",
+      "Bastaerts Sef"
+     ],
+     [
+      "13.",
+      "De Schrijver Marie & Droessaert Liv"
+     ],
+     [
+      "14.",
+      "Heyerinck Thomas"
+     ],
+     [
+      "15.",
+      "Beirnaert Tibo"
+     ],
+     [
+      "16.",
+      "Valcke Thomas & Vercauteren Louise"
+     ],
+     [
+      "17.",
+      "Brown Troy & Brown Zoë"
+     ],
+     [
+      "18.",
+      "Heyman Femke"
+     ],
+     [
+      "19.",
+      "Keymeulen Axelle & Bastaerts Iza"
+     ],
+     [
+      "20.",
+      "Baes Julie"
+     ],
+     [
+      "21.",
+      "Blancquaert Alexander"
+     ],
+     [
+      "22.",
+      "Librecht Gilles"
+     ],
+     [
+      "23.",
+      "Casaer Guillaume"
+     ]
+    ],
+    "notities": []
+   }
+  ]
+ },
+ {
+  "datum": "2017-06-25",
+  "naam": "Zomerwedstrijd",
+  "titel": "Zomerwedstrijd: 25 juni 2017",
+  "groepen": [
+   {
+    "klasse": "Eénmans- en meermansboten",
+    "rijen": [
+     [
+      "1.",
+      "Vets Jorre",
+      "Europe"
+     ],
+     [
+      "2.",
+      "Heuninckx Walter",
+      "Laser"
+     ],
+     [
+      "3.",
+      "Bracke Xavier",
+      "Laser"
+     ],
+     [
+      "4.",
+      "Vets Seppe",
+      "Europe"
+     ],
+     [
+      "5.",
+      "Schelkens Dirk",
+      "Laser"
+     ],
+     [
+      "6.",
+      "De Lausnay William",
+      "Finn"
+     ],
+     [
+      "7.",
+      "De Rick Tim & Geert",
+      "420"
+     ],
+     [
+      "8.",
+      "Desplenter Karel",
+      "Splash"
+     ],
+     [
+      "9.",
+      "Waegemans Stefaan",
+      "Laser"
+     ],
+     [
+      "10.",
+      "Meyvaert Erwin",
+      "Laser Radiaal"
+     ],
+     [
+      "11.",
+      "Palmans Nico &"
+     ],
+     [
+      "Muylaert Jan",
+      "Schakel"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "RS Tera",
+    "rijen": [
+     [
+      "1.",
+      "Van Acker Matisse"
+     ],
+     [
+      "2.",
+      "Schelkens Martijn"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Optimist",
+    "rijen": [
+     [
+      "1.",
+      "Palmans Dorien"
+     ],
+     [
+      "2.",
+      "De Wilde Emma"
+     ]
+    ],
+    "notities": []
+   }
+  ]
+ },
+ {
+  "datum": "2017-06-04",
+  "naam": "Beker NWV",
+  "titel": "Beker NWV: 4 juni 2017",
+  "groepen": [
+   {
+    "klasse": "Eénmansboten",
+    "rijen": [
+     [
+      "1.",
+      "Heuninckx Walter",
+      "Laser"
+     ],
+     [
+      "2.",
+      "David Nancy",
+      "Laser"
+     ],
+     [
+      "3.",
+      "Van Der Wilt Sophie",
+      "Laser"
+     ],
+     [
+      "4.",
+      "De Clercq Stef",
+      "RS Aero 7"
+     ],
+     [
+      "5.",
+      "Vanden Baviére Hilde",
+      "Laser"
+     ],
+     [
+      "6.",
+      "De Lausnay William",
+      "Finn"
+     ],
+     [
+      "7.",
+      "Meyvaert Erwin",
+      "Laser"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Spirou & RS Tera",
+    "rijen": [
+     [
+      "1.",
+      "Aerts Sander",
+      "Spirou"
+     ],
+     [
+      "2.",
+      "Van Acker Matisse",
+      "RS Tera"
+     ],
+     [
+      "3.",
+      "Schelkens Martijn",
+      "RS Tera"
+     ],
+     [
+      "4.",
+      "De Clercq Glen",
+      "RS Tera"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Optimist",
+    "rijen": [
+     [
+      "1.",
+      "Palmans Dorien"
+     ],
+     [
+      "2.",
+      "Aerts Elin"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Windsurfen",
+    "rijen": [
+     [
+      "1.",
+      "Vanden Baviére Luc"
+     ]
+    ],
+    "notities": []
+   }
+  ]
+ },
+ {
+  "datum": "2017-05-14",
+  "naam": "Voorjaarswedstrijd",
+  "titel": "Voorjaarswedstrijd: 14 mei 2017",
+  "groepen": [
+   {
+    "klasse": "Eénmansboten",
+    "rijen": [
+     [
+      "1.",
+      "Heuninckx Walter",
+      "Laser"
+     ],
+     [
+      "2.",
+      "De Smet Karel",
+      "Europe"
+     ],
+     [
+      "3.",
+      "Schelkens Martijn",
+      "RS Tera"
+     ],
+     [
+      "4.",
+      "De Clercq Glen",
+      "RS Tera"
+     ],
+     [
+      "De Clercq Stef",
+      "RS Aero 7"
+     ],
+     [
+      "Schelkens Dirk",
+      "Laser"
+     ],
+     [
+      "7.",
+      "Vanden Baviére Hilde",
+      "Laser Radial"
+     ],
+     [
+      "8.",
+      "Belpaeme Roland",
+      "Laser Radial"
+     ],
+     [
+      "9.",
+      "Meyvaert Erwin",
+      "Laser"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Optimist",
+    "rijen": [
+     [
+      "1.",
+      "Palmans Dorien"
+     ],
+     [
+      "2.",
+      "De Smet Jules"
+     ]
+    ],
+    "notities": []
+   }
+  ]
+ },
+ {
+  "datum": "2017-04-24",
+  "naam": "Openingswedstrijd",
+  "titel": "Openingswedstrijd: 24 april 2017",
+  "groepen": [
+   {
+    "klasse": "Eénmansboten",
+    "rijen": [
+     [
+      "1. Bracke Xavier",
+      "Laser"
+     ],
+     [
+      "2. De Clercq Stef",
+      "RS Aero 7"
+     ],
+     [
+      "3. Meyvaert Erwin",
+      "Laser"
+     ],
+     [
+      "4. Fahy Wout",
+      "Europe"
+     ],
+     [
+      "5. Schelkens Dirk",
+      "Laser"
+     ],
+     [
+      "6. Depauw Geert",
+      "Laser"
+     ],
+     [
+      "7. Vanden Baviére Hilde",
+      "Laser"
+     ],
+     [
+      "8. David Nancy",
+      "Laser"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Optimist",
+    "rijen": [
+     [
+      "1. De Wilde Emma"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "R.S. Tera",
+    "rijen": [
+     [
+      "1. Van Acker Matisse"
+     ],
+     [
+      "2. Schelkens Martijn"
+     ],
+     [
+      "3. De Clercq Glen"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Windsurfen",
+    "rijen": [
+     [
+      "1.",
+      "Vanden Baviére Luc"
+     ]
+    ],
+    "notities": []
+   }
+  ]
+ },
+ {
+  "datum": "2016-12-31",
+  "naam": "Regelmatigheidscriterium 2016",
+  "titel": "Regelmatigheidscriterium 2016",
+  "groepen": [
+   {
+    "klasse": "Jeugdklassement:",
+    "rijen": [
+     [
+      "1. Jules De Smet, 2. Karel De Smet, 3. Stef De Clercq"
+     ],
+     [
+      "Volwassenen"
+     ],
+     [
+      "Walter Heuninckx"
+     ]
+    ],
+    "notities": []
+   }
+  ]
+ },
+ {
+  "datum": "2016-10-23",
+  "naam": "Beker Johan Devocht",
+  "titel": "Beker Johan Devocht: zondag 23 oktober 2016",
+  "groepen": [
+   {
+    "klasse": "in Handicap",
+    "rijen": [
+     [
+      "1.",
+      "Europe: Vets Jelle"
+     ],
+     [
+      "2.",
+      "Laser: Heuninckx Walter"
+     ],
+     [
+      "3.",
+      "Laser: De Clercq Stef"
+     ],
+     [
+      "4.",
+      "Laser: Heuninckx Aroen"
+     ],
+     [
+      "5.",
+      "Laser: Hautekiet Mark"
+     ],
+     [
+      "6.",
+      "Laser: Desplenter Karel"
+     ],
+     [
+      "Laser: Schelkens Dirk"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Optimist",
+    "rijen": [
+     [
+      "1.",
+      "De Smet Jules"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "R.S. Tera Pro",
+    "rijen": [
+     [
+      "1. Van Acker Matisse"
+     ],
+     [
+      "2. Schelkens Martijn"
+     ],
+     [
+      "3. De Clercq Glen"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Windsurfen",
+    "rijen": [
+     [
+      "1.",
+      "Vanden Baviére Luc"
+     ]
+    ],
+    "notities": []
+   }
+  ]
+ },
+ {
+  "datum": "2016-10-02",
+  "naam": "Mosselwedstrijd",
+  "titel": "Mosselwedstrijd: zondag 2 oktober 2016",
+  "groepen": [
+   {
+    "klasse": "in Handicap",
+    "rijen": [
+     [
+      "1.",
+      "Laser: De Beelde Brecht"
+     ],
+     [
+      "2.",
+      "Laser: Heuninckx Walter"
+     ],
+     [
+      "3.",
+      "Laser: Molin Roger"
+     ],
+     [
+      "4.",
+      "Laser: Desplenter Karel"
+     ],
+     [
+      "6.",
+      "Europe: Fahy Wout"
+     ]
+    ],
+    "notities": [
+     "De Clercq Stef"
+    ]
+   },
+   {
+    "klasse": "Optimist",
+    "rijen": [
+     [
+      "1.",
+      "De Smet Jules"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "R.S. Tera",
+    "rijen": [
+     [
+      "1.",
+      "De Smet Karel"
+     ],
+     [
+      "2.",
+      "De Clercq Glen"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Windsurfen",
+    "rijen": [
+     [
+      "1.",
+      "Vanden Baviére Luc"
+     ]
+    ],
+    "notities": []
+   }
+  ]
+ },
+ {
+  "datum": "2016-09-11",
+  "naam": "Beker DDS",
+  "titel": "Beker DDS: zondag 11 september 2016",
+  "groepen": [
+   {
+    "klasse": "in Handicap",
+    "rijen": [
+     [
+      "1.",
+      "Laser: Desplenter Karel"
+     ],
+     [
+      "Laser: Molin Roger"
+     ],
+     [
+      "3.",
+      "Laser: De Clercq Stef"
+     ],
+     [
+      "4.",
+      "Laser: Fahy Wout"
+     ],
+     [
+      "5.",
+      "Splash: Van Acker Matisse"
+     ],
+     [
+      "6.",
+      "Laser: Hautekiet Mark"
+     ],
+     [
+      "7.",
+      "Splash: De Vusser Mathis"
+     ],
+     [
+      "8.",
+      "Laser: Waegemans Stefaan"
+     ],
+     [
+      "9.",
+      "Spanker: Fieremans Bernard en Arne"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Optimist",
+    "rijen": [
+     [
+      "1.",
+      "De Wilde Emma"
+     ],
+     [
+      "2.",
+      "De Smet Jules"
+     ],
+     [
+      "3.",
+      "Van De Vreken Ruben"
+     ],
+     [
+      "4.",
+      "Aerts Elin"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "R.S. Tera & Spirou",
+    "rijen": [
+     [
+      "1.",
+      "Spirou: Aerts Sander"
+     ],
+     [
+      "2.",
+      "RS Tera: De Smet Karel"
+     ],
+     [
+      "3.",
+      "RS Tera: Schelkens Martijn"
+     ],
+     [
+      "4.",
+      "RS Tera: Van Der Vurst Mirthe"
+     ],
+     [
+      "5.",
+      "RS Tera: Van Der Vurst Warre"
+     ]
+    ],
+    "notities": []
+   }
+  ]
+ },
+ {
+  "datum": "2016-08-28",
+  "naam": "Starterswedstrijd",
+  "titel": "Starterswedstrijd: zondag 28 augustus 2016",
+  "groepen": [
+   {
+    "klasse": "in Handicap",
+    "rijen": [
+     [
+      "1.",
+      "Europe",
+      "Vets Jelle"
+     ],
+     [
+      "2.",
+      "Laser",
+      "De Beelde Brecht"
+     ],
+     [
+      "3.",
+      "Laser",
+      "hautekiet Mark"
+     ],
+     [
+      "4.",
+      "Laser",
+      "Bracke Laeurens"
+     ],
+     [
+      "5.",
+      "Splash",
+      "Vets Seppe"
+     ],
+     [
+      "6.",
+      "Laser",
+      "David Nancy"
+     ],
+     [
+      "7.",
+      "RS Aero",
+      "De Clercq Stef"
+     ],
+     [
+      "8.",
+      "Laser",
+      "Meyvaert Erwin"
+     ],
+     [
+      "9.",
+      "Laser",
+      "Waegemans Stefaan"
+     ],
+     [
+      "10.",
+      "Laser",
+      "Schelkens Dirk"
+     ],
+     [
+      "11.",
+      "Laser Radial",
+      "Fahy Wout"
+     ],
+     [
+      "12.",
+      "Splash",
+      "De Clercq Glen"
+     ],
+     [
+      "13.",
+      "Schakel",
+      "Palmans Nicolas"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Optimist",
+    "rijen": [
+     [
+      "1.",
+      "De Smet Jules"
+     ],
+     [
+      "2.",
+      "De Wilde Emma"
+     ],
+     [
+      "3.",
+      "Van de Vreecken Ruben"
+     ],
+     [
+      "4.",
+      "Palmans Dorien"
+     ],
+     [
+      "5.",
+      "De Vijlder Alexander"
+     ],
+     [
+      "6.",
+      "Van Daele Arthur"
+     ],
+     [
+      "7.",
+      "Decock Ruben"
+     ],
+     [
+      "8.",
+      "Ros Lucas"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "R.S. Tera",
+    "rijen": [
+     [
+      "1.",
+      "De Smet Karel"
+     ],
+     [
+      "2.",
+      "Schelkens Martijn"
+     ],
+     [
+      "3.",
+      "Van Acker Matisse"
+     ],
+     [
+      "4.",
+      "Verschuere Julie"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Windsurfen",
+    "rijen": [
+     [
+      "1.",
+      "Vanden Baviére Luc"
+     ]
+    ],
+    "notities": []
+   }
+  ]
+ },
+ {
+  "datum": "2016-06-26",
+  "naam": "Zomerwedstrijd",
+  "titel": "Zomerwedstrijd: zondag 26 juni 2016",
+  "groepen": [
+   {
+    "klasse": "Lasers & RS Aero",
+    "rijen": [
+     [
+      "1.",
+      "Heuninckx Walter"
+     ],
+     [
+      "2.",
+      "Molin Roger"
+     ],
+     [
+      "3.",
+      "Vets Jelle"
+     ],
+     [
+      "4.",
+      "De Beelde Brecht"
+     ],
+     [
+      "5.",
+      "Desplenter Karel"
+     ],
+     [
+      "6.",
+      "David Nancy"
+     ],
+     [
+      "7.",
+      "Meyvaert Erwin"
+     ],
+     [
+      "8.",
+      "Declercq Stef"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "RS Tera",
+    "rijen": [
+     [
+      "1. De Smet Karel"
+     ],
+     [
+      "2. Declercq Glen"
+     ],
+     [
+      "3. Schelkens Martijn"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Optimist",
+    "rijen": [
+     [
+      "1. De Smet Jules"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Windsurfen",
+    "rijen": [
+     [
+      "1.",
+      "Vanden Baviére Luc"
+     ]
+    ],
+    "notities": []
+   }
+  ]
+ },
+ {
+  "datum": "2016-05-22",
+  "naam": "Voorjaarswedstrijd",
+  "titel": "Voorjaarswedstrijd: zondag 22 mei 2016",
+  "groepen": [
+   {
+    "klasse": "RS Tera",
+    "rijen": [
+     [
+      "1. De Smet Karel"
+     ],
+     [
+      "2. Van Acker Matisse"
+     ],
+     [
+      "3. Schelkens Martijn"
+     ],
+     [
+      "4. Fahy Wout"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Handicap",
+    "rijen": [
+     [
+      "1.",
+      "Laser: Heuninckx Walter"
+     ],
+     [
+      "2.",
+      "Laser: Molin Roger"
+     ],
+     [
+      "3.",
+      "Laser: David Nancy"
+     ],
+     [
+      "4.",
+      "Laser: De Splenter Karel"
+     ],
+     [
+      "5.",
+      "Splash: De Clercq Stef"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Windsurfen",
+    "rijen": [
+     [
+      "1.",
+      "Vanden Baviére Luc"
+     ]
+    ],
+    "notities": []
+   }
+  ]
+ },
+ {
+  "datum": "2016-04-24",
+  "naam": "Openingswedstrijd",
+  "titel": "Openingswedstrijd: zondag 24 april 2016",
+  "groepen": [
+   {
+    "klasse": "RS Tera, RS Aero & Spirou",
+    "rijen": [
+     [
+      "1. Spirou: Van Hecke Warre"
+     ],
+     [
+      "2. Spirou: Vets Jorre"
+     ],
+     [
+      "3. RS Tera: De Smet Karel"
+     ],
+     [
+      "4. Spirou: Aerts Sander"
+     ],
+     [
+      "5. RS Tera: De Clercq Glen"
+     ],
+     [
+      "6. RS Aero: De Clercq Stef"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Optimist",
+    "rijen": [
+     [
+      "1. De Smet Jules"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Handicap",
+    "rijen": [
+     [
+      "1.",
+      "Europe: Vets Jelle"
+     ],
+     [
+      "2.",
+      "Laser: Heuninckx Walter"
+     ],
+     [
+      "3.",
+      "Laser: Heuninckx Aroen"
+     ],
+     [
+      "4.",
+      "Splash: Vets Seppe"
+     ],
+     [
+      "5.",
+      "Laser: Meyvaert Erwin"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Windsurfen",
+    "rijen": [
+     [
+      "1.",
+      "Vanden Baviére Luc"
+     ]
+    ],
+    "notities": []
+   }
+  ]
+ },
+ {
+  "datum": "2015-12-31",
+  "naam": "Regelmatigheidscriterium 2015",
+  "titel": "Regelmatigheidscriterium 2015",
+  "groepen": [
+   {
+    "klasse": "Jeugdklassement:",
+    "rijen": [
+     [
+      "1. Van Acker Matisse, 2. Karel De Smet, 3. Sander Aerts"
+     ],
+     [
+      "Volwassenen"
+     ],
+     [
+      "1. Erwin Meyvaert, 2. Walter Heuninckx, 3. Roger Molin"
+     ]
+    ],
+    "notities": []
+   }
+  ]
+ },
+ {
+  "datum": "2015-10-25",
+  "naam": "Beker Johan Devocht",
+  "titel": "Beker Johan Devocht: zondag 25 oktober 2015",
+  "groepen": [
+   {
+    "klasse": "Laser",
+    "rijen": [
+     [
+      "1.",
+      "David Nancy"
+     ],
+     [
+      "2.",
+      "Molin Roger"
+     ],
+     [
+      "3.",
+      "Dutrieu Philippe",
+      "Maris Dominique"
+     ],
+     [
+      "5.",
+      "Van Cauwenberge Joren"
+     ],
+     [
+      "6.",
+      "Desplenter Karel"
+     ],
+     [
+      "7.",
+      "Lambrecht William"
+     ],
+     [
+      "8.",
+      "Meyvaert Erwin"
+     ],
+     [
+      "9.",
+      "Heuninckx Aroen"
+     ],
+     [
+      "10.",
+      "Heuninckx Walter"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "R.S. Tera & Spirou",
+    "rijen": [
+     [
+      "1. Spirou: Vets Jorre"
+     ],
+     [
+      "2. Spirou : De Clercq Manu"
+     ],
+     [
+      "3. Spirou: De Clercq Noor"
+     ],
+     [
+      "4. Spirou: Van Hecke Warre",
+      "RS Tera: Van Acker Matisse"
+     ],
+     [
+      "6. RS Tera: Aerts Sander"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Optimist",
+    "rijen": [
+     [
+      "1.",
+      "De Clercq Rob"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Handicap",
+    "rijen": [
+     [
+      "1.",
+      "Europe: Vets Jelle"
+     ],
+     [
+      "2.",
+      "Splash: Van Der Vurst Warre",
+      "Splash: De Clercq Stef"
+     ],
+     [
+      "4.",
+      "Splash: Van Der Vurst Mirthe"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Windsurfen",
+    "rijen": [
+     [
+      "1.",
+      "Vanden Baviére Luc"
+     ]
+    ],
+    "notities": []
+   }
+  ]
+ },
+ {
+  "datum": "2015-10-04",
+  "naam": "Beker Directeur DDS",
+  "titel": "Beker Directeur DDS: zondag 4 oktober 2015.",
+  "groepen": [
+   {
+    "klasse": "In handicap",
+    "rijen": [
+     [
+      "1.",
+      "Laser: Heuninckx Walter"
+     ],
+     [
+      "2.",
+      "Laser: Molin Roger"
+     ],
+     [
+      "3.",
+      "Laser: David Nancy"
+     ],
+     [
+      "4.",
+      "Laser: Van Cauwenberge Joren"
+     ],
+     [
+      "5.",
+      "Laser: Lambrecht William"
+     ],
+     [
+      "6.",
+      "Laser: Desplenter Karel"
+     ],
+     [
+      "7.",
+      "Laser: Meyvaert Erwin"
+     ],
+     [
+      "8.",
+      "Laser: Vanden Baviére Hilde"
+     ],
+     [
+      "9.",
+      "Fireball: Bracke Xavier & Laurens"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "R.S. Tera",
+    "rijen": [
+     [
+      "1. De Smet Karel"
+     ],
+     [
+      "2. Van Acker Matisse"
+     ],
+     [
+      "3. Aerts Sander"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Optimist",
+    "rijen": [
+     [
+      "1.",
+      "Van Cauwenberge Maren"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Windsurfen",
+    "rijen": [
+     [
+      "1.",
+      "Vanden Baviére Luc"
+     ]
+    ],
+    "notities": []
+   }
+  ]
+ },
+ {
+  "datum": "2015-09-20",
+  "naam": "Mosselwedstrijd",
+  "titel": "Mosselwedstrijd: zondag 20 september 2015",
+  "groepen": [
+   {
+    "klasse": "Laser",
+    "rijen": [
+     [
+      "1.",
+      "Molin Roger"
+     ],
+     [
+      "2.",
+      "Maris Dominique"
+     ],
+     [
+      "3.",
+      "Heuninckx Walter"
+     ],
+     [
+      "4.",
+      "Meyvaert Erwin"
+     ],
+     [
+      "5.",
+      "Huylebroeck Samuel"
+     ],
+     [
+      "6.",
+      "Lambrecht William"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "R.S. Tera",
+    "rijen": [
+     [
+      "1. De Smet Karel"
+     ],
+     [
+      "2. De Clercq Glen"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Exq . De Clercq Stef – Optimist",
+    "rijen": [
+     [
+      "1.",
+      "De Clercq Rob"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Optimist",
+    "rijen": [
+     [
+      "1.",
+      "De Clercq Rob"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Splash",
+    "rijen": [
+     [
+      "1.",
+      "Van Acker Matisse"
+     ],
+     [
+      "2.",
+      "Aerts Sander"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Windsurfen",
+    "rijen": [
+     [
+      "1.",
+      "Vanden Baviére Luc"
+     ]
+    ],
+    "notities": []
+   }
+  ]
+ },
+ {
+  "datum": "2015-08-30",
+  "naam": "Starterswedstrijd",
+  "titel": "Starterswedstrijd: zondag 30 augustus 2015",
+  "groepen": [
+   {
+    "klasse": "Met handicapberekening",
+    "rijen": [
+     [
+      "1.",
+      "Europe: Vets Jelle"
+     ],
+     [
+      "2.",
+      "Laser: David Nancy"
+     ],
+     [
+      "3.",
+      "Laser: Molin Roger"
+     ],
+     [
+      "4.",
+      "Laser: Van Der Wilt Sophie"
+     ],
+     [
+      "5.",
+      "Laser: Maris Dominique"
+     ],
+     [
+      "6.",
+      "Laser: Hautekiet Mark"
+     ],
+     [
+      "7.",
+      "Laser: Meyvaert Erwin"
+     ],
+     [
+      "8.",
+      "Laser: Vanden Baviére Hilde"
+     ],
+     [
+      "9.",
+      "Splash: Devusser Mathis"
+     ],
+     [
+      "10.",
+      "Splash: Van Hee Too"
+     ],
+     [
+      "11.",
+      "Laser: Heuninckx Walter"
+     ],
+     [
+      "12.",
+      "Laser: Huylebroeck Samuel"
+     ],
+     [
+      "13.",
+      "Laser: Lambrecht William"
+     ],
+     [
+      "14.",
+      "Spanker: Fieremans Bernard en Arne"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "R.S. Tera – Ploeg ROOD",
+    "rijen": [
+     [
+      "1.",
+      "Aerts Sander"
+     ],
+     [
+      "2. Van Acker Matisse"
+     ],
+     [
+      "3.",
+      "De Clercq Stef"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Ploeg GROEN",
+    "rijen": [
+     [
+      "1.",
+      "Van Der Vurst Warre"
+     ],
+     [
+      "2.",
+      "Verschuere Julie"
+     ],
+     [
+      "3. Van Der Vurst Mirthe"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Optimist",
+    "rijen": [
+     [
+      "1.",
+      "Bombeke Flo"
+     ],
+     [
+      "1. Palmans Dorien"
+     ],
+     [
+      "3.",
+      "Blancke Jules"
+     ],
+     [
+      "4.",
+      "De Wilde Emile"
+     ],
+     [
+      "5.",
+      "De Clercq Rob"
+     ],
+     [
+      "6.",
+      "De Clercq Glen"
+     ],
+     [
+      "7.",
+      "Hensen Simon"
+     ],
+     [
+      "8.",
+      "Van Der Vurst Flin"
+     ],
+     [
+      "9.",
+      "Hensen Martha"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Windsurfen",
+    "rijen": [
+     [
+      "1.",
+      "Vergucht Laura-Maria"
+     ],
+     [
+      "2.",
+      "Mertens Wannes"
+     ],
+     [
+      "3.",
+      "Mertens Dries"
+     ],
+     [
+      "4.",
+      "Vanden Baviére Luc"
+     ]
+    ],
+    "notities": []
+   }
+  ]
+ },
+ {
+  "datum": "2015-06-28",
+  "naam": "Zomerwedstrijd",
+  "titel": "Zomerwedstrijd: zondag 28 juni 2015",
+  "groepen": [
+   {
+    "klasse": "Laser",
+    "rijen": [
+     [
+      "1.",
+      "Heuninckx Aroun"
+     ],
+     [
+      "2.",
+      "Molin Roger"
+     ],
+     [
+      "3.",
+      "David Nan"
+     ],
+     [
+      "4.",
+      "Alençon Patrick"
+     ],
+     [
+      "5.",
+      "Meyvaert Erwin"
+     ],
+     [
+      "6.",
+      "Desplenter Karel"
+     ],
+     [
+      "7.",
+      "Vanden Baviére Hilde"
+     ],
+     [
+      "8.",
+      "Huylebroeck Samuel"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "R.S. Tera",
+    "rijen": [
+     [
+      "1. De Smet Karel"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Windsurfen",
+    "rijen": [
+     [
+      "1.",
+      "Vergucht Laura-Maria"
+     ],
+     [
+      "2.",
+      "Van Cauwenberge Maren"
+     ],
+     [
+      "3.",
+      "De Bock Lotte"
+     ],
+     [
+      "4.",
+      "Van Der Borght Raf"
+     ],
+     [
+      "5.",
+      "Van Der Borght Andert"
+     ],
+     [
+      "6.",
+      "Van Der Borght Aagje"
+     ]
+    ],
+    "notities": []
+   }
+  ]
+ },
+ {
+  "datum": "2015-06-07",
+  "naam": "Beker NWV",
+  "titel": "Beker NWV: zondag 7 juni 2015",
+  "groepen": [
+   {
+    "klasse": "Laser",
+    "rijen": [
+     [
+      "1.",
+      "Heuninckx Walter"
+     ],
+     [
+      "2.",
+      "Bracke Xavier"
+     ],
+     [
+      "3.",
+      "Molin Roger"
+     ],
+     [
+      "4.",
+      "De Beelde Brecht"
+     ],
+     [
+      "5.",
+      "Van Cauwenberge Jan"
+     ],
+     [
+      "6.",
+      "Meyvaert Erwin"
+     ],
+     [
+      "7.",
+      "Vanden Baviére Hilde"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "R.S. Tera",
+    "rijen": [
+     [
+      "1. Van Acker Matisse"
+     ],
+     [
+      "2. Aerts Sander"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Spirou",
+    "rijen": [
+     [
+      "1.",
+      "Vets Jorre"
+     ],
+     [
+      "2.",
+      "De Clercq Noor"
+     ],
+     [
+      "2.",
+      "Van Hecke Warre"
+     ],
+     [
+      "4.",
+      "Van Cauwenberge Joren"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Windsurfen",
+    "rijen": [
+     [
+      "1.",
+      "Van Cauwenberge Maren"
+     ],
+     [
+      "2.",
+      "Ven Der Borght Andert"
+     ],
+     [
+      "3.",
+      "Van Der Borght Aagje"
+     ],
+     [
+      "4.",
+      "Van Der Borght Raf"
+     ],
+     [
+      "5.",
+      "Vanden Baviére Luc"
+     ]
+    ],
+    "notities": []
+   }
+  ]
+ },
+ {
+  "datum": "2015-05-10",
+  "naam": "Voorjaarswedstrijd",
+  "titel": "Voorjaarswedstrijd: zondag 10 mei 2015",
+  "groepen": [
+   {
+    "klasse": "Eénmansboten",
+    "rijen": [
+     [
+      "1. Heuninckx Walter",
+      "(Laser)"
+     ],
+     [
+      "2. Meyvaert Erwin",
+      "(Laser)"
+     ],
+     [
+      "3. Van Der Wilt Sophie",
+      "(Laser)"
+     ],
+     [
+      "4. Vanden Baviére Erika",
+      "(Laser Radial)"
+     ],
+     [
+      "5. Alençon Patrick",
+      "(Laser)"
+     ],
+     [
+      "6. Desplenter Karel",
+      "(Splash)"
+     ],
+     [
+      "7. Vanden Baviére Hilde",
+      "(Laser)"
+     ],
+     [
+      "8. Cammerman Werner",
+      "(Laser)"
+     ],
+     [
+      "9. Palmans Nicolas",
+      "(Schakel)"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "R.S. Tera",
+    "rijen": [
+     [
+      "1. De Smet Karel"
+     ],
+     [
+      "2. Van Acker Matisse"
+     ],
+     [
+      "3. Aerts Sander"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Windsurfen",
+    "rijen": [
+     [
+      "1. Vanden Baviére Luc"
+     ]
+    ],
+    "notities": []
+   }
+  ]
+ },
+ {
+  "datum": "2015-04-26",
+  "naam": "Openingswedstrijd",
+  "titel": "Openingswedstrijd: zondag 26 april 2015",
+  "groepen": [
+   {
+    "klasse": "éénmansboten – Europe",
+    "rijen": [
+     [
+      "1.",
+      "Vets Jelle"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Laser",
+    "rijen": [
+     [
+      "2.",
+      "Heuninckx Aroen"
+     ],
+     [
+      "3.",
+      "Heuninckx Walter"
+     ],
+     [
+      "4.",
+      "Van Der Wilt Sofie"
+     ],
+     [
+      "5.",
+      "Van Cauwenberge Jan"
+     ],
+     [
+      "6.",
+      "Meyvaert Erwin"
+     ],
+     [
+      "7.",
+      "Cammerman Werner"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Laser",
+    "rijen": [
+     [
+      "2.",
+      "Heuninckx Aroen"
+     ],
+     [
+      "3.",
+      "Heuninckx Walter"
+     ],
+     [
+      "4.",
+      "Van Der Wilt Sofie"
+     ],
+     [
+      "5.",
+      "Van Cauwenberge Jan"
+     ],
+     [
+      "6.",
+      "Meyvaert Erwin"
+     ],
+     [
+      "7.",
+      "Cammerman Werner"
+     ],
+     [
+      "3.",
+      "Heuninckx Walter"
+     ],
+     [
+      "4.",
+      "Van Der Wilt Sofie"
+     ],
+     [
+      "5.",
+      "Van Cauwenberge Jan"
+     ],
+     [
+      "6.",
+      "Meyvaert Erwin"
+     ],
+     [
+      "7.",
+      "Cammerman Werner"
+     ],
+     [
+      "4.",
+      "Van Der Wilt Sofie"
+     ],
+     [
+      "5.",
+      "Van Cauwenberge Jan"
+     ],
+     [
+      "6.",
+      "Meyvaert Erwin"
+     ],
+     [
+      "7.",
+      "Cammerman Werner"
+     ],
+     [
+      "5.",
+      "Van Cauwenberge Jan"
+     ],
+     [
+      "6.",
+      "Meyvaert Erwin"
+     ],
+     [
+      "7.",
+      "Cammerman Werner"
+     ],
+     [
+      "6.",
+      "Meyvaert Erwin"
+     ],
+     [
+      "7.",
+      "Cammerman Werner"
+     ],
+     [
+      "7.",
+      "Cammerman Werner"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "R.S. Tera",
+    "rijen": [
+     [
+      "1.",
+      "De Smet Karel"
+     ],
+     [
+      "2.",
+      "Van Acker Matisse"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Tweemansboten",
+    "rijen": [
+     [
+      "1.",
+      "De Lausnay William",
+      "(Eikplast)"
+     ],
+     [
+      "2.",
+      "Palmans Nicolas",
+      "(Schakel)"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Windsurfen",
+    "rijen": [
+     [
+      "1. Vanden Baviére Luc"
+     ]
+    ],
+    "notities": []
+   }
+  ]
+ },
+ {
+  "datum": "2014-10-26",
+  "naam": "Beker Johan Devocht",
+  "titel": "Beker Johan Devocht: zondag 26 oktober 2014",
+  "groepen": [
+   {
+    "klasse": "Optimist",
+    "rijen": [
+     [
+      "1. Aerts Sander"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Spirou",
+    "rijen": [
+     [
+      "1.",
+      "Vets Jorre"
+     ],
+     [
+      "2.",
+      "De Clercq Manu"
+     ],
+     [
+      "3.",
+      "De Clercq Noor"
+     ],
+     [
+      "4.",
+      "Van Cauwenberge Joren"
+     ],
+     [
+      "2.",
+      "De Clercq Manu"
+     ],
+     [
+      "3.",
+      "De Clercq Noor"
+     ],
+     [
+      "4.",
+      "Van Cauwenberge Joren"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Handicap",
+    "rijen": [
+     [
+      "5.",
+      "Europe: Vets Jelle"
+     ],
+     [
+      "6.",
+      "Splash: Vets Seppe"
+     ],
+     [
+      "7.",
+      "Fireball: Jan & Hans Poppe"
+     ],
+     [
+      "8.",
+      "470: De Beelde Brecht & Muylaert Jan"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Laser",
+    "rijen": [
+     [
+      "1.",
+      "Heuninckx Walter"
+     ],
+     [
+      "2.",
+      "Heuninckx Aroen"
+     ],
+     [
+      "3.",
+      "David Nancy"
+     ],
+     [
+      "4.",
+      "Bracke Laurens"
+     ],
+     [
+      "5.",
+      "Vanden Baviére Erika"
+     ],
+     [
+      "6.",
+      "Meyvaert Erwin"
+     ],
+     [
+      "7.",
+      "Van Cauwenberge Jan"
+     ],
+     [
+      "8.",
+      "Vanden Baviére Hilde"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Windsurfen",
+    "rijen": [
+     [
+      "1. Vanden Baviére Luc"
+     ],
+     [
+      "2. Van Cauwenberge Maren"
+     ]
+    ],
+    "notities": []
+   }
+  ]
+ },
+ {
+  "datum": "2014-09-28",
+  "naam": "Beker directeur DDS",
+  "titel": "Beker directeur DDS: zondag 28 september 2014",
+  "groepen": [
+   {
+    "klasse": "Optimist",
+    "rijen": [
+     [
+      "1. Van Acker Matisse"
+     ],
+     [
+      "2. Reyntens Laurence"
+     ],
+     [
+      "3. Aerts Sander"
+     ],
+     [
+      "4. Verwaeren Delfiene"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Op handicap",
+    "rijen": [
+     [
+      "1.",
+      "L: Heuninckx Walter"
+     ],
+     [
+      "2.",
+      "L: Molin Roger"
+     ],
+     [
+      "3.",
+      "L: De Beelde Brecht"
+     ],
+     [
+      "4.",
+      "L: Heuninckx Aroen"
+     ],
+     [
+      "5.",
+      "L: Maris Dominique"
+     ],
+     [
+      "6.",
+      "L: Vanden Baviére Erika"
+     ],
+     [
+      "7.",
+      "L: David Nancy"
+     ],
+     [
+      "8.",
+      "L: Meyvaert Erwin"
+     ],
+     [
+      "9.",
+      "L: Desplenter Karel"
+     ],
+     [
+      "10. Splash: Van Hecke Warre"
+     ],
+     [
+      "11. RS Tera: De Smet Karel"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Windsurfen",
+    "rijen": [
+     [
+      "1. Vergucht Laura-Maria"
+     ],
+     [
+      "2. Vanden Baviére Luc"
+     ]
+    ],
+    "notities": []
+   }
+  ]
+ },
+ {
+  "datum": "2014-09-14",
+  "naam": "Mosselwedstrijd",
+  "titel": "Mosselwedstrijd: zondag 14 september 2014",
+  "groepen": [
+   {
+    "klasse": "Optimist",
+    "rijen": [
+     [
+      "1. Verschuere Julie"
+     ],
+     [
+      "2. Van Acker Matisse"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Op handicap",
+    "rijen": [
+     [
+      "1. Walter"
+     ],
+     [
+      "2. Roger"
+     ],
+     [
+      "3. Aroun"
+     ],
+     [
+      "4. Erika"
+     ],
+     [
+      "5. Sofie"
+     ],
+     [
+      "6. Patrick"
+     ],
+     [
+      "7. Geert"
+     ],
+     [
+      "8. Nancy"
+     ],
+     [
+      "9. Erwin"
+     ],
+     [
+      "10. Karel"
+     ],
+     [
+      "11. Dominique"
+     ],
+     [
+      "12. Seppe"
+     ],
+     [
+      "13. Hilde"
+     ],
+     [
+      "14. Vincent"
+     ],
+     [
+      "15. Eric - Axelle"
+     ],
+     [
+      "16. Warre"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Windsurfen",
+    "rijen": [
+     [
+      "1. De Maesschalck Sara"
+     ],
+     [
+      "2. Vergucht Laura-Maria"
+     ],
+     [
+      "3. Vanden Baviére Luc"
+     ]
+    ],
+    "notities": []
+   }
+  ]
+ },
+ {
+  "datum": "2014-08-31",
+  "naam": "Starterswedstrijd",
+  "titel": "Starterswedstrijd: zondag 31 augustus 2014",
+  "groepen": [
+   {
+    "klasse": "Optimist",
+    "rijen": [
+     [
+      "1. Vermeiren Stef"
+     ],
+     [
+      "2. Kerre Floren"
+     ],
+     [
+      "3. Tacq Pieter-Jan"
+     ],
+     [
+      "4. D'Heer Tibeau"
+     ],
+     [
+      "5. Van Acker Matisse"
+     ],
+     [
+      "6. Van Der Vurst Warre"
+     ],
+     [
+      "7. Van Der Vurst Flin"
+     ],
+     [
+      "8. Aerts Sander"
+     ],
+     [
+      "9. Van Der Vurst Mirthe"
+     ],
+     [
+      "10. Palmans Dorien"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Spirou en RS Tera",
+    "rijen": [
+     [
+      "1. De Clercq Manu"
+     ],
+     [
+      "2. Vets Jorre"
+     ],
+     [
+      "3. De Smet Karel"
+     ],
+     [
+      "4. Van Cauwenberg Joren"
+     ],
+     [
+      "5. De Clercq Noor"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Op handicap",
+    "rijen": [
+     [
+      "1. Walter"
+     ],
+     [
+      "2. Xavier"
+     ],
+     [
+      "3. Jelle"
+     ],
+     [
+      "4. Roger"
+     ],
+     [
+      "5. Sofie"
+     ],
+     [
+      "6. Aroen"
+     ],
+     [
+      "7. Nancy"
+     ],
+     [
+      "8. Samuel"
+     ],
+     [
+      "9. Erwin"
+     ],
+     [
+      "10. Jan"
+     ],
+     [
+      "11.",
+      "Xander"
+     ],
+     [
+      "12.",
+      "Dominique"
+     ],
+     [
+      "13.",
+      "Seppe"
+     ],
+     [
+      "14.",
+      "Warre"
+     ],
+     [
+      "15.",
+      "Werner"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Windsurfen",
+    "rijen": [
+     [
+      "1. D'Heer Mathieu"
+     ],
+     [
+      "2. Van Cauwenberg Maren"
+     ],
+     [
+      "3. D'Heer Jan"
+     ],
+     [
+      "4. Vergucht Laura-Maria"
+     ],
+     [
+      "5. Vanden Baviére Luc"
+     ]
+    ],
+    "notities": []
+   }
+  ]
+ },
+ {
+  "datum": "2014-06-29",
+  "naam": "Zomerbeker",
+  "titel": "Zomerbeker: zondag 29 juni 2014",
+  "groepen": [
+   {
+    "klasse": "Optimist",
+    "rijen": [
+     [
+      "1. Karel De Smet"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Op handicap",
+    "rijen": [
+     [
+      "1. Laser: Roger Molin"
+     ],
+     [
+      "2. Laser: Samuel Huylebroeck"
+     ],
+     [
+      "3. Laser: Patrick Alençon"
+     ],
+     [
+      "4. Laser: Erwin Meyvaert"
+     ],
+     [
+      "5. Splash: Karel De Slenter"
+     ],
+     [
+      "6. Splash: Pieter Gabriél"
+     ]
+    ],
+    "notities": []
+   }
+  ]
+ },
+ {
+  "datum": "2014-06-15",
+  "naam": "Beker NWV 2014",
+  "titel": "Beker NWV 2014: zondag 15 juni 2014",
+  "groepen": [
+   {
+    "klasse": "Spirou",
+    "rijen": [
+     [
+      "1. Jorre Vets"
+     ],
+     [
+      "2. Noor De Clercq"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Laser",
+    "rijen": [
+     [
+      "1. Walter Heuninckx"
+     ],
+     [
+      "2. Brecht De Beelde"
+     ],
+     [
+      "3. Roger Molin"
+     ],
+     [
+      "4. Patrick Alençon"
+     ],
+     [
+      "5. Erwin Meyvaert"
+     ],
+     [
+      "6. Hilde Vanden Baviére"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Surfer",
+    "rijen": [
+     [
+      "1. Luc Vanden Baviére"
+     ]
+    ],
+    "notities": []
+   }
+  ]
+ },
+ {
+  "datum": "2014-04-27",
+  "naam": "Openingswedstrijd NWV 2014",
+  "titel": "Openingswedstrijd NWV 2014: zondag 27 april 2014",
+  "groepen": [
+   {
+    "klasse": "Spirou",
+    "rijen": [
+     [
+      "1. Manu De Clercq"
+     ],
+     [
+      "2. Jorre Vets"
+     ],
+     [
+      "3. Joren Van Cauwenberghe"
+     ],
+     [
+      "4. Noor De Clercq"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Laser, Splash, Europe",
+    "rijen": [
+     [
+      "1. Walter Heuninckx",
+      "(Laser)"
+     ],
+     [
+      "2. Jelle Vets",
+      "(Europe)"
+     ],
+     [
+      "3. Roger Molin",
+      "(Laser)"
+     ],
+     [
+      "4. Aroen Heuninckx",
+      "(Laser)"
+     ],
+     [
+      "5. Samuel Huylebroeck",
+      "(Laser)"
+     ],
+     [
+      "6. Seppe Vets",
+      "(Splash)"
+     ],
+     [
+      "7. Jan Van Cauwenberghe (Laser)"
+     ],
+     [
+      "8. Karel Desplenter",
+      "(Splash)"
+     ],
+     [
+      "9. Werner Cammermans",
+      "(Laser)"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Surfer",
+    "rijen": [
+     [
+      "1. Luc Vanden Baviére"
+     ]
+    ],
+    "notities": []
+   }
+  ]
+ },
+ {
+  "datum": "2013-10-20",
+  "naam": "Beker Voorzitter NWV",
+  "titel": "Beker Voorzitter NWV: zondag 20 oktober 2013",
+  "groepen": [
+   {
+    "klasse": "Optimist",
+    "rijen": [
+     [
+      "1. Jorre Vets"
+     ],
+     [
+      "2. Joren Van Cauwenberghe"
+     ],
+     [
+      "3. Manu De Clercq"
+     ],
+     [
+      "4. Noor De Clercq"
+     ],
+     [
+      "5. Warre Van Hecke"
+     ],
+     [
+      "6. Maren Van Cauwenberghe"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Laser",
+    "rijen": [
+     [
+      "1. Walter Heuninckx"
+     ],
+     [
+      "2. Xavier Bracke"
+     ],
+     [
+      "3. Aroen Heuninckx"
+     ],
+     [
+      "4. Nancy David"
+     ],
+     [
+      "5. Roger Molin"
+     ],
+     [
+      "6. Geert"
+     ],
+     [
+      "7. Laurens Bracke"
+     ],
+     [
+      "8. Samuel Huylebroeck"
+     ],
+     [
+      "9. Erwin Meyvaert"
+     ],
+     [
+      "10. Jan Van Cauwenberghe"
+     ],
+     [
+      "11. Louis Dierickx"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Handicap",
+    "rijen": [
+     [
+      "1. Jan & Hans Poppe"
+     ],
+     [
+      "2. Jelle Vets"
+     ],
+     [
+      "3. Manuel Van Royen"
+     ],
+     [
+      "4. Seppe Vets"
+     ],
+     [
+      "5. Diane Krekels"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Surfer",
+    "rijen": [
+     [
+      "1. Luc Vanden Baviére"
+     ]
+    ],
+    "notities": []
+   }
+  ]
+ },
+ {
+  "datum": "2013-09-30",
+  "naam": "Beker Directeur DDS",
+  "titel": "Beker Directeur DDS: zondag 30 september 2013",
+  "groepen": [
+   {
+    "klasse": "Optimist",
+    "rijen": [
+     [
+      "1. Jorre Vets"
+     ],
+     [
+      "2. Joren Van Cauwenberghe"
+     ],
+     [
+      "3. Warre Van Hecke"
+     ],
+     [
+      "4. Karel De Smet"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Boten",
+    "rijen": [
+     [
+      "1. Walter Heuninckx (Laser)"
+     ],
+     [
+      "2. Roger Molin (Laser)"
+     ],
+     [
+      "3. Aroen Heuninckx (Laser)"
+     ],
+     [
+      "4. Jelle Vets (Splash)"
+     ],
+     [
+      "5. Erwin Meyvaert (Laser)"
+     ],
+     [
+      "6. Seppe Vets (Splash)"
+     ],
+     [
+      "7. Samuel Huylebroeck",
+      "(Laser)"
+     ],
+     [
+      "8. Jan Van Cauwenberghe (Laser))"
+     ],
+     [
+      "9. Patrick Alencon (Laser)"
+     ],
+     [
+      "10. Werner Cammerman (Laser)"
+     ],
+     [
+      "11. Hilde Van Den Baviére(Laser)"
+     ],
+     [
+      "12. Karel (Laser)"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Surfers",
+    "rijen": [
+     [
+      "1. Luc Van Den Baviére"
+     ],
+     [
+      "2. Maren Van Cauwenberghe"
+     ]
+    ],
+    "notities": []
+   }
+  ]
+ },
+ {
+  "datum": "2013-09-15",
+  "naam": "Mosselwedstrijd",
+  "titel": "Mosselwedstrijd: zondag 15 september 2013",
+  "groepen": [
+   {
+    "klasse": "Optimist",
+    "rijen": [
+     [
+      "1. Joren Van Cauwenberghe"
+     ],
+     [
+      "2. Jorre Vets"
+     ],
+     [
+      "3. Karel De Smet"
+     ],
+     [
+      "4. Floren Kerre"
+     ],
+     [
+      "5. Noor De Clercq"
+     ],
+     [
+      "6. Warre Van Hecke"
+     ],
+     [
+      "7. Manu De Clercq"
+     ],
+     [
+      "8. Stef De Clercq"
+     ],
+     [
+      "9. Hannelore Kerre"
+     ],
+     [
+      "10. Pablo De Vriese"
+     ],
+     [
+      "11. Glen De Clercq"
+     ],
+     [
+      "12. Warre Van Der Vurst"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Boten",
+    "rijen": [
+     [
+      "1. Xavier Bracke (Laser)"
+     ],
+     [
+      "2. Roger Molin (Laser)"
+     ],
+     [
+      "3. Aroen Heuninckx (Laser)"
+     ],
+     [
+      "4. Nancy David (Laser)"
+     ],
+     [
+      "5. Walter Heuninckx (Laser)"
+     ],
+     [
+      "6. Seppe Vets (Splash)"
+     ],
+     [
+      "7. Samuel Huylebroeck",
+      "(Laser)"
+     ],
+     [
+      "8. Erwin Meyvaert (Laser)"
+     ],
+     [
+      "9. Xander Kerre (Splash)"
+     ],
+     [
+      "10. Jelle Vets & Dominique Maris (420)"
+     ],
+     [
+      "11. Patrick Alencon (Laser)"
+     ],
+     [
+      "12. Jan Van Cauwenberghe (Laser)"
+     ],
+     [
+      "13. Louis Dierickx (Splash)"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Surfers",
+    "rijen": [
+     [
+      "1. Luc Van Den Baviére"
+     ]
+    ],
+    "notities": []
+   }
+  ]
+ },
+ {
+  "datum": "2013-09-01",
+  "naam": "Starterswedstrijd",
+  "titel": "Starterswedstrijd: zondag 1 september 2013",
+  "groepen": [
+   {
+    "klasse": "Optimist",
+    "rijen": [
+     [
+      "1. Joren Van Cauwenberghe"
+     ],
+     [
+      "2. Karel De Smet"
+     ],
+     [
+      "3. Manu De Clercq"
+     ],
+     [
+      "4. Hannelore Kerre"
+     ],
+     [
+      "5. Floren Kerre"
+     ],
+     [
+      "6. Thomas Mys"
+     ],
+     [
+      "7. Warre Van Hecke"
+     ],
+     [
+      "8. Noor De Clercq"
+     ],
+     [
+      "9. Stef De Clercq"
+     ],
+     [
+      "10. Too Van Hee"
+     ],
+     [
+      "11. Pablo De Vriese"
+     ],
+     [
+      "12. Warre Van Hecke"
+     ],
+     [
+      "13. Mirthe Van Hecke"
+     ],
+     [
+      "14. Xander Bourgoy"
+     ],
+     [
+      "15. Sander Aerts"
+     ],
+     [
+      "16. Glen De Clercq"
+     ],
+     [
+      "17. Flin Van Der Vurst"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Boten",
+    "rijen": [
+     [
+      "1. Xavier Bracke (Laser)"
+     ],
+     [
+      "2. Roger Molin (Laser)"
+     ],
+     [
+      "3. Brecht De Beelde (Laser)"
+     ],
+     [
+      "4. Walter Heuninckx (Laser)"
+     ],
+     [
+      "5. Sophie Van Der Wilt (Laser)"
+     ],
+     [
+      "6. Jelle Vets (Europe)"
+     ],
+     [
+      "7. Aroen Heuninckx (Laser)"
+     ],
+     [
+      "8. Werner Cammerman (Laser)"
+     ],
+     [
+      "9. Patrick Alencon (Laser)"
+     ],
+     [
+      "10. Xander Kerre (Splash)"
+     ],
+     [
+      "11. Seppe Vets (Splash)"
+     ],
+     [
+      "12. Jan Van Cauwenberghe (Laser)"
+     ],
+     [
+      "13. Dominique Maris (Laser Radial)"
+     ],
+     [
+      "14. Emmanuel De Leenheer (Contender)"
+     ],
+     [
+      "15. Jan Muylaert/Frank Michta (470)"
+     ],
+     [
+      "16. Jorre Vets (Spirou)"
+     ],
+     [
+      "17. Maj Van Hee (Splash)"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Surfers",
+    "rijen": [
+     [
+      "1. Maren Van Cauwenberghe"
+     ],
+     [
+      "1. Luc Van Den Baviére"
+     ]
+    ],
+    "notities": []
+   }
+  ]
+ },
+ {
+  "datum": "2013-06-02",
+  "naam": "Beker NWV",
+  "titel": "Beker NWV: zondag 2 juni 2013",
+  "groepen": [
+   {
+    "klasse": "Optimist",
+    "rijen": [
+     [
+      "1. Joren Van Cauwenberghe"
+     ],
+     [
+      "2. Floren Kerre"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Boten",
+    "rijen": [
+     [
+      "1. Jelle Vets"
+     ],
+     [
+      "2. Erwin Meyvaert"
+     ],
+     [
+      "3. Patrick Alencon"
+     ],
+     [
+      "4. Jan Muylaert/Brecht De Beelde"
+     ],
+     [
+      "5. Werner Cammerman"
+     ],
+     [
+      "6. Jan Van Cauwenberghe"
+     ],
+     [
+      "7. Louis Dierickx"
+     ],
+     [
+      "8. Emmanuel De Leenheer"
+     ],
+     [
+      "9. Jorre Vets"
+     ],
+     [
+      "10. Seppe Vets"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Surfer",
+    "rijen": [
+     [
+      "1. Florence Props"
+     ]
+    ],
+    "notities": []
+   }
+  ]
+ },
+ {
+  "datum": "2013-05-05",
+  "naam": "Voorjaarswedstrijd",
+  "titel": "Voorjaarswedstrijd: zondag 5 mei 2013",
+  "groepen": [
+   {
+    "klasse": "",
+    "rijen": [
+     [
+      "1. Roger Molin (laser)"
+     ],
+     [
+      "2. Laurens/Xavier Bracke (laser)"
+     ],
+     [
+      "3. Erwin Meyvaert (laser)"
+     ],
+     [
+      "4. Jelle Vets (splash)"
+     ],
+     [
+      "5. Werner Cammerman (laser)"
+     ],
+     [
+      "6. Jorre Vets (spirou)"
+     ],
+     [
+      "7. Seppe Vets (splash)"
+     ],
+     [
+      "8. Jan Muylaert (470)"
+     ]
+    ],
+    "notities": []
+   }
+  ]
+ },
+ {
+  "datum": "2013-04-21",
+  "naam": "Openingswedstrijd",
+  "titel": "Openingswedstrijd: zondag 21 april 2013",
+  "groepen": [
+   {
+    "klasse": "Optimist",
+    "rijen": [
+     [
+      "1. Joren Van Cauwenberghe"
+     ],
+     [
+      "2. Warre Van Hecke"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Laser",
+    "rijen": [
+     [
+      "1. Xavier Bracke"
+     ],
+     [
+      "2. Roger Molin"
+     ],
+     [
+      "3. Brecht De Beelde"
+     ],
+     [
+      "4. Patrick Alencon"
+     ],
+     [
+      "5. Sophie Van Der Wilt"
+     ],
+     [
+      "6. Laurens Bracke"
+     ],
+     [
+      "7. Jan Van Cauwenberghe"
+     ],
+     [
+      "8. Erwin Meyvaert"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Splash/Spirou",
+    "rijen": [
+     [
+      "1. Jelle Vets"
+     ],
+     [
+      "2. Seppe Vets"
+     ],
+     [
+      "3. Jorre Vets"
+     ]
+    ],
+    "notities": []
+   },
+   {
+    "klasse": "Surfers",
+    "rijen": [
+     [
+      "1. Vince Dobbelaere"
+     ],
+     [
+      "2. Luc Vanden Baviére"
+     ]
+    ],
+    "notities": []
+   }
+  ]
+ }
+]

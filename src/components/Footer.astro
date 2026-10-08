@@ -1,0 +1,221 @@
+---
+import Logo from './Logo.astro';
+import Icon from './Icon.astro';
+import { site } from '../data/site';
+const jaar = new Date().getFullYear();
+---
+<footer class="site-footer">
+  <svg class="footer-wave" viewBox="0 0 1440 60" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M0,32 C240,64 480,0 720,24 C960,48 1200,16 1440,36 L1440,60 L0,60 Z" fill="currentColor"></path>
+  </svg>
+  <div class="footer-main">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="/" class="footer-logo">
+          <Logo size={52} />
+          <span>
+            <strong>NWV Berlare</strong>
+            <small>{site.vzw}</small>
+          </span>
+        </a>
+        <p>{site.beschrijving}</p>
+        <div class="social">
+          <a href={site.social.facebook} aria-label="Facebook" rel="noopener" target="_blank"><Icon name="facebook" /></a>
+          <a href={site.social.instagram} aria-label="Instagram" rel="noopener" target="_blank"><Icon name="instagram" /></a>
+        </div>
+      </div>
+
+      <div>
+        <h2 class="footer-title">Contact</h2>
+        <ul class="footer-list">
+          <li><Icon name="pin" size={18} /><span>{site.adres.domein}<br />{site.adres.straat}<br />{site.adres.postcode} {site.adres.gemeente}</span></li>
+          <li><Icon name="mail" size={18} /><a href={`mailto:${site.email.algemeen}`}>{site.email.algemeen}</a></li>
+          <li><Icon name="phone" size={18} /><span>Jeugd & kampen: <a href={`tel:${site.jeugdverantwoordelijke.gsmLink}`}>{site.jeugdverantwoordelijke.gsm}</a></span></li>
+        </ul>
+      </div>
+
+      <div>
+        <h2 class="footer-title">Snel naar</h2>
+        <ul class="footer-links">
+          <li><a href="/zeilschool/zomerkampen/">Zomerkampen</a></li>
+          <li><a href="/zeilschool/jeugdtrainingen/">Jeugdtrainingen</a></li>
+          <li><a href="/club/lid-worden/">Lid worden</a></li>
+          <li><a href="/wedstrijden/uitslagen/">Uitslagen</a></li>
+          <li><a href="/media/">Foto’s & video’s</a></li>
+          <li><a href="/contact/route/">Route</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h2 class="footer-title">Erkend door</h2>
+        <div class="labels">
+          <a href="https://www.wwsv.be/nl/kwaliteitslabels" rel="noopener" target="_blank">
+            <img src="/media/logo/label-scholingsclub-2025.png" alt="Erkende scholings- en trainingsclub 2025 – Wind & Watersport Vlaanderen" width="300" height="129" loading="lazy" />
+          </a>
+          <a href="https://www.wwsv.be/nl/kwaliteitslabels" rel="noopener" target="_blank">
+            <img src="/media/logo/label-wwsv-club.png" alt="Erkende WWSV-club" width="300" height="130" loading="lazy" />
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container footer-bottom-inner">
+      <p>© 2012–{jaar} {site.vzw} · ondernemingsnr. {site.ondernemingsnummer}</p>
+      <p class="footer-legal">
+        <a href="/privacy/">Privacyverklaring</a>
+        <a href="/cookies/">Cookies</a>
+        <a href={`mailto:${site.email.webbeheer}`}>Webbeheer</a>
+      </p>
+    </div>
+    <div class="container">
+      <p class="footer-gdpr">
+        Op deze site verschijnt beeldmateriaal dat tijdens onze activiteiten werd gemaakt. Wens je niet dat een foto van jou of je kind
+        online staat? Laat het ons weten via <a href={`mailto:${site.email.webbeheer}`}>{site.email.webbeheer}</a>, dan verwijderen we ze.
+      </p>
+    </div>
+  </div>
+</footer>
+
+<style>
+  .site-footer {
+    position: relative;
+    color: #c9d2ea;
+    margin-top: 0;
+  }
+  .footer-wave {
+    display: block;
+    width: 100%;
+    height: 40px;
+    color: var(--navy-950);
+    margin-bottom: -1px;
+  }
+  .footer-main {
+    background: var(--navy-950);
+    padding-block: 2.5rem 3rem;
+  }
+  .footer-grid {
+    display: grid;
+    gap: 2.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  }
+  .footer-brand {
+    grid-column: span 1;
+  }
+  @media (min-width: 1000px) {
+    .footer-grid {
+      grid-template-columns: 1.5fr 1fr 0.8fr 1fr;
+    }
+  }
+  .footer-logo {
+    display: flex;
+    gap: 0.75rem;
+    align-items: center;
+    text-decoration: none;
+    color: var(--white);
+    margin-bottom: 1rem;
+  }
+  .footer-logo span {
+    display: grid;
+    line-height: 1.2;
+  }
+  .footer-logo strong {
+    font-family: var(--font-display);
+    font-size: 1.3rem;
+  }
+  .footer-logo small {
+    color: #9eabd0;
+    font-size: 0.8rem;
+  }
+  .footer-brand p {
+    font-size: 0.95rem;
+    max-width: 42ch;
+  }
+  .footer-title {
+    font-size: 0.85rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--yellow-400);
+    margin-bottom: 1rem;
+  }
+  .footer-list,
+  .footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: 0.7rem;
+    font-size: 0.95rem;
+  }
+  .footer-list li {
+    display: flex;
+    gap: 0.6rem;
+    align-items: flex-start;
+  }
+  .footer-list :global(svg) {
+    flex: none;
+    margin-top: 0.2rem;
+    color: var(--yellow-400);
+  }
+  .site-footer a {
+    color: #e7ecf9;
+    text-decoration: none;
+  }
+  .site-footer a:hover {
+    color: var(--yellow-300);
+    text-decoration: underline;
+  }
+  .social {
+    display: flex;
+    gap: 0.6rem;
+  }
+  .social a {
+    display: grid;
+    place-items: center;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background: rgb(255 255 255 / 0.08);
+    border: 1px solid rgb(255 255 255 / 0.15);
+  }
+  .social a:hover {
+    background: var(--yellow-400);
+    color: var(--navy-950);
+  }
+  .labels {
+    display: grid;
+    gap: 0.75rem;
+    max-width: 220px;
+  }
+  .labels img {
+    background: var(--white);
+    border-radius: var(--radius-sm);
+    padding: 0.4rem;
+  }
+  .footer-bottom {
+    background: #070e26;
+    padding-block: 1.2rem;
+    font-size: 0.85rem;
+    color: #95a1c4;
+  }
+  .footer-bottom p {
+    margin: 0;
+  }
+  .footer-bottom-inner {
+    display: flex;
+    gap: 0.5rem 1.5rem;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .footer-legal {
+    display: flex;
+    gap: 1.2rem;
+    flex-wrap: wrap;
+  }
+  .footer-gdpr {
+    margin-top: 0.75rem !important;
+    font-size: 0.8rem;
+    color: #7f8cb3;
+    max-width: 110ch;
+  }
+</style>

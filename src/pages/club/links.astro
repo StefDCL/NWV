@@ -1,0 +1,55 @@
+---
+import Base from '../../layouts/Base.astro';
+import PageHero from '../../components/PageHero.astro';
+import Icon from '../../components/Icon.astro';
+import { links, partners } from '../../data/club';
+---
+<Base title="Handige links" description="Federaties, weer en wind, theorie en andere nuttige links voor zeilers.">
+  <PageHero title="Handige links" eyebrow="Club" lead="Federaties, weer en wind, theorie en nog veel meer." image="/media/site/hero-4.webp" crumbs={[{ label: 'Club', href: '/club/' }, { label: 'Links' }]} />
+  <section class="section">
+    <div class="container">
+      <div class="grid grid-2">
+        {links.map((g) => (
+          <div class="panel">
+            <h2 class="h3">{g.groep}</h2>
+            <ul class="link-list">
+              {g.items.map((l) => (
+                <li><a href={l.url} rel="noopener" target="_blank">{l.naam} <Icon name="external" size={15} /></a></li>
+              ))}
+            </ul>
+          </div>
+        ))}
+      </div>
+      <div class="panel panel-sea" style="margin-top:2rem">
+        <h2 class="h3">Te weinig wind?</h2>
+        <p>Bekijk de windverwachting voor de Nieuwdonk op <a href="https://www.windy.com/51.036/3.991?wind,51.036,3.991,11" rel="noopener" target="_blank">Windy</a> of <a href="https://nl.windfinder.com/weatherforecast/zele" rel="noopener" target="_blank">Windfinder</a>. Te veel regen? Check <a href="https://www.buienradar.be/" rel="noopener" target="_blank">Buienradar</a>.</p>
+        {partners.map((p) => <p><strong>{p.naam}:</strong> {p.tekst} <a href={p.url} rel="noopener" target="_blank">optiteam.be</a></p>)}
+      </div>
+    </div>
+  </section>
+</Base>
+<style>
+  .h3 {
+    font-size: 1.3rem;
+  }
+  .link-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: 0.2rem;
+  }
+  .link-list a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.55rem 0;
+    border-bottom: 1px solid var(--line);
+    text-decoration: none;
+    font-weight: 500;
+  }
+  .link-list li:last-child a {
+    border-bottom: 0;
+  }
+</style>

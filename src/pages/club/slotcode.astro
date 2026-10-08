@@ -1,0 +1,40 @@
+---
+import Base from '../../layouts/Base.astro';
+import PageHero from '../../components/PageHero.astro';
+import SiteForm from '../../components/SiteForm.astro';
+import Field from '../../components/Field.astro';
+import Notice from '../../components/Notice.astro';
+import { site } from '../../data/site';
+---
+<Base title="Slotcode aanvragen" description="Leden kunnen hier de code van het cijferslot aan de hekken van de steiger (opnieuw) aanvragen.">
+  <PageHero title="Slotcode aanvragen" eyebrow="Enkel voor leden" lead="De code van het cijferslot aan de hekken bij de steiger en van de afsluitboom wordt aan de leden gemaild. Kwijt? Vraag ze hier opnieuw aan." image="/media/site/hero-6.webp" crumbs={[{ label: 'Club', href: '/club/' }, { label: 'Slotcode' }]} />
+  <section class="section">
+    <div class="container split">
+      <div>
+        <h2>Aanvraag slotcode</h2>
+        <SiteForm naam="slotcode" aan={site.email.algemeen} onderwerp="Aanvraag slotcode (lid)" knop="Code aanvragen">
+          <div class="form-row">
+            <Field label="Familienaam lid" name="naam" required autocomplete="family-name" />
+            <Field label="Voornaam" name="voornaam" required autocomplete="given-name" />
+          </div>
+          <div class="form-row">
+            <Field label="E-mailadres" name="email" type="email" required autocomplete="email" />
+            <Field label="Telefoon / gsm" name="telefoon" type="tel" required autocomplete="tel" />
+          </div>
+          <Field label="Boottype" name="boottype" required />
+          <label class="choice"><input type="checkbox" name="akkoord" required data-label="Akkoord" /><span>Ik ga akkoord met de <a href="/privacy/">privacyregels</a>; mijn gegevens worden zorgvuldig en enkel voor deze aanvraag gebruikt.<span class="req">*</span></span></label>
+        </SiteForm>
+      </div>
+      <div class="stack">
+        <Notice icon="lock"><p>De code wordt nooit op de website gepubliceerd. Bij een wijziging van de code krijgen alle leden de nieuwe code per mail.</p></Notice>
+        <div class="panel">
+          <h3>Met de auto naar de club?</h3>
+          <p><strong>Zonder materiaal:</strong> parkeer op de parking van het recreatiedomein Nieuwdonk en ga te voet naar de club.</p>
+          <p><strong>Met materiaal:</strong> rijd via de straat ‘Nieuwdonk’. De toegang tot het domein is afgesloten met een afsluitboom. Sluit de boom na het doorrijden, zowel in als uit, altijd opnieuw af.</p>
+          <p><strong>Opgelet voor schade:</strong> vergrendel de boom bij het openen steeds met de pin of het hangslot, want hij draait soms vanzelf terug dicht. Parkeer na het afladen aan de steiger in de dreef tussen de bomen of op het beton aan de loodsen.</p>
+          <a href="/contact/route/" class="link-arrow">Volledige routebeschrijving</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</Base>

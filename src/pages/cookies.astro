@@ -1,0 +1,19 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHero from '../components/PageHero.astro';
+---
+<Base title="Cookies" description="Cookiebeleid van de website van NWV Berlare.">
+  <PageHero title="Cookies" eyebrow="Juridisch" crumbs={[{ label: 'Cookies' }]} image="/media/site/hero-3.webp" />
+  <section class="section">
+    <div class="container prose">
+      <h2>Cookies: niet om op te eten!</h2>
+      <p>Deze website plaatst zelf geen cookies en gebruikt geen tracking- of advertentiediensten. Daarom zie je ook geen cookiebanner.</p>
+      <ul>
+        <li><strong>Lettertypes</strong> worden vanaf deze website zelf geladen, niet via Google Fonts.</li>
+        <li><strong>Video’s</strong> van Vimeo en YouTube worden pas geladen wanneer je op afspelen klikt. Vanaf dat moment kunnen die diensten cookies plaatsen (YouTube via de privacyvriendelijke ‘nocookie’-variant, Vimeo met ‘do not track’).</li>
+        <li><strong>Externe links</strong> (Facebook, Instagram, Google Maps, …) openen de website van die dienst, met hun eigen cookiebeleid.</li>
+      </ul>
+      <p>Vragen? Zie onze <a href="/privacy/">privacyverklaring</a>.</p>
+    </div>
+  </section>
+</Base>

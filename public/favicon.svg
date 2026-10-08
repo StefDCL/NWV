@@ -1,0 +1,17 @@
+<svg width="64" height="64" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 270 270" role="img" aria-label="Wimpel NWV">
+  <defs>
+    <clipPath id="nwv-wimpel"><polygon points="0,0 270,135 0,270"></polygon></clipPath>
+  </defs>
+  <g clip-path="url(#nwv-wimpel)">
+    <polygon points="0,0 270,135 0,270" fill="#22378a"></polygon>
+    <path d="M-6,-8 L98,135 L-6,278 M98,135 L280,135" stroke="#ffd60a" stroke-width="46" fill="none"></path>
+    <path d="M-6,-8 L98,135 L-6,278 M98,135 L280,135" stroke="#ffffff" stroke-width="16" fill="none"></path>
+    <circle cx="98" cy="135" r="36" fill="#ffd60a"></circle>
+    <circle cx="98" cy="135" r="26" fill="#ffffff"></circle>
+    <g fill="none" stroke="#22378a" stroke-width="5" stroke-linecap="round">
+      <path d="M80,124 q4.5,-5 9,0 t9,0 t9,0 t9,0"></path>
+      <path d="M78,135 q5,-5 10,0 t10,0 t10,0 t10,0"></path>
+      <path d="M80,146 q4.5,-5 9,0 t9,0 t9,0 t9,0"></path>
+    </g>
+  </g>
+</svg>

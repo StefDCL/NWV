@@ -1,0 +1,50 @@
+---
+import type { Kamp } from '../data/kampen';
+import { euro } from '../lib/format';
+interface Props { kamp: Kamp }
+const { kamp } = Astro.props;
+const prijzen = kamp.weken.map((w) => w.prijs);
+const vanaf = Math.min(...prijzen);
+---
+<a href={`/zeilschool/kampen/${kamp.slug}/`} class="card kamp-card">
+  <div class="card-media">
+    <img src={kamp.afbeelding} alt="" loading="lazy" width="800" height="500" />
+    <span class="badge badge-yellow leeftijd">{kamp.leeftijd}</span>
+  </div>
+  <div class="card-body">
+    <div class="badge-row">
+      <span class:list={['badge', kamp.type === 'intern' ? 'badge-navy' : '']}>{kamp.type === 'intern' ? 'Intern (overnachting)' : 'Extern · 10u–17u'}</span>
+      <span class="badge">{kamp.niveau}</span>
+    </div>
+    <h3>{kamp.naam}</h3>
+    <p>{kamp.kort}</p>
+    <div class="card-foot meta">
+      <span><strong>{kamp.weken.length}</strong> {kamp.weken.length === 1 ? 'periode' : 'periodes'}</span>
+      <span>vanaf <strong>{euro(vanaf)}</strong></span>
+    </div>
+  </div>
+</a>
+<style>
+  .leeftijd {
+    position: absolute;
+    left: 0.9rem;
+    top: 0.9rem;
+    font-size: 0.85rem;
+    padding: 0.3rem 0.75rem;
+    box-shadow: var(--shadow-sm);
+  }
+  .meta {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    font-size: 0.92rem;
+    color: var(--ink-500);
+    border-top: 1px solid var(--line);
+    margin-top: 0.8rem;
+    padding-top: 0.8rem;
+  }
+  .meta strong {
+    color: var(--navy-900);
+    font-size: 1.05rem;
+  }
+</style>

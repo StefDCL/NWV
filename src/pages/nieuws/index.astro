@@ -1,0 +1,56 @@
+---
+import Base from '../../layouts/Base.astro';
+import PageHero from '../../components/PageHero.astro';
+import NewsCard from '../../components/NewsCard.astro';
+import { alleBerichten, jaarVan } from '../../lib/nieuws';
+
+const berichten = await alleBerichten();
+const jaren = [...new Set(berichten.map(jaarVan))].sort((a, b) => b - a);
+---
+<Base title="Nieuws" description="Nieuws en verslagen van de Nievdonckse Watersport Vereniging: wedstrijden, nieuwjaarsbrunch, jeugdwerking en clubnieuws.">
+  <PageHero title="Nieuws" eyebrow="Club" lead="Verslagen, aankondigingen en clubnieuws. Het volledige archief van de oude website staat hier, terug tot 2016." image="/media/site/hero-5.webp" crumbs={[{ label: 'Nieuws' }]} />
+  <section class="section">
+    <div class="container">
+      <nav class="jaar-nav" aria-label="Spring naar jaar">
+        {jaren.map((j) => <a href={`#jaar-${j}`} class="badge">{j}</a>)}
+      </nav>
+      {jaren.map((j) => (
+        <section id={`jaar-${j}`} class="jaar">
+          <h2>{j}</h2>
+          <div class="grid grid-3">
+            {berichten.filter((b) => jaarVan(b) === j).map((b) => <NewsCard bericht={b} />)}
+          </div>
+        </section>
+      ))}
+    </div>
+  </section>
+</Base>
+<style>
+  .jaar-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+    position: sticky;
+    top: calc(var(--header-h) + 8px);
+    z-index: 5;
+    background: rgb(255 255 255 / 0.92);
+    padding: 0.6rem 0;
+  }
+  .jaar-nav a {
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 0.35rem 0.85rem;
+  }
+  .jaar-nav a:hover {
+    background: var(--yellow-400);
+  }
+  .jaar + .jaar {
+    margin-top: 3.5rem;
+  }
+  .jaar h2 {
+    border-bottom: 3px solid var(--yellow-400);
+    display: inline-block;
+    padding-bottom: 0.2rem;
+  }
+</style>

@@ -1,0 +1,97 @@
+---
+import { kalender } from '../data/club';
+import { dagNr, maandKort, dagNaam, vandaag } from '../lib/format';
+interface Props { aantal?: number; alles?: boolean }
+const { aantal = 5, alles = false } = Astro.props;
+const nu = vandaag();
+const items = alles ? kalender : kalender.filter((a) => a.datum >= nu).slice(0, aantal);
+const lijst = items.length ? items : kalender.slice(-aantal);
+---
+<ol class="kalender" data-kalender>
+  {lijst.map((a) => (
+    <li class:list={['kal-item', `type-${a.type}`]} data-datum={a.datum}>
+      <div class="kal-datum">
+        <span class="kal-dag">{dagNr(a.datum)}</span>
+        <span class="kal-maand">{maandKort(a.datum)}</span>
+      </div>
+      <div class="kal-info">
+        <strong>{a.titel}</strong>
+        <span>{dagNaam(a.datum)}{a.uur ? ` · ${a.uur}` : ''} · {a.type === 'wedstrijd' ? 'Clubwedstrijd' : 'Clubactiviteit'}</span>
+      </div>
+      <span class="kal-voorbij">voorbij</span>
+    </li>
+  ))}
+</ol>
+<script>
+  // Markeer voorbije activiteiten ook na de build (statische site).
+  const nu = new Date().toLocaleDateString('sv-SE', { timeZone: 'Europe/Brussels' });
+  document.querySelectorAll<HTMLElement>('[data-kalender] [data-datum]').forEach((el) => {
+    el.classList.toggle('is-voorbij', (el.dataset.datum ?? '') < nu);
+  });
+</script>
+<style>
+  .kalender {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: 0.6rem;
+  }
+  .kal-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.7rem 1rem 0.7rem 0.7rem;
+    background: var(--white);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+  }
+  .kal-datum {
+    flex: none;
+    width: 56px;
+    height: 56px;
+    display: grid;
+    place-content: center;
+    text-align: center;
+    border-radius: 12px;
+    background: var(--navy-800);
+    color: var(--white);
+    line-height: 1;
+  }
+  .type-evenement .kal-datum {
+    background: var(--yellow-400);
+    color: var(--navy-950);
+  }
+  .kal-dag {
+    font: 700 1.35rem/1 var(--font-display);
+  }
+  .kal-maand {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    margin-top: 2px;
+  }
+  .kal-info {
+    display: grid;
+    line-height: 1.3;
+  }
+  .kal-info span {
+    color: var(--ink-500);
+    font-size: 0.88rem;
+  }
+  .kal-info span::first-letter {
+    text-transform: uppercase;
+  }
+  .kal-voorbij {
+    display: none;
+    margin-left: auto;
+    font-size: 0.78rem;
+    color: var(--ink-500);
+  }
+  .is-voorbij {
+    opacity: 0.55;
+  }
+  .is-voorbij .kal-voorbij {
+    display: inline;
+  }
+</style>

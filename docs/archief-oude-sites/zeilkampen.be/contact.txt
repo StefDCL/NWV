@@ -1,0 +1,19 @@
+TITLE: Contact :: Jeugdwerking NWV
+FILE: zkall/contact.html
+
+[IMG https://b9f755567d.clvaw-cdnwnd.com/1676d21de2935eed384c918096ef4e15/200000013-10ad311a60/IMG_1135.JPG?ph=b9f755567d alt=""]
+[LINK #mediaArrow :: ]
+H1: Contact Us
+H3: NWV Berlare
+[LINK /locatie/ :: LOCATIE]
+H3: LOCATIE
+[LINK https://www.nwv-nd.be/lid-worden/ :: LID WORDEN]
+H3: LID WORDEN
+H3: +324 79 37 32 31
+H4: (Jelle Vets)
+H3: MAIL
+H3: jellevets@hotmail.com
+[LINK /home/ :: WEBSITE]
+H3: WEBSITE
+[LINK https://www.facebook.com/NWVberlare/ :: FOLLOW US]
+H3: FOLLOW US

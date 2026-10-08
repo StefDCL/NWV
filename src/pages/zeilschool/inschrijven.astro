@@ -1,0 +1,146 @@
+---
+import Base from '../../layouts/Base.astro';
+import PageHero from '../../components/PageHero.astro';
+import SiteForm from '../../components/SiteForm.astro';
+import Field from '../../components/Field.astro';
+import Notice from '../../components/Notice.astro';
+import { kampen, seizoen, internLocaties } from '../../data/kampen';
+import { site } from '../../data/site';
+import { periode, euro } from '../../lib/format';
+
+const open = site.inschrijvingen.open;
+const jv = site.jeugdverantwoordelijke;
+---
+<Base title="Inschrijven" description="Schrijf je kind online in voor een zeil- of surfkamp van NWV Berlare, of vraag een cursus voor volwassenen aan.">
+  <PageHero title="Inschrijven" eyebrow="Zeilschool" lead="Schrijf je kind in voor een zomerkamp of vraag een cursus voor volwassenen aan. Je krijgt daarna per mail meer info over de beschikbaarheid en de betaling." image="/media/site/kamp-intern.webp" crumbs={[{ label: 'Zeilschool', href: '/zeilschool/' }, { label: 'Inschrijven' }]} />
+
+  <section class="section">
+    <div class="container split">
+      <div>
+        {!open && (
+          <div style="margin-bottom:1.5rem">
+            <Notice><p><strong>{site.inschrijvingen.melding}</strong> Je kan het formulier hieronder al bekijken. Zodra de inschrijvingen openen, kan je het versturen.</p></Notice>
+          </div>
+        )}
+        <SiteForm naam="inschrijving-kamp" aan={jv.email} onderwerp={`Inschrijving zeilkamp / cursus NWV`} knop="Inschrijving versturen" disabled={!open} bedankt="Bedankt voor je inschrijving! Je ontvangt per mail een bevestiging met de info over beschikbaarheid en betaling.">
+          <fieldset>
+            <legend>Kamp of cursus</legend>
+            <div class="field">
+              <label for="kampcode">Kies een periode (kampcode)<span class="req">*</span></label>
+              <select id="kampcode" name="kampcode" required data-kamp-select>
+                <option value="">Maak een keuze…</option>
+                {kampen.map((k) => (
+                  <optgroup label={`${k.naam} (${k.leeftijd})`} data-slug={k.slug}>
+                    {k.weken.map((w) => (
+                      <option value={`${w.code} – ${k.naam} – ${periode(w.van, w.tot)}`}>
+                        {w.code} · {periode(w.van, w.tot)}{internLocaties[w.code] ? ` · ${internLocaties[w.code]}` : ''} · {euro(w.prijs)}
+                      </option>
+                    ))}
+                  </optgroup>
+                ))}
+                <optgroup label="Volwassenen" data-slug="volwassenen">
+                  <option value="Cursus zeilen voor volwassenen">Cursus zeilen voor volwassenen (5 dagen, in overleg) · €240</option>
+                </optgroup>
+              </select>
+              <span class="hint">Twijfel je welk kamp past? Bekijk het <a href="/zeilschool/zomerkampen/#overzicht">overzicht per week</a>.</span>
+            </div>
+            <Field label="Tweede keuze (optioneel)" name="tweede_keuze" placeholder="bv. andere kampcode als de eerste keuze volzet is" />
+          </fieldset>
+
+          <fieldset>
+            <legend>Deelnemer</legend>
+            <div class="form-row">
+              <Field label="Voornaam" name="deelnemer_voornaam" required />
+              <Field label="Familienaam" name="deelnemer_naam" required />
+            </div>
+            <div class="form-row">
+              <Field label="Geboortedatum" name="deelnemer_geboortedatum" type="date" required />
+              <div class="field">
+                <span class="label">Geslacht</span>
+                <div class="choice-row">
+                  <label class="choice"><input type="radio" name="geslacht" value="M" data-label="Geslacht" /> M</label>
+                  <label class="choice"><input type="radio" name="geslacht" value="V" data-label="Geslacht" /> V</label>
+                  <label class="choice"><input type="radio" name="geslacht" value="X" data-label="Geslacht" /> X</label>
+                </div>
+              </div>
+            </div>
+            <div class="form-row">
+              <Field label="Zeilervaring" name="ervaring" type="select" options={['Geen', 'Eén kamp gevolgd', 'Twee of meer kampen', 'Zeilt regelmatig / jeugdtraining', 'Wedstrijdzeiler']} />
+              <Field label="Lengte (cm)" name="lengte" type="number" hint="Enkel nodig voor Surf & SUP (min. 150 cm)." min="80" max="220" />
+            </div>
+            <label class="choice"><input type="checkbox" name="zwembrevet" required data-label="Zwembrevet 50 m" /><span>De deelnemer kan minstens 50 m zwemmen (zwembrevet).<span class="req">*</span></span></label>
+            <label class="choice"><input type="checkbox" name="lid" data-label="Lid van NWV" /><span>De deelnemer is lid van NWV.</span></label>
+          </fieldset>
+
+          <fieldset>
+            <legend>Ouder of contactpersoon</legend>
+            <div class="form-row">
+              <Field label="Naam ouder / contactpersoon" name="ouder_naam" required autocomplete="name" />
+              <Field label="Gsm" name="ouder_gsm" type="tel" required autocomplete="tel" />
+            </div>
+            <Field label="E-mail" name="ouder_email" type="email" required autocomplete="email" />
+            <div class="form-row">
+              <Field label="Straat en nummer" name="adres" required autocomplete="street-address" />
+              <Field label="Postcode en gemeente" name="gemeente" required autocomplete="address-level2" />
+            </div>
+            <Field label="Tweede noodnummer" name="noodnummer" type="tel" hint="Bereikbaar tijdens het kamp." />
+          </fieldset>
+
+          <fieldset>
+            <legend>Extra info</legend>
+            <label class="choice"><input type="checkbox" name="opvang" data-label="Opvang gewenst" /><span>Ik wens opvang voor/na het externe kamp (10u–17u).</span></label>
+            <Field label="Medische info, allergieën, aandachtspunten en sterktes van mijn kind" name="aandachtspunten" type="textarea" hint="Vermeld naast aandachtspunten ook sterktes van je kind: daar spelen we tijdens het kamp graag op in." />
+            <div class="field">
+              <span class="label">Foto’s<span class="req">*</span></span>
+              <label class="choice"><input type="radio" name="fotos" value="Ja, foto's mogen gedeeld worden in de WhatsApp-groep van het kamp" required data-label="Foto's" /><span>Foto’s waarop mijn kind staat, mogen gedeeld worden in de WhatsApp-groep van het kamp.</span></label>
+              <label class="choice"><input type="radio" name="fotos" value="Nee, liever geen foto's" data-label="Foto's" /><span>Liever geen foto’s van mijn kind.</span></label>
+            </div>
+            <Field label="Opmerkingen (bv. inschrijven per twee voor Tous Ensemble, carpool, …)" name="opmerkingen" type="textarea" />
+          </fieldset>
+
+          <label class="choice"><input type="checkbox" name="akkoord" required data-label="Akkoord" /><span>Ik ga akkoord met de verwerking van deze gegevens voor de organisatie van het kamp (zie <a href="/privacy/">privacyverklaring</a>).<span class="req">*</span></span></label>
+        </SiteForm>
+      </div>
+
+      <aside class="stack">
+        <div class="panel panel-sea">
+          <h3>Zo verloopt het</h3>
+          <ol class="stappen">
+            <li><strong>Formulier invullen</strong> met de gewenste kampcode.</li>
+            <li><strong>Bevestiging per mail</strong> met info over beschikbaarheid en betaling.</li>
+            <li><strong>Betaling</strong> volgens de instructies in de mail.</li>
+            <li><strong>Praktische info</strong> vlak voor het kamp (en bij interne kampen de WhatsApp-groep voor carpool en bagage).</li>
+          </ol>
+        </div>
+        <div class="panel">
+          <h3>Vragen?</h3>
+          <p>{jv.naam}<br /><a href={`tel:${jv.gsmLink}`}>{jv.gsm}</a><br /><a href={`mailto:${jv.email}`}>{jv.email}</a></p>
+        </div>
+        <div class="panel">
+          <h3>Zomer {seizoen} in één oogopslag</h3>
+          <p><a href="/downloads/zomeraanbod-2026.pdf">Download het overzicht (PDF)</a></p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</Base>
+<script>
+  // Voorselectie via ?kamp=slug (bv. vanaf een kamppagina)
+  const slug = new URLSearchParams(location.search).get('kamp');
+  const select = document.querySelector<HTMLSelectElement>('[data-kamp-select]');
+  if (slug && select) {
+    const groep = select.querySelector<HTMLOptGroupElement>(`optgroup[data-slug="${CSS.escape(slug)}"]`);
+    const eerste = groep?.querySelector('option');
+    if (groep && eerste && groep.children.length === 1) eerste.selected = true;
+    groep?.querySelectorAll('option').forEach((o) => o.classList.add('aanbevolen'));
+    if (groep) select.focus({ preventScroll: true });
+  }
+</script>
+<style>
+  .stappen {
+    margin: 0;
+    padding-left: 1.2rem;
+    display: grid;
+    gap: 0.6rem;
+  }
+</style>

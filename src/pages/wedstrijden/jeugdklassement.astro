@@ -1,0 +1,69 @@
+---
+import Base from '../../layouts/Base.astro';
+import PageHero from '../../components/PageHero.astro';
+import Uitslag from '../../components/Uitslag.astro';
+import { wedstrijden, isJaarklassement } from '../../lib/uitslagen';
+const klassementen = wedstrijden.filter(isJaarklassement);
+const punten = Array.from({ length: 10 }, (_, i) => ({ plaats: i + 1, punten: 10 - i }));
+---
+<Base title="Jeugdklassement" description="Hoe werkt het jeugdklassement van NWV? Puntensysteem, selectieve wedstrijden en prijsuitreiking.">
+  <PageHero title="Jeugdklassement" eyebrow="Wedstrijden" lead="Een klassement over het hele seizoen voor onze jeugdzeilers. Deelnemen is belangrijker dan winnen!" image="/media/site/kamp-junior.webp" crumbs={[{ label: 'Wedstrijden', href: '/wedstrijden/' }, { label: 'Jeugdklassement' }]} />
+  <section class="section">
+    <div class="container split">
+      <div class="prose">
+        <h2>Puntensysteem</h2>
+        <p>
+          Na elke clubwedstrijd krijgt elke jeugdzeiler punten in het jeugdklassement. Het aantal punten hangt af van de plaats ten opzichte
+          van de andere deelnemende jeugdzeilers. Je kan dus als zesde over de finish varen en toch een eerste plaats in het klassement krijgen,
+          als de vijf zeilers voor jou volwassenen of monitoren waren.
+        </p>
+        <p>
+          Bij ex aequo krijgt de zeiler met de meeste deelnames de hoogste plaats. Biedt dat geen oplossing, dan wordt de best gevaren plaats
+          vergeleken, en daarna hoe vaak die beste plaats gevaren werd.
+        </p>
+        <p class="small muted">Jeugdzeiler = tot en met het jaar waarin je 16 wordt, en je bent geen monitor bij NWV.</p>
+
+        <h2>Selectieve wedstrijden</h2>
+        <p>Het klassement wordt opgemaakt over de selectieve clubwedstrijden van het seizoen (zie de <a href="/wedstrijden/">kalender</a>). In de laatst gepubliceerde versie (2019) telden de beste 8 van de 9 wedstrijden mee.</p>
+
+        <h2>Minstens 3 manches</h2>
+        <p>
+          Per wedstrijd moeten minstens 3 manches gevaren worden. Lukt dat niet, dan krijgt elke aanwezige jeugdzeiler 5 punten. Vanaf 4
+          reeksen is er een afvalmanche, vanaf 8 reeksen zijn dat er 2, tenzij anders aangegeven in de NOR.
+        </p>
+
+        <h2>Meerdere groepen</h2>
+        <p>
+          Op het einde van een wedstrijd is er een prijsuitreiking voor elke groep die startte, bijvoorbeeld Optimisten; RS Tera, Splash en
+          Europe; Lasers. De groepsindeling hangt af van het deelnemersveld. Wat in een andere groep gebeurt, heeft geen invloed op jouw resultaat:
+          je resultaat binnen je eigen groep telt voor het klassement.
+        </p>
+
+        <h2>Prijsuitreiking</h2>
+        <p>
+          Wie na de laatste clubwedstrijd de meeste punten heeft, ontvangt de jeugdtrofee. Ook de nummers twee en drie krijgen een mooie prijs.
+          De prijsuitreiking vindt plaats tijdens de nieuwjaarsbrunch. Veel plezier allemaal!
+        </p>
+      </div>
+      <aside class="stack">
+        <div class="panel panel-sea">
+          <h3>Punten per plaats</h3>
+          <div class="table-wrap">
+            <table>
+              <thead><tr><th>Plaats</th><th class="num">Punten</th></tr></thead>
+              <tbody>{punten.map((p) => <tr><td>{p.plaats}</td><td class="num">{p.punten}</td></tr>)}</tbody>
+            </table>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </section>
+  {klassementen.length > 0 && (
+    <section class="section section-alt">
+      <div class="container container-narrow">
+        <h2>Regelmatigheidscriterium – eindstanden</h2>
+        {klassementen.map((w) => <Uitslag w={w} />)}
+      </div>
+    </section>
+  )}
+</Base>

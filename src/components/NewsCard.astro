@@ -1,0 +1,47 @@
+---
+import { type Bericht, samenvatting, datumLabel } from '../lib/nieuws';
+interface Props { bericht: Bericht; groot?: boolean }
+const { bericht, groot = false } = Astro.props;
+const img = bericht.data.afbeelding;
+---
+<a href={`/nieuws/${bericht.id}/`} class:list={['card', 'news-card', { groot }]}>
+  <div class="card-media">
+    {img ? <img src={img} alt="" loading="lazy" width="800" height="500" /> : <div class="placeholder" aria-hidden="true">⛵</div>}
+  </div>
+  <div class="card-body">
+    <span class="badge">{datumLabel(bericht)}</span>
+    <h3>{bericht.data.titel}</h3>
+    <p>{samenvatting(bericht, groot ? 260 : 140)}</p>
+    <span class="card-foot link-arrow">Lees meer</span>
+  </div>
+</a>
+<style>
+  .placeholder {
+    display: grid;
+    place-items: center;
+    height: 100%;
+    font-size: 3rem;
+    background: linear-gradient(135deg, var(--sea-100), var(--sea-50));
+  }
+  .badge {
+    align-self: flex-start;
+  }
+  @media (min-width: 900px) {
+    .groot {
+      flex-direction: row;
+    }
+    .groot .card-media {
+      flex: 1.1;
+      aspect-ratio: auto;
+      min-height: 320px;
+    }
+    .groot .card-body {
+      flex: 1;
+      padding: 2rem;
+      justify-content: center;
+    }
+    .groot h3 {
+      font-size: 1.6rem;
+    }
+  }
+</style>

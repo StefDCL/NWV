@@ -1,0 +1,173 @@
+---
+import Base from '../../layouts/Base.astro';
+import PageHero from '../../components/PageHero.astro';
+import SiteForm from '../../components/SiteForm.astro';
+import Field from '../../components/Field.astro';
+import { lidgeld } from '../../data/club';
+import { site } from '../../data/site';
+import { euro } from '../../lib/format';
+const kinderen = [1, 2, 3, 4, 5];
+---
+<Base title="Lid worden" description="Word lid van de Nievdonckse Watersport Vereniging: tarieven, wat inbegrepen is en online lidmaatschap aanvragen.">
+  <PageHero title="Lid worden" eyebrow="Club" lead="Zeilen, surfen of gewoon de club steunen: kies het lidmaatschap dat bij jou of je gezin past." image="/media/site/hero-2.webp" crumbs={[{ label: 'Club', href: '/club/' }, { label: 'Lid worden' }]} />
+
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Lidgeld {lidgeld.jaar}</p>
+          <h2>Tarieven</h2>
+          <p>Het lidgeld wordt jaarlijks door het bestuur vastgelegd. Leden ontvangen begin het jaar een bericht om het lidgeld te regelen.</p>
+        </div>
+      </div>
+      <div class="grid tarieven">
+        {lidgeld.varend.map((t, i) => (
+          <div class:list={['panel', 'tarief', { uitgelicht: i === 2 }]}>
+            <span class="badge">{i === 2 ? 'Voor het hele gezin' : 'Varend / surfend'}</span>
+            <h3>{t.label}</h3>
+            <p class="prijs">{euro(t.prijs)}<small>/jaar</small></p>
+          </div>
+        ))}
+        <div class="panel tarief">
+          <span class="badge">Steunend</span>
+          <h3>{lidgeld.steunend.label}</h3>
+          <p class="prijs">{euro(lidgeld.steunend.prijs)}<small>/jaar</small></p>
+          <p class="small muted">Uitnodiging tot onze activiteiten.</p>
+        </div>
+      </div>
+      <div class="split" style="margin-top:2.5rem">
+        <div class="panel panel-sea">
+          <h3>Inbegrepen bij een varend lidmaatschap</h3>
+          <ul class="check-list">{lidgeld.inbegrepen.map((x) => <li>{x}</li>)}</ul>
+        </div>
+        <div class="panel">
+          <h3>Effectieve leden</h3>
+          <p>Effectieve leden (ongeacht hun sport) betalen <strong>{euro(lidgeld.effectief.prijs)}</strong>.</p>
+          <h3 style="margin-top:1.2rem">Ligplaatsen</h3>
+          <p>NWV beheert de ligplaatsen binnen en buiten. Vraag naar de beschikbaarheid en de tarieven via <a href={`mailto:${site.email.algemeen}`}>{site.email.algemeen}</a>.</p>
+          <p class="small muted">Rekeningnummer: {site.iban}</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="aanvraag">
+    <div class="container container-narrow">
+      <p class="eyebrow">Online aanvraag</p>
+      <h2>Lidmaatschap aanvragen</h2>
+      <p>Met dit formulier vraag je een lidmaatschap aan voor jezelf en/of je gezin. Vul alle velden in die op jou van toepassing zijn. Na verzending krijg je verdere instructies. Vragen? <a href="/contact/">Contacteer ons</a>.</p>
+      <SiteForm naam="lid-worden" aan={site.email.algemeen} onderwerp="Aanvraag lidmaatschap NWV" knop="Aanvraag verzenden">
+        <fieldset>
+          <legend>Titularis</legend>
+          <div class="form-row">
+            <Field label="Familienaam" name="titularis_naam" required autocomplete="family-name" />
+            <Field label="Voornaam" name="titularis_voornaam" required autocomplete="given-name" />
+          </div>
+          <div class="form-row">
+            <div class="field">
+              <span class="label">Geslacht<span class="req">*</span></span>
+              <div class="choice-row">
+                <label class="choice"><input type="radio" name="titularis_geslacht" value="M" required data-label="Geslacht" /> M</label>
+                <label class="choice"><input type="radio" name="titularis_geslacht" value="V" data-label="Geslacht" /> V</label>
+                <label class="choice"><input type="radio" name="titularis_geslacht" value="X" data-label="Geslacht" /> X</label>
+              </div>
+            </div>
+            <Field label="Geboortedatum" name="titularis_geboortedatum" type="date" required />
+          </div>
+          <div class="form-row">
+            <Field label="Straat" name="adres_straat" required autocomplete="address-line1" />
+            <Field label="Huisnummer / bus" name="adres_nr" required />
+          </div>
+          <div class="form-row">
+            <Field label="Postcode" name="adres_postcode" required autocomplete="postal-code" />
+            <Field label="Gemeente" name="adres_gemeente" required autocomplete="address-level2" />
+          </div>
+          <div class="form-row">
+            <Field label="Telefoon of gsm" name="telefoon_1" type="tel" required autocomplete="tel" />
+            <Field label="Tweede telefoonnummer" name="telefoon_2" type="tel" />
+          </div>
+          <Field label="E-mail" name="email" type="email" required autocomplete="email" />
+        </fieldset>
+
+        <fieldset>
+          <legend>Partner (bij gezinslidmaatschap)</legend>
+          <div class="form-row">
+            <Field label="Familienaam partner" name="partner_naam" />
+            <Field label="Voornaam partner" name="partner_voornaam" />
+            <Field label="Geboortedatum partner" name="partner_geboortedatum" type="date" />
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Inwonende kinderen</legend>
+          {kinderen.map((n) => (
+            <div class="form-row kind">
+              <Field label={`Kind ${n} – familienaam`} name={`kind${n}_naam`} />
+              <Field label={`Kind ${n} – voornaam`} name={`kind${n}_voornaam`} />
+              <Field label={`Kind ${n} – geboortedatum`} name={`kind${n}_geboortedatum`} type="date" />
+            </div>
+          ))}
+        </fieldset>
+
+        <fieldset>
+          <legend>Activiteit & boot</legend>
+          <div class="field">
+            <span class="label">Activiteit</span>
+            <div class="choice-row">
+              {['Zeilen', 'Surfen', 'Radiogestuurde boten', 'Steunend lid'].map((a) => (
+                <label class="choice"><input type="checkbox" name="activiteit" value={a} data-label="Activiteit" /> {a}</label>
+              ))}
+            </div>
+          </div>
+          <Field label="Boottype" name="boottype" placeholder="bv. Laser, Optimist, …" />
+          <div class="form-row">
+            <Field label="Verzekering burgerlijke aansprakelijkheid van je vaartuig (maatschappij)" name="verzekering" hint="Indien van toepassing." />
+            <Field label="Polisnummer" name="polisnummer" />
+          </div>
+        </fieldset>
+
+        <label class="choice">
+          <input type="checkbox" name="akkoord" required data-label="Akkoord" />
+          <span>De titularis verklaart dat bovenstaande informatie correct is, neemt kennis van de <a href="/privacy/">privacyverklaring</a> en gaat akkoord met de verwerking van deze gegevens voor de ledenadministratie.<span class="req">*</span></span>
+        </label>
+      </SiteForm>
+    </div>
+  </section>
+</Base>
+<style>
+  .tarieven {
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr));
+  }
+  .tarief {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .tarief .badge {
+    align-self: flex-start;
+  }
+  .tarief h3 {
+    font-size: 1.08rem;
+    margin: 0.3rem 0 0;
+  }
+  .prijs {
+    font: 700 2.2rem/1 var(--font-display);
+    color: var(--navy-800);
+    margin: auto 0 0;
+    padding-top: 0.6rem;
+  }
+  .prijs small {
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: var(--ink-500);
+    margin-left: 0.2rem;
+  }
+  .uitgelicht {
+    border: 2px solid var(--yellow-400);
+    background: var(--yellow-100);
+  }
+  .kind + .kind {
+    padding-top: 0.8rem;
+    border-top: 1px dashed var(--line);
+  }
+</style>

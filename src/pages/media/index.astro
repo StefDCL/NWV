@@ -1,0 +1,137 @@
+---
+import Base from '../../layouts/Base.astro';
+import PageHero from '../../components/PageHero.astro';
+import VideoCard from '../../components/VideoCard.astro';
+import Icon from '../../components/Icon.astro';
+import galerij from '../../data/galerij.json';
+import videos from '../../data/videos.json';
+import { site } from '../../data/site';
+
+const albums = [...galerij].sort((a, b) => b.title.localeCompare(a.title));
+const jaren = [...new Set(albums.map((a) => a.year))].sort((a, b) => b - a);
+---
+<Base title="Foto’s & video’s" description="Fotoalbums van wedstrijden, nieuwjaarsbrunches en activiteiten van NWV Berlare sinds 2012, en aftermovies van de zeilkampen.">
+  <PageHero title="Foto’s & video’s" eyebrow="Media" lead="NWV Berlare in beeld: fotoalbums van onze wedstrijden en activiteiten sinds 2012, en aftermovies van kampen en trainingen." image="/media/site/media.webp" crumbs={[{ label: 'Media' }]}>
+    <div class="btn-row" style="margin-top:1.5rem">
+      <a href="#albums" class="btn btn-yellow"><Icon name="camera" size={18} /> Fotoalbums</a>
+      <a href="#aftermovies" class="btn btn-light"><Icon name="play" size={16} /> Aftermovies</a>
+    </div>
+  </PageHero>
+
+  <section class="section" id="albums">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Fotoalbums</p>
+          <h2>{albums.length} albums</h2>
+          <p>Een selectie uit elk album. Foto’s van de zomerkampen plaatsen we sinds 2022 niet meer online omwille van de privacy (GDPR): we sturen ze aan het eind van elk kamp eenmalig door via WhatsApp.</p>
+        </div>
+        <a href={site.social.flickr} class="btn btn-ghost btn-sm" rel="noopener" target="_blank">Albums op Flickr <Icon name="external" size={15} /></a>
+      </div>
+      <nav class="jaar-nav" aria-label="Spring naar jaar">
+        {jaren.map((j) => <a href={`#jaar-${j}`} class="badge">{j}</a>)}
+      </nav>
+      {jaren.map((j) => (
+        <section id={`jaar-${j}`} class="jaar">
+          <h3>{j}</h3>
+          <div class="albums">
+            {albums.filter((a) => a.year === j).map((a) => (
+              <a href={`/media/${a.slug}/`} class="album">
+                <div class="album-img">
+                  <img src={a.photos[0].replace('.webp', '-thumb.webp')} alt="" loading="lazy" width="480" height="320" />
+                  <span class="badge">{a.photos.length} foto’s</span>
+                </div>
+                <span class="album-title">{a.title.replace(/^\d{4}[-_ ]?(\d{2}(-\d{2})?)?\s*/, '') || a.title}</span>
+                <span class="album-sub">{a.title.slice(0, 7).replace('-', '/')}</span>
+              </a>
+            ))}
+          </div>
+        </section>
+      ))}
+    </div>
+  </section>
+
+  <section class="section section-alt" id="aftermovies">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Video</p>
+          <h2>Aftermovies</h2>
+          <p>De video’s worden pas van Vimeo of YouTube geladen wanneer je op afspelen klikt.</p>
+        </div>
+      </div>
+      <div class="grid grid-3">
+        {videos.map((v) => <VideoCard platform={v.platform} id={v.id} titel={v.titel ?? 'Video'} thumbnail={v.thumbnail} />)}
+      </div>
+    </div>
+  </section>
+</Base>
+<style>
+  .jaar-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin-bottom: 2rem;
+  }
+  .jaar-nav a {
+    text-decoration: none;
+    padding: 0.35rem 0.8rem;
+  }
+  .jaar-nav a:hover {
+    background: var(--yellow-400);
+  }
+  .jaar + .jaar {
+    margin-top: 2.5rem;
+  }
+  .jaar h3 {
+    font-size: 1.6rem;
+    border-bottom: 3px solid var(--yellow-400);
+    display: inline-block;
+  }
+  .albums {
+    display: grid;
+    gap: 1.2rem;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 220px), 1fr));
+  }
+  .album {
+    text-decoration: none;
+    color: var(--navy-900);
+    display: grid;
+    gap: 0.15rem;
+  }
+  .album-img {
+    position: relative;
+    aspect-ratio: 3 / 2;
+    border-radius: var(--radius);
+    overflow: hidden;
+    background: var(--sea-100);
+    margin-bottom: 0.5rem;
+  }
+  .album-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+  }
+  .album:hover img {
+    transform: scale(1.05);
+  }
+  .album-img .badge {
+    position: absolute;
+    right: 0.6rem;
+    bottom: 0.6rem;
+    background: rgb(255 255 255 / 0.92);
+  }
+  .album-title {
+    font-weight: 650;
+    font-family: var(--font-display);
+    font-size: 1.05rem;
+  }
+  .album-sub {
+    font-size: 0.85rem;
+    color: var(--ink-500);
+  }
+  .album:hover .album-title {
+    color: var(--sea-500);
+  }
+</style>

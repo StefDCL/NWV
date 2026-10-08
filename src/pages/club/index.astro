@@ -1,0 +1,174 @@
+---
+import Base from '../../layouts/Base.astro';
+import PageHero from '../../components/PageHero.astro';
+import Icon from '../../components/Icon.astro';
+import { voordelen, vloot, partners } from '../../data/club';
+---
+<Base title="Over de club" description="De Nievdonckse Watersport Vereniging is een zeilclub op het recreatiedomein Nieuwdonk in Berlare, met een erkende zeil- en surfschool, clubwedstrijden en een gezellig clubleven.">
+  <PageHero
+    title="Welkom bij de Nievdonckse Watersport Vereniging"
+    eyebrow="Over de club"
+    lead="Een kleine club met een groot hart voor watersport. Zeilen en surfen op de Nieuwdonk, voor jong en oud."
+    image="/media/site/hero-5.webp"
+    crumbs={[{ label: 'Club' }]}
+  />
+
+  <section class="section">
+    <div class="container split split-center">
+      <div>
+        <p class="eyebrow">De Nieuwdonk</p>
+        <h2>Ons water: een beschutte vijver van 2,6 ha</h2>
+        <p>
+          De zeilclub NWV is gevestigd op het recreatiedomein Nieuwdonk in Berlare. Bij de aanleg van de E17 is er door zandwinning een
+          kunstmatig meer van 2,6 ha ontstaan, dat in 1989 aangelegd werd als watersportvijver waarop men kan zeilen en surfen.
+        </p>
+        <p>
+          Het beschutte water is ideaal om te leren zeilen en windsurfen, maar biedt ook ervaren zeilers boeiende wedstrijden. Ons clubhuis
+          met kleedkamers en douches ligt aan de oever, met de botenloods en de steiger vlakbij.
+        </p>
+        <div class="btn-row">
+          <a href="/contact/route/" class="btn btn-ghost"><Icon name="pin" size={18} /> Hoe bereik je de club?</a>
+        </div>
+      </div>
+      <img class="rounded-img" src="/media/site/nieuwdonk.webp" alt="Zeilboten op de Nieuwdonk" width="900" height="540" loading="lazy" />
+    </div>
+  </section>
+
+  <section class="section section-alt">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Wat we doen</p>
+          <h2>Zeilschool, surfschool en wedstrijden</h2>
+        </div>
+      </div>
+      <div class="grid grid-3">
+        <a class="card" href="/zeilschool/">
+          <div class="card-media"><img src="/media/site/zeilschool-3.webp" alt="" loading="lazy" width="600" height="400" /></div>
+          <div class="card-body">
+            <h3>Zeilschool</h3>
+            <p>Zeilcursussen voor de jeugd vanaf 6 jaar en voor beginnende volwassenen. Gevorderden kunnen terecht op wekelijkse trainingen en weekstages. Onze club heeft een enthousiast team van gebrevetteerde monitoren.</p>
+            <span class="card-foot link-arrow">Meer info</span>
+          </div>
+        </a>
+        <a class="card" href="/zeilschool/kampen/surf-en-sup-adventure/">
+          <div class="card-media"><img src="/media/site/kamp-surf.webp" alt="" loading="lazy" width="600" height="400" /></div>
+          <div class="card-body">
+            <h3>Surfschool</h3>
+            <p>Tijdens de zomervakantie organiseren we surfkampen voor jongeren vanaf 12 jaar: windsurfen en SUP, met de mogelijkheid om een erkend surfbrevet te behalen.</p>
+            <span class="card-foot link-arrow">Meer info</span>
+          </div>
+        </a>
+        <a class="card" href="/wedstrijden/">
+          <div class="card-media"><img src="/media/site/zeilschool-4.webp" alt="" loading="lazy" width="600" height="400" /></div>
+          <div class="card-body">
+            <h3>Wedstrijden</h3>
+            <p>Onze club organiseert jaarlijks meerdere clubwedstrijden, niet alleen voor onze leden maar ook voor iedereen die tijdens het jaar een zeil- of surfcursus bij ons volgde. Daarnaast nationale wedstrijden voor Spirou en Europe.</p>
+            <span class="card-foot link-arrow">Kalender & uitslagen</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container split">
+      <div>
+        <p class="eyebrow">Lidmaatschap</p>
+        <h2>Wat hebben wij jou als lid te bieden?</h2>
+        <ul class="check-list">
+          {voordelen.map((v) => <li>{v}</li>)}
+        </ul>
+        <div class="btn-row" style="margin-top:1.8rem">
+          <a href="/club/lid-worden/" class="btn btn-yellow">Lid worden</a>
+          <a href="/club/bestuur/" class="btn btn-ghost">Het bestuur</a>
+        </div>
+      </div>
+      <div class="panel panel-sea">
+        <h3>De club beschikt over</h3>
+        <ul class="vloot">
+          {vloot.map((b) => (
+            <li>
+              <span class="aantal">{b.aantal}</span>
+              <span><strong>{b.naam}</strong><small>{b.info}</small></span>
+            </li>
+          ))}
+        </ul>
+        <p class="small muted" style="margin:1rem 0 0">Plus de nodige zwemvesten en wetsuits.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-navy">
+    <div class="container split split-even split-center">
+      <img class="rounded-img" src="/media/site/piraten.webp" alt="Kinderen op piratenkamp" width="800" height="660" loading="lazy" />
+      <div>
+        <p class="eyebrow" style="color:var(--yellow-300)">Piraten!</p>
+        <h2>Een club waar iedereen zich thuis voelt</h2>
+        <p>
+          Passie voor zeilen en een gezellig clubleven: dat is NWV. Van de nieuwjaarsbrunch tot de zomerhappening en de familienamiddag,
+          van het Piratenkamp tot de nationale wedstrijden. Onze jeugdwerking is erkend als scholings- en trainingsclub door Wind &amp;
+          Watersport Vlaanderen en werkt samen met de Optimist-, Spirou- en Europeklasse.
+        </p>
+        <div class="btn-row">
+          <a href="/zeilschool/" class="btn btn-yellow">Jeugdwerking</a>
+          <a href="/media/" class="btn btn-light">Foto’s bekijken</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-tight">
+    <div class="container">
+      {partners.map((p) => (
+        <div class="panel partner">
+          <a href={p.url} rel="noopener" target="_blank"><img src={p.logo} alt={p.naam} width="220" height="80" loading="lazy" /></a>
+          <p><strong>{p.naam}</strong> – {p.tekst}</p>
+        </div>
+      ))}
+    </div>
+  </section>
+</Base>
+<style>
+  .vloot {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: 0.8rem;
+  }
+  .vloot li {
+    display: flex;
+    gap: 0.9rem;
+    align-items: flex-start;
+  }
+  .vloot .aantal {
+    flex: none;
+    display: grid;
+    place-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 12px;
+    background: var(--navy-800);
+    color: var(--yellow-400);
+    font: 700 1.15rem var(--font-display);
+  }
+  .vloot span:last-child {
+    display: grid;
+    line-height: 1.35;
+  }
+  .vloot small {
+    color: var(--ink-500);
+    font-size: 0.88rem;
+  }
+  .partner {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+  }
+  .partner p {
+    margin: 0;
+    flex: 1 1 300px;
+  }
+</style>

@@ -1,0 +1,65 @@
+---
+import Base from '../../layouts/Base.astro';
+import PageHero from '../../components/PageHero.astro';
+import Icon from '../../components/Icon.astro';
+---
+<Base title="Zeilen voor volwassenen" description="Leren zeilen als volwassene bij NWV Berlare: 5 dagen les op een ruime meermansboot met de lesgever aan boord, €240.">
+  <PageHero title="Zeilen voor volwassenen" eyebrow="Zeilschool" lead="Nooit te laat om te leren zeilen. Je leert het op een ruime meermansboot, met de lesgever mee aan boord." image="/media/site/zeilschool-2.webp" crumbs={[{ label: 'Zeilschool', href: '/zeilschool/' }, { label: 'Volwassenen' }]} />
+  <section class="section">
+    <div class="container split">
+      <div>
+        <h2>De cursus</h2>
+        <p>
+          Wij geven ook cursussen aan volwassenen. Je leert zeilen op een ruime meermansboot (o.a. Laser Bahia) waarbij de lesgever meezeilt
+          met de cursisten. Het lessenpakket omvat <strong>5 dagen van 10u tot 17u</strong> en kan tijdens het weekend of in de week gegeven
+          worden, in overleg met de lesgever en de deelnemers.
+        </p>
+        <h3>Toelatingsvoorwaarden</h3>
+        <ul class="check-list">
+          <li>Houder van een zwembrevet van 50 m of meer</li>
+          <li>Eventueel reeds behaalde zeil- en/of surfbrevetten</li>
+        </ul>
+        <h3 style="margin-top:1.5rem">Lesmateriaal</h3>
+        <p>Onze club beschikt over 3 RS Tera’s, 2 Splashes, 5 Lasers, 1 Laser Bahia, 1 Flying Arrow en 2 420’s, plus de nodige zwemvesten en surfpakken.</p>
+        <h3>Zelf meebrengen</h3>
+        <ul>
+          <li>Lunchpakket en zakgeld</li>
+          <li>Lichte sportschoenen die nat mogen worden</li>
+          <li>Eventueel een fietshelm</li>
+          <li>Zwemgerief, regen- en reservekledij</li>
+          <li>Schrijfgerief</li>
+        </ul>
+      </div>
+      <aside class="stack">
+        <div class="panel panel-yellow prijs">
+          <span class="badge badge-navy">Weekstage</span>
+          <p class="bedrag">€240</p>
+          <p>Voor deze bijdrage krijg je:</p>
+          <ul class="check-list">
+            <li>30 uur les door een gebrevetteerde monitor</li>
+            <li>Gebruik van de clubboten of -surfplanken tijdens de cursus</li>
+            <li>Gebruik van zwemvesten (en surfpakken voor surfers)</li>
+            <li>Sportverzekering</li>
+            <li>Brevet- en cursusboekje</li>
+            <li>Deelname aan de clubactiviteiten</li>
+          </ul>
+        </div>
+        <div class="panel">
+          <h3>Interesse?</h3>
+          <p>De data worden in overleg vastgelegd. Neem contact met ons op of vul het aanvraagformulier in; je krijgt per mail meer info over beschikbaarheid en betaling.</p>
+          <div class="btn-row">
+            <a href="/zeilschool/inschrijven/?kamp=volwassenen" class="btn btn-yellow">Cursus aanvragen</a>
+            <a href="/contact/" class="btn btn-ghost"><Icon name="mail" size={18} /> Contact</a>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </section>
+</Base>
+<style>
+  .bedrag {
+    font: 700 3rem/1 var(--font-display);
+    color: var(--navy-900);
+    margin: 0.8rem 0 0.4rem;
+  }
+</style>

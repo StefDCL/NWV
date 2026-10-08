@@ -1,0 +1,123 @@
+---
+import { site } from '../data/site';
+/**
+ * Formulier dat werkt zonder server:
+ * - met een endpoint (site.formulieren.endpoint) wordt het via fetch verstuurd;
+ * - zonder endpoint opent het e-mailprogramma met de ingevulde gegevens.
+ */
+interface Props {
+  naam: string;
+  aan: string;
+  onderwerp: string;
+  knop?: string;
+  disabled?: boolean;
+  bedankt?: string;
+}
+const { naam, aan, onderwerp, knop = 'Verzenden', disabled = false, bedankt = 'Bedankt! We hebben je bericht goed ontvangen en nemen zo snel mogelijk contact op.' } = Astro.props;
+const endpoint = site.formulieren.endpoint;
+---
+<form
+  class="form"
+  data-site-form
+  data-endpoint={endpoint}
+  data-to={aan}
+  data-subject={onderwerp}
+  data-thanks={bedankt}
+  method="post"
+  action={endpoint || undefined}
+  novalidate
+>
+  <input type="hidden" name="formulier" value={naam} />
+  <input type="hidden" name="_subject" value={onderwerp} />
+  <p class="sr-only" aria-hidden="true">
+    <label>Laat dit veld leeg <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" /></label>
+  </p>
+  <fieldset class="form-fields" disabled={disabled} style="border:0;padding:0;margin:0;display:grid;gap:1.1rem;min-width:0">
+    <slot />
+    <div class="btn-row">
+      <button type="submit" class="btn btn-yellow">{knop}</button>
+    </div>
+  </fieldset>
+  <div class="form-status" role="status" aria-live="polite" hidden></div>
+</form>
+
+<script>
+  function labelVoor(el: HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement): string {
+    if (el.dataset.label) return el.dataset.label;
+    const field = el.closest('.field');
+    const lbl = field?.querySelector('label, .label');
+    if (lbl && !lbl.contains(el)) return lbl.textContent?.replace('*', '').trim() || el.name;
+    const wrap = el.closest('label');
+    return wrap?.textContent?.trim() || el.name;
+  }
+
+  function samenvatting(form: HTMLFormElement): string {
+    const regels: string[] = [];
+    let groep = '';
+    const verwerkt = new Set<string>();
+    for (const el of Array.from(form.elements) as HTMLInputElement[]) {
+      if (!el.name || el.type === 'hidden' || el.name.startsWith('_') || el.type === 'submit') continue;
+      const fs = el.closest('fieldset:not(.form-fields)');
+      const legend = fs?.querySelector('legend')?.textContent?.trim() || '';
+      if (legend && legend !== groep) {
+        groep = legend;
+        regels.push('', `— ${legend} —`);
+      }
+      if (el.type === 'radio' || el.type === 'checkbox') {
+        if (verwerkt.has(el.name)) continue;
+        const groepEls = form.querySelectorAll<HTMLInputElement>(`[name="${CSS.escape(el.name)}"]`);
+        if (groepEls.length > 1 || el.type === 'radio') {
+          verwerkt.add(el.name);
+          const waarden = Array.from(groepEls).filter((g) => g.checked).map((g) => g.value);
+          const titel = el.dataset.label || el.closest('.field')?.querySelector('.label')?.textContent?.replace('*', '').trim() || el.name;
+          regels.push(`${titel}: ${waarden.join(', ') || '-'}`);
+        } else {
+          regels.push(`${labelVoor(el)}: ${el.checked ? 'ja' : 'nee'}`);
+        }
+        continue;
+      }
+      if (!el.value) continue;
+      regels.push(`${labelVoor(el)}: ${el.value}`);
+    }
+    return regels.join('\n').trim();
+  }
+
+  document.querySelectorAll<HTMLFormElement>('[data-site-form]').forEach((form) => {
+    const status = form.querySelector<HTMLElement>('.form-status')!;
+    const toon = (state: 'ok' | 'error' | 'info', tekst: string) => {
+      status.hidden = false;
+      status.dataset.state = state;
+      status.textContent = tekst;
+    };
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      if (!form.checkValidity()) {
+        form.reportValidity();
+        toon('error', 'Gelieve alle verplichte velden (*) correct in te vullen.');
+        return;
+      }
+      if ((form.querySelector('[name="_gotcha"]') as HTMLInputElement)?.value) return;
+      const endpoint = form.dataset.endpoint;
+      const knop = form.querySelector<HTMLButtonElement>('button[type="submit"]');
+      if (endpoint) {
+        knop?.setAttribute('disabled', '');
+        toon('info', 'Bezig met verzenden…');
+        try {
+          const res = await fetch(endpoint, { method: 'POST', body: new FormData(form), headers: { Accept: 'application/json' } });
+          if (!res.ok) throw new Error(String(res.status));
+          form.reset();
+          toon('ok', form.dataset.thanks || 'Bedankt!');
+        } catch {
+          toon('error', `Verzenden is niet gelukt. Probeer opnieuw of mail naar ${form.dataset.to}.`);
+        } finally {
+          knop?.removeAttribute('disabled');
+        }
+        return;
+      }
+      const body = samenvatting(form);
+      const url = `mailto:${form.dataset.to}?subject=${encodeURIComponent(form.dataset.subject || '')}&body=${encodeURIComponent(body)}`;
+      window.location.href = url;
+      toon('info', `Je e-mailprogramma wordt geopend met een ingevulde e-mail aan ${form.dataset.to}. Klik daar op verzenden om je aanvraag af te ronden.`);
+    });
+  });
+</script>

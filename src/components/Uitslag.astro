@@ -1,0 +1,149 @@
+---
+import { rij, isJaarklassement, type Wedstrijd } from '../lib/uitslagen';
+import { datumLang } from '../lib/format';
+interface Props { w: Wedstrijd; open?: boolean }
+const { w, open = false } = Astro.props;
+const deelnemers = w.groepen.reduce((n, g) => n + g.rijen.length, 0);
+---
+<details class="uitslag" open={open}>
+  <summary>
+    <span class="u-datum">{isJaarklassement(w) ? `Seizoen ${w.datum.slice(0, 4)}` : datumLang(w.datum)}</span>
+    <span class="u-naam">{w.naam}</span>
+    <span class="u-meta">{deelnemers > 0 ? `${deelnemers} plaatsen` : ''}</span>
+  </summary>
+  <div class="u-body">
+    {w.groepen.length === 0 && <p class="muted">Geen gedetailleerde uitslag beschikbaar.</p>}
+    {w.groepen.map((g) => (
+      <div class="u-groep">
+        {g.klasse && <h4>{g.klasse}</h4>}
+        {g.rijen.length > 0 && (
+          <ol class="u-rijen">
+            {g.rijen.map((r) => {
+              const { pos, naam, extra } = rij(r);
+              return (
+                <li class:list={[{ podium: ['1', '2', '3'].includes(pos) }, `p${pos}`]}>
+                  <span class="pos">{pos}</span>
+                  <span class="naam">{naam}</span>
+                  {extra.length > 0 && <span class="extra">{extra.join(' · ')}</span>}
+                </li>
+              );
+            })}
+          </ol>
+        )}
+        {g.notities.map((n) => <p class="small muted">{n}</p>)}
+      </div>
+    ))}
+  </div>
+</details>
+<style>
+  .uitslag {
+    background: var(--white);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    overflow: hidden;
+  }
+  .uitslag + .uitslag {
+    margin-top: 0.6rem;
+  }
+  summary {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 0.1rem 1rem;
+    padding: 0.9rem 1.2rem;
+    cursor: pointer;
+    list-style: none;
+    position: relative;
+    padding-right: 3rem;
+  }
+  summary::-webkit-details-marker {
+    display: none;
+  }
+  summary::after {
+    content: '+';
+    position: absolute;
+    right: 1.2rem;
+    top: 50%;
+    transform: translateY(-50%);
+    font: 600 1.4rem var(--font-display);
+    color: var(--sea-500);
+  }
+  details[open] summary::after {
+    content: '–';
+  }
+  summary:hover {
+    background: var(--sea-50);
+  }
+  .u-datum {
+    grid-column: 1 / -1;
+    font-size: 0.82rem;
+    color: var(--ink-500);
+  }
+  .u-datum::first-letter {
+    text-transform: uppercase;
+  }
+  .u-naam {
+    font: 650 1.1rem var(--font-display);
+    color: var(--navy-900);
+    text-transform: none;
+  }
+  .u-meta {
+    font-size: 0.85rem;
+    color: var(--ink-500);
+    align-self: center;
+  }
+  .u-body {
+    padding: 0.3rem 1.2rem 1.2rem;
+    display: grid;
+    gap: 1.2rem;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
+    border-top: 1px solid var(--line);
+    padding-top: 1rem;
+  }
+  .u-groep h4 {
+    font-size: 0.95rem;
+    color: var(--sea-500);
+    margin-bottom: 0.5rem;
+  }
+  .u-rijen {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: 0.25rem;
+  }
+  .u-rijen li {
+    display: grid;
+    grid-template-columns: 2rem 1fr;
+    gap: 0 0.6rem;
+    align-items: baseline;
+    font-size: 0.95rem;
+    padding: 0.2rem 0;
+  }
+  .pos {
+    display: inline-grid;
+    place-items: center;
+    width: 1.75rem;
+    height: 1.75rem;
+    border-radius: 50%;
+    background: var(--sea-50);
+    font: 600 0.85rem var(--font-display);
+    color: var(--navy-800);
+  }
+  .p1 .pos {
+    background: var(--yellow-400);
+  }
+  .p2 .pos {
+    background: #dde3ec;
+  }
+  .p3 .pos {
+    background: #f1d3b5;
+  }
+  .podium .naam {
+    font-weight: 600;
+  }
+  .extra {
+    grid-column: 2;
+    font-size: 0.85rem;
+    color: var(--ink-500);
+  }
+</style>

@@ -1,0 +1,43 @@
+---
+import Base from '../../layouts/Base.astro';
+import PageHero from '../../components/PageHero.astro';
+import { site } from '../../data/site';
+const jv = site.jeugdverantwoordelijke;
+---
+<Base title="Q-Cup" description="De Q-Cup is een laagdrempelig wedstrijdcircuit voor recreatieve jeugdzeilers in Optimist. NWV begeleidt jeugdzeilers naar de manches.">
+  <PageHero title="Q-Cup" eyebrow="Wedstrijden voor de jeugd" lead="Een laagdrempelig wedstrijdcircuit voor recreatieve jeugdzeilers in Optimist. Leerrijk en fun gegarandeerd!" image="/media/site/kamp-paas.webp" crumbs={[{ label: 'Wedstrijden', href: '/wedstrijden/' }, { label: 'Q-Cup' }]} />
+  <section class="section">
+    <div class="container grid grid-3">
+      <div class="panel">
+        <h2 class="h3">Waarom? Daarom!</h2>
+        <ul class="check-list">
+          <li>Laagdrempelig wedstrijdcircuit in Optimist</li>
+          <li>De manches worden georganiseerd door verschillende clubs in Vlaanderen, ook door NWV op de Nieuwdonk</li>
+          <li>Het basisniveau moet bereikt zijn</li>
+          <li>Voor de jongste zeilers (max. 12 jaar)</li>
+        </ul>
+      </div>
+      <div class="panel">
+        <h2 class="h3">Begeleiding</h2>
+        <p>We sturen een trainer mee naar elke Q-Cup-manche, die de zeilers indien mogelijk naar de wedstrijd brengt en ze daar begeleidt.</p>
+        <p>Als ouder ben je zeker welkom, maar het is geen vereiste.</p>
+      </div>
+      <div class="panel">
+        <h2 class="h3">Vervoer & kostprijs</h2>
+        <p>NWV zorgt voor het vervoer van de zeilers naar de wedstrijdlocaties. De zeilcamionette biedt plaats voor de trainer en 6 zeilers. Bij meer inschrijvingen werken we met een wisselsysteem tussen de ouders.</p>
+        <p>We vragen een vergoeding per dag die het wedstrijdgeld, de begeleiding en de brandstofkosten dekt (laatst €25 per dag per persoon).</p>
+      </div>
+    </div>
+    <div class="container" style="margin-top:2rem">
+      <div class="panel panel-navy">
+        <h2 class="h3">Interesse?</h2>
+        <p>Vraag de kalender van de volgende manches en schrijf je in bij {jv.naam}: <a href={`tel:${jv.gsmLink}`}>{jv.gsm}</a> of <a href={`mailto:${jv.email}`}>{jv.email}</a>.</p>
+      </div>
+    </div>
+  </section>
+</Base>
+<style>
+  .h3 {
+    font-size: 1.3rem;
+  }
+</style>

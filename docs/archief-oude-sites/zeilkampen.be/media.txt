@@ -1,0 +1,27 @@
+TITLE: Media :: Jeugdwerking NWV
+FILE: zkall/media.html
+
+[IMG https://b9f755567d.clvaw-cdnwnd.com/1676d21de2935eed384c918096ef4e15/200000942-bc057bcff5/image-crop-200000923-0.jpeg?ph=b9f755567d alt=""]
+[LINK #mediaArrow :: ]
+H1: NWV Berlare in beeld
+H3: Online fotoalbum
+Sinds 2022 plaatsen we onze foto's niet meer online omwille van GDPR.
+Aan het eind van elk zomerkamp sturen we de foto's eenmalig door via Whatsapp, zo kan je alsnog met volle teugen nagenieten van het kamp!
+[LINK https://www.flickr.com/photos/145574761@N05/albums :: KLIK HIER]
+[IMG https://b9f755567d.clvaw-cdnwnd.com/1676d21de2935eed384c918096ef4e15/200002069-51da651da8/50380091187_36678be5cf_o.jpg?ph=b9f755567d alt="KLIK HIER"]
+KLIK HIER
+H2: AFTERMOVIES
+[LINK https://www.flickr.com/photos/145574761@N05/50886119753/in/dateposted/ :: ]
+[IMG https://live.staticflickr.com/31337/50886119753_21423ba8a2.jpg alt="AFTERMOVIE 2020!  ✊⛵️"]
+[IFRAME https://player.vimeo.com/video/322597607?byline=0&portrait=0]
+[IFRAME https://player.vimeo.com/video/325052296?byline=0&portrait=0]
+[IFRAME https://player.vimeo.com/video/283292606?byline=0&portrait=0]
+[IFRAME https://player.vimeo.com/video/233889761?byline=0&portrait=0]
+[IFRAME https://player.vimeo.com/video/241404247?byline=0&portrait=0]
+[IFRAME https://player.vimeo.com/video/238254731?byline=0&portrait=0]
+[IFRAME https://player.vimeo.com/video/237267802?byline=0&portrait=0]
+[IFRAME https://player.vimeo.com/video/228565023?byline=0&portrait=0]
+[IFRAME https://player.vimeo.com/video/226642505?byline=0&portrait=0]
+[IFRAME https://player.vimeo.com/video/190465537?byline=0&portrait=0]
+[IFRAME //www.youtube.com/embed/J4QDEIwLTSs?wmode=opaque]
+[IFRAME //www.youtube.com/embed/740--4WFCmo?wmode=opaque]

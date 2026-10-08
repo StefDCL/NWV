@@ -1,0 +1,114 @@
+---
+import Base from '../../../layouts/Base.astro';
+import PageHero from '../../../components/PageHero.astro';
+import KampCard from '../../../components/KampCard.astro';
+import Notice from '../../../components/Notice.astro';
+import Icon from '../../../components/Icon.astro';
+import { kampen, seizoen, internLocaties, type Kamp } from '../../../data/kampen';
+import { site } from '../../../data/site';
+import { periode, euro } from '../../../lib/format';
+
+export function getStaticPaths() {
+  return kampen.map((kamp) => ({ params: { slug: kamp.slug }, props: { kamp } }));
+}
+interface Props { kamp: Kamp }
+const { kamp } = Astro.props;
+const anderen = kampen.filter((k) => k.slug !== kamp.slug).slice(0, 3);
+const jv = site.jeugdverantwoordelijke;
+---
+<Base title={kamp.naam} description={`${kamp.naam} (${kamp.leeftijd}): ${kamp.kort} Data, prijzen en inschrijven voor ${seizoen}.`} image={kamp.afbeelding}>
+  <PageHero title={kamp.naam} eyebrow={`${kamp.leeftijd} · ${kamp.niveau}`} lead={kamp.kort} image={kamp.afbeelding} crumbs={[{ label: 'Zeilschool', href: '/zeilschool/' }, { label: 'Zomerkampen', href: '/zeilschool/zomerkampen/' }, { label: kamp.naam }]}>
+    <div class="btn-row" style="margin-top:1.5rem">
+      <a href={`/zeilschool/inschrijven/?kamp=${kamp.slug}`} class="btn btn-yellow">Inschrijven</a>
+      <a href="#data" class="btn btn-light">Data & prijzen</a>
+    </div>
+  </PageHero>
+
+  <section class="section">
+    <div class="container split">
+      <div>
+        <p class="lead">{kamp.intro}</p>
+        <h2>Onze troeven</h2>
+        <ul class="check-list">{kamp.troeven.map((t) => <li>{t}</li>)}</ul>
+        {kamp.extra && (
+          <div class="grid extra">
+            {kamp.extra.map((e) => (
+              <div class="panel panel-sea"><h3>{e.titel}</h3><p>{e.tekst}</p></div>
+            ))}
+          </div>
+        )}
+      </div>
+      <aside class="stack">
+        <div class="panel">
+          <h3><Icon name="shield" size={20} /> Toelatingsvoorwaarden</h3>
+          <ol>{kamp.voorwaarden.map((v) => <li>{v}</li>)}</ol>
+        </div>
+        <div class="panel">
+          <h3><Icon name="info" size={20} /> Praktisch</h3>
+          <ul>{kamp.praktisch.map((v) => <li>{v}</li>)}</ul>
+        </div>
+        <div class="panel panel-navy">
+          <h3>Vragen?</h3>
+          <p>Contacteer {jv.naam} via <a href={`tel:${jv.gsmLink}`}>{jv.gsm}</a> of <a href={`mailto:${jv.email}`}>{jv.email}</a>.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="data">
+    <div class="container container-narrow">
+      <p class="eyebrow">{kamp.naam} {seizoen}</p>
+      <h2>Data & kostprijs</h2>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Kampcode</th><th>Periode</th><th>Duur</th><th class="num">Prijs</th></tr></thead>
+          <tbody>
+            {kamp.weken.map((w) => (
+              <tr>
+                <td><strong>{w.code}</strong></td>
+                <td>{periode(w.van, w.tot)} {seizoen}{internLocaties[w.code] && <span class="muted"> · {internLocaties[w.code]}</span>}</td>
+                <td>{w.dagen} dagen</td>
+                <td class="num"><strong>{euro(w.prijs)}</strong></td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+      <div style="margin-top:1.5rem">
+        {!site.inschrijvingen.open && <Notice><p>{site.inschrijvingen.melding}</p></Notice>}
+      </div>
+      <div class="btn-row" style="margin-top:1.5rem">
+        <a href={`/zeilschool/inschrijven/?kamp=${kamp.slug}`} class="btn btn-yellow">Schrijf je kind in</a>
+        <a href="/zeilschool/zomerkampen/" class="btn btn-ghost">Terug naar het overzicht</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2>Andere kampen</h2>
+      <div class="grid grid-3">{anderen.map((k) => <KampCard kamp={k} />)}</div>
+    </div>
+  </section>
+</Base>
+<style>
+  .extra {
+    margin-top: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr));
+  }
+  .extra h3 {
+    font-size: 1.05rem;
+  }
+  .extra p {
+    margin: 0;
+  }
+  aside h3 {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  aside ol,
+  aside ul {
+    margin: 0;
+  }
+</style>

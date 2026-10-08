@@ -1,0 +1,5 @@
+TITLE: Wedstrijden – NWV
+FILE: mirror/www.nwv-nd.be/wedstrijden/index.html
+
+H1: Wedstrijden
+[IFRAME https://nwv-nd.be/wp/nwv-map/html-bestanden/wedstrijden_versie_2026-1.html]

@@ -1,0 +1,24 @@
+TITLE: Route – NWV
+FILE: mirror/www.nwv-nd.be/route/index.html
+
+H1: Route
+H3: De zeilclub bereiken per auto met materiaal .
+met materiaal
+.
+[IFRAME https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d14078.969039585148!2d3.9846730993133983!3d51.02939990066975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e0!4m3!3m2!1d51.0219856!2d3.9648082999999996!4m5!1s0x47c39989991c1227%3A0x4a30154e27c4d41e!2sNievdonckse%20Watersportvereniging!3m2!1d51.0333165!2d3.9704411!5e0!3m2!1snl!2sbe!4v1614617285863!5m2!1snl!2sbe]
+Adres:  Nieuwdonk, 9290 Berlare.     GPS:  51°02’00.4″N 3°58’14.1″O  (51.033432, 3.970587)
+Komende van Uitbergen: Neem de  Moleneindestraat tot einde en draai mee naar links, dit is reeds de straat “Nieuwdonk” en dan bij de eerste afslag links: een smal weggetje. Na 1,3 km vind je de club  aan de linkerkant.
+Neem de  Moleneindestraat tot einde en draai mee naar links, dit is reeds de straat “Nieuwdonk” en dan bij de eerste afslag links: een smal weggetje. Na 1,3 km vind je de club  aan de linkerkant.
+Komende van het Donkmeer: Volg de Donklaan (N467) richting Berlare.  De Donklaan splitst af naar rechts, dit moet je volgen (de N467 gaat verder naar Berlare als Blauwvoetdreef). Volg de Donklaan verder tot aan een T-kruispunt, ga daar naar rechts en volg straat “Nieuwdonk” en dan de eerste publieke afslag rechts: een smal weggetje. Na 1,3 km vind je de club  aan de linkerkant.
+straat “Nieuwdonk”
+en dan de eerste publieke afslag rechts: een smal weggetje.
+Na 1,3 km vind je de club  aan de linkerkant.
+OPMERKING: De toegang tot domein is afgesloten met een afsluitboom. Na het doorrijden, zowel IN als UIT, de afsluitboom steeds afsluiten a.u.b. om het doorrijden van andere wagens, vreemd aan het domein, te beletten. OPGELET VOOR SCHADE:  bij het openen steeds vergrendelen met de pin of het hangslot want hij draait soms vanzelf terug dicht. Na het afladen van het materiaal aan de steiger de wagen parkeren in de dreef tussen de bomen of op het beton aan de loodsen.
+Na het afladen van het materiaal aan de steiger de wagen parkeren in de dreef tussen de bomen of op het beton aan de loodsen.
+H3: De zeilclub bereiken te voet, per fiets, per auto zonder materiaal .
+per auto zonder materiaal
+[LINK https://www.google.com/maps/@51.0359358,3.9710671,15.85z?hl=nl-NL :: ]
+[IMG https://www.nwv-nd.be/wp/wp-content/uploads/2020/02/route.jpg alt=""]
+Dendermondse Steenweg 13a 9290 Berlare
+H3: Op het recreatiedomein Nieuwdonk
+Volg de oprijlaan tot aan de omheining. Volg de laan verder tot aan de parking en volg het meer aan de rechtse kant. Voorbij de speeltuin ziet men in de verte de steiger. Rechts is dan de laan naar het clubhuis.

@@ -1,0 +1,67 @@
+---
+import Base from '../../layouts/Base.astro';
+import PageHero from '../../components/PageHero.astro';
+import Kalender from '../../components/Kalender.astro';
+import Uitslag from '../../components/Uitslag.astro';
+import Icon from '../../components/Icon.astro';
+import { wedstrijden } from '../../lib/uitslagen';
+import { kalender } from '../../data/club';
+const seizoen = kalender[0]?.datum.slice(0, 4);
+const recent = wedstrijden.slice(0, 3);
+---
+<Base title="Wedstrijden & kalender" description="Activiteitenkalender en clubwedstrijden van de Nievdonckse Watersport Vereniging op de Nieuwdonk, met uitslagen sinds 2013.">
+  <PageHero title="Wedstrijden & kalender" eyebrow="Clubleven" lead="Van april tot oktober varen we clubwedstrijden op de Nieuwdonk, voor leden én voor iedereen die bij ons een zeil- of surfcursus volgde." image="/media/site/zeilschool-4.webp" crumbs={[{ label: 'Wedstrijden' }]} />
+  <section class="section">
+    <div class="container split">
+      <div>
+        <p class="eyebrow">Seizoen {seizoen}</p>
+        <h2>Activiteitenkalender</h2>
+        <Kalender alles />
+        <p class="small muted" style="margin-top:1rem">Clubwedstrijden starten om 11u, tenzij anders vermeld. Uitslagen worden op handicap berekend; de jeugd vaart in eigen klassen.</p>
+      </div>
+      <aside class="stack">
+        <div class="panel panel-navy">
+          <h3><Icon name="trophy" size={22} /> Meedoen?</h3>
+          <p>Onze clubwedstrijden staan open voor alle leden en voor iedereen die tijdens het jaar een zeil- of surfcursus bij ons volgde. Je kan varen met een eigen boot of met clubmateriaal.</p>
+          <p>Daarnaast organiseren we nationale wedstrijden voor de Spirou- en Europeklasse en een Q-Cup-manche voor jonge Optimistzeilers.</p>
+        </div>
+        <a href="/wedstrijden/jeugdklassement/" class="panel link-panel"><strong>Jeugdklassement</strong><span>Hoe werkt het puntensysteem voor de jeugd?</span></a>
+        <a href="/wedstrijden/q-cup/" class="panel link-panel"><strong>Q-Cup</strong><span>Laagdrempelig wedstrijdcircuit voor recreatieve jeugdzeilers in Optimist.</span></a>
+        <a href="https://www.sailing.org/inside-world-sailing/rules-regulations/racing-rules-of-sailing/" class="panel link-panel" rel="noopener" target="_blank"><strong>Wedstrijdreglement</strong><span>Racing Rules of Sailing (World Sailing)</span></a>
+      </aside>
+    </div>
+  </section>
+  <section class="section section-alt">
+    <div class="container container-narrow">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Uitslagen</p>
+          <h2>Recentste uitslagen</h2>
+        </div>
+        <a href="/wedstrijden/uitslagen/" class="link-arrow">Alle uitslagen sinds 2013</a>
+      </div>
+      {recent.map((w, i) => <Uitslag w={w} open={i === 0} />)}
+    </div>
+  </section>
+</Base>
+<style>
+  .link-panel {
+    display: grid;
+    gap: 0.2rem;
+    text-decoration: none;
+    color: var(--navy-900);
+    transition: box-shadow 0.2s ease;
+  }
+  .link-panel span {
+    color: var(--ink-500);
+    font-size: 0.93rem;
+  }
+  .link-panel:hover {
+    box-shadow: var(--shadow);
+  }
+  .panel-navy h3 {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+  }
+</style>

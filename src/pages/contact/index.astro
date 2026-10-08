@@ -1,0 +1,153 @@
+---
+import Base from '../../layouts/Base.astro';
+import PageHero from '../../components/PageHero.astro';
+import SiteForm from '../../components/SiteForm.astro';
+import Field from '../../components/Field.astro';
+import Icon from '../../components/Icon.astro';
+import { site } from '../../data/site';
+import { integriteit } from '../../data/club';
+const jv = site.jeugdverantwoordelijke;
+---
+<Base title="Contact" description="Contacteer de Nievdonckse Watersport Vereniging: vragen over cursussen, zomerkampen, lid worden of clubactiviteiten.">
+  <PageHero title="Contact" eyebrow="We helpen je graag" lead="Vragen over cursussen, kampen, lid worden of onze clubactiviteiten? Vul het formulier in of neem rechtstreeks contact op." image="/media/site/contact.webp" crumbs={[{ label: 'Contact' }]} />
+  <section class="section">
+    <div class="container split">
+      <div>
+        <h2>Stuur ons een bericht</h2>
+        <SiteForm naam="contact" aan={site.email.algemeen} onderwerp="Contactformulier website NWV" knop="Bericht verzenden">
+          <div class="form-row">
+            <Field label="Familienaam" name="naam" required autocomplete="family-name" />
+            <Field label="Voornaam" name="voornaam" required autocomplete="given-name" />
+          </div>
+          <div class="form-row">
+            <Field label="E-mail" name="email" type="email" required autocomplete="email" />
+            <Field label="Telefoonnummer" name="telefoon" type="tel" autocomplete="tel" />
+          </div>
+          <Field label="Onderwerp" name="onderwerp" type="select" required options={['Zomerkampen / jeugdwerking', 'Cursus volwassenen', 'Lid worden / lidmaatschap', 'Clubactiviteiten / wedstrijden', 'Website', 'Andere vraag']} />
+          <Field label="Je bericht" name="bericht" type="textarea" required />
+          <label class="choice"><input type="checkbox" name="akkoord" required data-label="Akkoord privacy" /><span>Ik ga akkoord met de verwerking van mijn gegevens om mijn vraag te beantwoorden (<a href="/privacy/">privacy</a>).<span class="req">*</span></span></label>
+        </SiteForm>
+      </div>
+      <aside class="stack">
+        <div class="panel panel-navy">
+          <h3>{site.vzw}</h3>
+          <ul class="contact-list">
+            <li><Icon name="pin" /><span>{site.adres.domein}<br />{site.adres.straat}<br />{site.adres.postcode} {site.adres.gemeente}</span></li>
+            <li><Icon name="mail" /><a href={`mailto:${site.email.algemeen}`}>{site.email.algemeen}</a></li>
+            <li><Icon name="facebook" /><a href={site.social.facebook} rel="noopener" target="_blank">facebook.com/NWVberlare</a></li>
+            <li><Icon name="instagram" /><a href={site.social.instagram} rel="noopener" target="_blank">@nwv_berlare</a></li>
+          </ul>
+          <p class="small" style="margin:1rem 0 0;opacity:.8">Ondernemingsnr. {site.ondernemingsnummer}<br />Rekeningnr. {site.iban}</p>
+        </div>
+        <div class="panel">
+          <h3>Zeilschool, kampen & jeugd</h3>
+          <p>{jv.naam} – {jv.rol.toLowerCase()}</p>
+          <p class="contact-direct">
+            <a href={`tel:${jv.gsmLink}`}><Icon name="phone" size={18} /> {jv.gsm}</a>
+            <a href={`mailto:${jv.email}`}><Icon name="mail" size={18} /> {jv.email}</a>
+          </p>
+        </div>
+        <a href="/contact/route/" class="panel route-link">
+          <img src="/media/site/route-overmere.webp" alt="Kaartje met de route naar de club" width="728" height="668" loading="lazy" />
+          <span class="link-arrow">Routebeschrijving</span>
+        </a>
+      </aside>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="integriteit">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Veilig sporten</p>
+          <h2>Aanspreekpersoon Integriteit (API)</h2>
+          <p>
+            Als jonge sporter, ouder, begeleider of andere betrokkene kan je bij onze Aanspreekpersoon Integriteit terecht met een vraag,
+            vermoeden of klacht over (seksueel) grensoverschrijdend gedrag, pestgedrag, discriminatie of lichamelijke en seksuele integriteit.
+            De API luistert naar je vraag of verhaal, behandelt je melding in alle vertrouwen en verwijst door wanneer nodig of geeft advies over
+            mogelijke vervolgstappen.
+          </p>
+        </div>
+      </div>
+      <div class="grid grid-3">
+        {integriteit.map((p) => (
+          <div class="panel api">
+            {p.foto ? <img src={p.foto} alt={`Foto van ${p.naam}`} width="80" height="80" loading="lazy" /> : <span class="avatar"><Icon name="shield" size={26} /></span>}
+            <div>
+              <h3>{p.naam}</h3>
+              {p.gsm && <p><a href={`tel:+32${p.gsm.replace(/\s/g, '').slice(1)}`}>{p.gsm}</a></p>}
+              <p><a href={`mailto:${p.email}`}>{p.email}</a></p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+</Base>
+<style>
+  .contact-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: 0.8rem;
+  }
+  .contact-list li {
+    display: flex;
+    gap: 0.7rem;
+    align-items: flex-start;
+  }
+  .contact-list :global(svg) {
+    flex: none;
+    color: var(--yellow-400);
+    margin-top: 0.2rem;
+  }
+  .contact-direct {
+    display: grid;
+    gap: 0.5rem;
+    margin: 0;
+  }
+  .contact-direct a {
+    display: inline-flex;
+    gap: 0.5rem;
+    align-items: center;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .route-link {
+    display: grid;
+    gap: 0.8rem;
+    text-decoration: none;
+  }
+  .route-link img {
+    border-radius: var(--radius-sm);
+  }
+  .api {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+  .api img,
+  .avatar {
+    flex: none;
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .avatar {
+    display: grid;
+    place-items: center;
+    background: var(--sea-100);
+    color: var(--navy-700);
+  }
+  .api h3 {
+    margin: 0 0 0.2rem;
+    font-size: 1.1rem;
+  }
+  .api p {
+    margin: 0;
+    font-size: 0.93rem;
+    word-break: break-word;
+  }
+</style>

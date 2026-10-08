@@ -1,0 +1,74 @@
+---
+import Base from '../../layouts/Base.astro';
+import PageHero from '../../components/PageHero.astro';
+import Uitslag from '../../components/Uitslag.astro';
+import { wedstrijden, jaren } from '../../lib/uitslagen';
+---
+<Base title="Uitslagen" description="Alle uitslagen van de clubwedstrijden en nationale wedstrijden van NWV op de Nieuwdonk, van 2013 tot vandaag.">
+  <PageHero title="Uitslagen" eyebrow="Wedstrijden" lead={`${wedstrijden.length} wedstrijden, van ${jaren.at(-1)} tot ${jaren[0]}. Klik op een wedstrijd om de uitslag te openen.`} image="/media/site/hero-5.webp" crumbs={[{ label: 'Wedstrijden', href: '/wedstrijden/' }, { label: 'Uitslagen' }]} />
+  <section class="section">
+    <div class="container container-narrow">
+      <div class="zoek">
+        <label for="zoek-zeiler">Zoek een zeiler of wedstrijd</label>
+        <input id="zoek-zeiler" type="text" placeholder="bv. Desplenter, Spirou, Beker NWV…" data-zoek />
+      </div>
+      <nav class="jaar-nav" aria-label="Spring naar jaar">
+        {jaren.map((j) => <a href={`#jaar-${j}`} class="badge">{j}</a>)}
+      </nav>
+      {jaren.map((j) => (
+        <section id={`jaar-${j}`} class="jaar" data-jaar>
+          <h2>{j}</h2>
+          {wedstrijden.filter((w) => w.datum.startsWith(j)).map((w) => <Uitslag w={w} />)}
+        </section>
+      ))}
+      <p class="geen muted" hidden data-geen>Niets gevonden.</p>
+    </div>
+  </section>
+</Base>
+<script>
+  const input = document.querySelector<HTMLInputElement>('[data-zoek]');
+  input?.addEventListener('input', () => {
+    const q = input.value.trim().toLowerCase();
+    let gevonden = 0;
+    document.querySelectorAll<HTMLElement>('[data-jaar]').forEach((sec) => {
+      let n = 0;
+      sec.querySelectorAll<HTMLDetailsElement>('details').forEach((d) => {
+        const hit = !q || (d.textContent ?? '').toLowerCase().includes(q);
+        d.hidden = !hit;
+        d.open = !!q && hit;
+        if (hit) n++;
+      });
+      sec.hidden = n === 0;
+      gevonden += n;
+    });
+    document.querySelector<HTMLElement>('[data-geen]')!.hidden = gevonden > 0;
+  });
+</script>
+<style>
+  .zoek {
+    display: grid;
+    gap: 0.35rem;
+    margin-bottom: 1.2rem;
+    font-weight: 600;
+  }
+  .jaar-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin-bottom: 2rem;
+  }
+  .jaar-nav a {
+    text-decoration: none;
+    padding: 0.35rem 0.8rem;
+  }
+  .jaar-nav a:hover {
+    background: var(--yellow-400);
+  }
+  .jaar + .jaar {
+    margin-top: 2.5rem;
+  }
+  .jaar h2 {
+    border-bottom: 3px solid var(--yellow-400);
+    display: inline-block;
+  }
+</style>

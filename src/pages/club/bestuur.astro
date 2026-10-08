@@ -1,0 +1,69 @@
+---
+import Base from '../../layouts/Base.astro';
+import PageHero from '../../components/PageHero.astro';
+import { bestuur } from '../../data/club';
+const initialen = (n: string) => n.split(' ').filter((w) => /^[A-Z]/.test(w)).map((w) => w[0]).slice(0, 2).join('');
+---
+<Base title="Het bestuur" description="Het bestuur van de Nievdonckse Watersport Vereniging vzw.">
+  <PageHero title="Het bestuur" eyebrow="Club" lead="Vrijwilligers die zich met hart en ziel inzetten voor de club, de zeilschool en de jeugdwerking." image="/media/site/hero-7.webp" crumbs={[{ label: 'Club', href: '/club/' }, { label: 'Bestuur' }]} />
+  <section class="section">
+    <div class="container">
+      <div class="grid grid-4">
+        {bestuur.map((b) => (
+          <div class="panel lid">
+            {b.foto ? <img src={b.foto} alt={`Foto van ${b.naam}`} width="120" height="160" loading="lazy" /> : <span class="avatar" aria-hidden="true">{initialen(b.naam)}</span>}
+            <div>
+              <h3>{b.naam}</h3>
+              {b.rol && <p>{b.rol}</p>}
+            </div>
+          </div>
+        ))}
+      </div>
+      <div class="panel panel-sea api" id="integriteit">
+        <h2>Aanspreekpersoon Integriteit (API)</h2>
+        <p>
+          De API is het eerste aanspreekpunt en vertrouwenspersoon voor wie een vraag, opmerking, klacht of andere boodschap heeft over
+          grensoverschrijdend gedrag, zoals pesten of discriminatie, en lichamelijke en seksuele integriteit.
+        </p>
+        <p><a href="/contact/#integriteit" class="link-arrow">Contactgegevens van de API</a></p>
+      </div>
+      <p class="muted small">Wil je het bestuur bereiken? Gebruik het <a href="/contact/">contactformulier</a> of mail naar admin@nwv-nd.be.</p>
+    </div>
+  </section>
+</Base>
+<style>
+  .lid {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    padding: 1rem;
+  }
+  .lid img,
+  .avatar {
+    flex: none;
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+  }
+  .avatar {
+    display: grid;
+    place-items: center;
+    background: var(--navy-800);
+    color: var(--yellow-400);
+    font: 700 1.3rem var(--font-display);
+  }
+  .lid h3 {
+    margin: 0;
+    font-size: 1.08rem;
+  }
+  .lid p {
+    margin: 0.1rem 0 0;
+    color: var(--ink-500);
+    font-size: 0.93rem;
+  }
+  .api {
+    margin: 2.5rem 0 1rem;
+  }
+</style>

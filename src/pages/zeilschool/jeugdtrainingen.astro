@@ -1,0 +1,134 @@
+---
+import Base from '../../layouts/Base.astro';
+import PageHero from '../../components/PageHero.astro';
+import SiteForm from '../../components/SiteForm.astro';
+import Field from '../../components/Field.astro';
+import Icon from '../../components/Icon.astro';
+import { site } from '../../data/site';
+const jv = site.jeugdverantwoordelijke;
+---
+<Base title="Jeugdtrainingen" description="Woensdaglessen vanaf 7 jaar en zaterdagtrainingen voor jeugdzeilers met ervaring op de Nieuwdonk in Berlare.">
+  <PageHero title="Jeugdtrainingen" eyebrow="Zeilschool" lead="Naast onze zomerkampen kan je ook doorheen het schooljaar bij ons zeilen: op woensdagnamiddag en op zaterdag." image="/media/site/jeugd.webp" crumbs={[{ label: 'Zeilschool', href: '/zeilschool/' }, { label: 'Jeugdtrainingen' }]} />
+
+  <section class="section">
+    <div class="container grid grid-2">
+      <div class="panel training">
+        <span class="badge badge-yellow">Vanaf 7 jaar</span>
+        <h2>Woensdaglessen</h2>
+        <p>Doorheen het schooljaar organiseren we woensdaglessen voor kinderen vanaf 7 jaar. Ideaal om na een zomerkamp verder te zeilen of om de smaak te pakken te krijgen.</p>
+        <ul class="check-list">
+          <li>Doorheen het schooljaar, op woensdagnamiddag</li>
+          <li>Voor kinderen vanaf 7 jaar</li>
+          <li>Info en inschrijven via Qkids (instappers)</li>
+        </ul>
+        <div class="btn-row" style="margin-top:1.2rem">
+          <a href="https://www.qkids.be/instappers/" class="btn" rel="noopener" target="_blank">Zeilen op woensdagnamiddag <Icon name="external" size={16} /></a>
+        </div>
+      </div>
+      <div class="panel training">
+        <span class="badge badge-navy">Met zeilervaring</span>
+        <h2>Zaterdagtrainingen</h2>
+        <p>Voor jeugdzeilers die al kunnen zeilen en verder willen groeien, eventueel richting wedstrijden.</p>
+        <ul class="check-list">
+          <li>Zaterdagen van 14u tot 17u</li>
+          <li>Eerdere zeilervaring is verplicht</li>
+          <li>Met clubmateriaal of met je eigen zeilboot</li>
+          <li>Leerrijk: maximum 8 deelnemers per trainer</li>
+          <li>Mogelijkheid tot deelname aan de Grevelingenstages</li>
+          <li>Deelnemers moeten lid zijn of dat jaar aan een zomerkamp hebben deelgenomen om verzekerd te zijn</li>
+        </ul>
+        <div class="prijzen">
+          <div><span>5-beurtenkaart · eigen boot</span><strong>€75</strong></div>
+          <div><span>5-beurtenkaart · clubboot</span><strong>€100</strong></div>
+        </div>
+        <p class="small muted">Deelnameprijzen zoals laatst gepubliceerd. Vraag bij Jelle naar de actuele prijzen en de kalender.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt">
+    <div class="container split">
+      <div>
+        <p class="eyebrow">Optimist Team NWV</p>
+        <h2>Doorgroeien naar het wedstrijdzeilen</h2>
+        <p>
+          Binnen de jeugdwerking bouwen we een team wedstrijdzeilers uit dat (inter)nationaal actief is in de Optimistklasse. Met
+          clubwedstrijdboten krijgen elk jaar enkele getalenteerde kinderen de kans om te ervaren hoe het leven van een wedstrijdzeiler eruitziet:
+          trainen in een wedstrijdbootje op de Nieuwdonk en op het Grevelingenmeer, met extra trainingen als aparte groep.
+        </p>
+        <p>
+          Na zo’n seizoen kies je zelf: doorgaan in het wedstrijdzeilen met een eigen (tweedehands) Spirou of Optimist, of verder zeilen binnen
+          onze jeugdwerking op de Nieuwdonk, met een mooie dosis ervaring erbij. De fun-factor blijft altijd belangrijker dan de resultaten!
+        </p>
+        <div class="btn-row">
+          <a href="/wedstrijden/q-cup/" class="btn btn-ghost">Over de Q-Cup</a>
+          <a href="/wedstrijden/jeugdklassement/" class="btn btn-ghost">Jeugdklassement</a>
+        </div>
+      </div>
+      <div class="panel" id="infomail">
+        <h3>Meld je aan voor de wekelijkse infomail</h3>
+        <p class="small">Ontvang de praktische info over de jeugdtrainingen (en weerupdates) in je mailbox.</p>
+        <SiteForm naam="infomail-jeugdtrainingen" aan={jv.email} onderwerp="Aanmelding infomail jeugdtrainingen" knop="Aanmelden">
+          <Field label="Naam deelnemer" name="deelnemer" required />
+          <Field label="E-mail ouder(s)" name="email" type="email" required autocomplete="email" />
+          <label class="choice"><input type="checkbox" name="akkoord" required data-label="Akkoord" /><span>Ik ga akkoord met de verwerking van mijn persoonlijke gegevens (<a href="/privacy/">privacy</a>).<span class="req">*</span></span></label>
+        </SiteForm>
+        <p class="small muted" style="margin-top:1rem"><a href="https://nl.windfinder.com/weatherforecast/zele" rel="noopener" target="_blank">Meteo Nieuwdonk (Windfinder)</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-tight">
+    <div class="container panel panel-navy cta">
+      <div>
+        <h2>Vragen over de trainingen?</h2>
+        <p>Contacteer {jv.naam} via <a href={`tel:${jv.gsmLink}`}>{jv.gsm}</a> of <a href={`mailto:${jv.email}`}>{jv.email}</a>.</p>
+      </div>
+      <a href="/zeilschool/zomerkampen/" class="btn btn-yellow">Bekijk de zomerkampen</a>
+    </div>
+  </section>
+</Base>
+<style>
+  .training {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+  }
+  .training .badge {
+    align-self: flex-start;
+  }
+  .training h2 {
+    margin: 0.2rem 0 0;
+  }
+  .prijzen {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.75rem;
+    margin-top: 1rem;
+  }
+  .prijzen div {
+    background: var(--sea-50);
+    border-radius: var(--radius-sm);
+    padding: 0.8rem 1rem;
+    display: grid;
+  }
+  .prijzen span {
+    font-size: 0.85rem;
+    color: var(--ink-500);
+  }
+  .prijzen strong {
+    font: 700 1.6rem var(--font-display);
+    color: var(--navy-800);
+  }
+  .cta {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-block: 2rem;
+  }
+  .cta p {
+    margin: 0;
+  }
+</style>

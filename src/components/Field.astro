@@ -1,0 +1,34 @@
+---
+interface Option { value: string; label?: string }
+interface Props {
+  label: string;
+  name: string;
+  type?: 'text' | 'email' | 'tel' | 'number' | 'date' | 'textarea' | 'select';
+  required?: boolean;
+  placeholder?: string;
+  hint?: string;
+  autocomplete?: string;
+  options?: (string | Option)[];
+  min?: number | string;
+  max?: number | string;
+  value?: string;
+}
+const { label, name, type = 'text', required = false, placeholder, hint, autocomplete, options = [], min, max, value } = Astro.props;
+const id = `f-${name}-${Math.random().toString(36).slice(2, 7)}`;
+const opts = options.map((o) => (typeof o === 'string' ? { value: o, label: o } : { value: o.value, label: o.label ?? o.value }));
+---
+<div class="field">
+  <label for={id}>{label}{required && <span class="req" aria-hidden="true">*</span>}</label>
+  {type === 'textarea' ? (
+    <textarea id={id} name={name} required={required} placeholder={placeholder} aria-describedby={hint ? `${id}-h` : undefined}></textarea>
+  ) : type === 'select' ? (
+    <select id={id} name={name} required={required} aria-describedby={hint ? `${id}-h` : undefined}>
+      <option value="">Maak een keuze…</option>
+      {opts.map((o) => <option value={o.value} selected={o.value === value}>{o.label}</option>)}
+      <slot />
+    </select>
+  ) : (
+    <input id={id} name={name} type={type} required={required} placeholder={placeholder} autocomplete={autocomplete} min={min} max={max} value={value} aria-describedby={hint ? `${id}-h` : undefined} />
+  )}
+  {hint && <span class="hint" id={`${id}-h`}>{hint}</span>}
+</div>

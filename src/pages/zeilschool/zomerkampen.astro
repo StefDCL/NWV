@@ -1,0 +1,198 @@
+---
+import Base from '../../layouts/Base.astro';
+import PageHero from '../../components/PageHero.astro';
+import KampCard from '../../components/KampCard.astro';
+import Notice from '../../components/Notice.astro';
+import Icon from '../../components/Icon.astro';
+import { kampen, alleWeken, seizoen, startdag, internLocaties } from '../../data/kampen';
+import { site } from '../../data/site';
+import { periode, euro, datumLang } from '../../lib/format';
+
+// Groepeer per periode (zelfde begindatum)
+const perPeriode = new Map<string, typeof alleWeken>();
+for (const w of alleWeken) {
+  const key = `${w.van}|${w.tot}`;
+  perPeriode.set(key, [...(perPeriode.get(key) ?? []), w]);
+}
+const leeftijden = [6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
+---
+<Base title={`Zomerkampen ${seizoen}`} description={`Alle zeil- en surfkampen van NWV Berlare in ${seizoen}: Piratenkamp, Sail & Play, Tous Ensemble, Junior Sailing, Surf & SUP en interne zeilkampen.`}>
+  <PageHero title={`Zomerkampen ${seizoen}`} eyebrow="Zeilschool" lead="Klaar voor een spetterende vakantie? Ontdek onze externe kampen op de Nieuwdonk en onze interne zeilkampen aan zee en in Zeeland." image="/media/site/kamp-sailplay.webp" crumbs={[{ label: 'Zeilschool', href: '/zeilschool/' }, { label: 'Zomerkampen' }]}>
+    <div class="btn-row" style="margin-top:1.5rem">
+      <a href="#overzicht" class="btn btn-yellow">Overzicht per week</a>
+      <a href="/downloads/zomeraanbod-2026.pdf" class="btn btn-light"><Icon name="download" size={18} /> PDF</a>
+    </div>
+  </PageHero>
+
+  <section class="section">
+    <div class="container">
+      {!site.inschrijvingen.open && <div style="margin-bottom:2rem"><Notice><p>{site.inschrijvingen.melding}</p></Notice></div>}
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Ons aanbod</p>
+          <h2>Kies het kamp dat bij je kind past</h2>
+          <p>Externe kampen lopen dagelijks van 10u tot 17u op de Nieuwdonk; opvang is mogelijk. Bij de interne kampen blijven de kinderen 5 dagen ter plaatse.</p>
+        </div>
+      </div>
+      <div class="grid grid-3">{kampen.map((k) => <KampCard kamp={k} />)}</div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="overzicht">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Planning</p>
+          <h2>Overzicht per week</h2>
+          <p>Filter op leeftijd om te zien welke kampen in aanmerking komen. Gebruik de kampcode bij het inschrijven.</p>
+        </div>
+        <label class="filter">
+          <span>Leeftijd van je kind</span>
+          <select data-leeftijd-filter>
+            <option value="">Alle leeftijden</option>
+            {leeftijden.map((l) => <option value={l}>{l} jaar</option>)}
+          </select>
+        </label>
+      </div>
+
+      <div class="weken">
+        {[...perPeriode.values()].map((weken) => (
+          <div class="week panel" data-week>
+            <h3><Icon name="calendar" size={20} /> {periode(weken[0].van, weken[0].tot)} {seizoen}<span class="badge">{weken[0].dagen} dagen</span></h3>
+            <div class="table-wrap">
+              <table>
+                <thead><tr><th>Kampcode</th><th>Kamp</th><th>Leeftijd</th><th>Type</th><th class="num">Prijs</th></tr></thead>
+                <tbody>
+                  {weken.map((w) => (
+                    <tr data-min={w.kamp.minLeeftijd} data-max={w.kamp.maxLeeftijd}>
+                      <td><code>{w.code}</code></td>
+                      <td><a href={`/zeilschool/kampen/${w.kamp.slug}/`}>{w.kamp.naam}</a>{internLocaties[w.code] && <span class="muted"> · {internLocaties[w.code]}</span>}</td>
+                      <td>{w.kamp.leeftijd}</td>
+                      <td>{w.kamp.type === 'intern' ? 'Intern' : 'Extern'}</td>
+                      <td class="num">{euro(w.prijs)}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        ))}
+        <p class="geen" hidden data-geen>Geen kampen gevonden voor deze leeftijd. Neem gerust contact op met Jelle voor advies.</p>
+      </div>
+
+      <div class="panel panel-navy startdag">
+        <Icon name="star" size={28} />
+        <div>
+          <h3>{startdag.titel}</h3>
+          <p>{datumLang(startdag.datum)} – initiaties zeilen voor kinderen en hun ouders, met leuke activiteiten op en rond het water.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container split">
+      <div>
+        <h2>Praktisch</h2>
+        <ul class="check-list">
+          <li>Inschrijven gebeurt online via het <a href="/zeilschool/inschrijven/">inschrijvingsformulier</a>. Je ontvangt per mail meer info over beschikbaarheid en betaling.</li>
+          <li>Na het kamp sturen we de foto’s eenmalig door via WhatsApp. Omwille van de privacy (GDPR) plaatsen we kampfoto’s niet meer online.</li>
+          <li>Alle monitoren zijn gediplomeerd via de Vlaamse Trainersschool.</li>
+          <li>Een zwembrevet van minstens 50 m is verplicht (Surf & SUP: ook minstens 1,50 m groot).</li>
+          <li>Opvang voor en na het externe kamp is mogelijk op aanvraag.</li>
+        </ul>
+      </div>
+      <div class="panel panel-sea">
+        <h3>Wat breng je mee?</h3>
+        <ul>
+          <li>Lunchpakket en drinkbus</li>
+          <li>Lichte sportschoenen die nat mogen worden</li>
+          <li>Zwemgerief, regen- en reservekledij</li>
+        </ul>
+        <p class="small muted">Zwemvesten en wetsuits zijn voorzien door de club.</p>
+        <a href="/zeilschool/inschrijven/" class="btn btn-yellow">Naar het inschrijvingsformulier</a>
+      </div>
+    </div>
+  </section>
+</Base>
+<script>
+  const sel = document.querySelector<HTMLSelectElement>('[data-leeftijd-filter]');
+  sel?.addEventListener('change', () => {
+    const l = Number(sel.value);
+    let zichtbaar = 0;
+    document.querySelectorAll<HTMLElement>('[data-week]').forEach((week) => {
+      let rijen = 0;
+      week.querySelectorAll<HTMLTableRowElement>('tr[data-min]').forEach((tr) => {
+        const ok = !l || (l >= Number(tr.dataset.min) && l <= Number(tr.dataset.max));
+        tr.hidden = !ok;
+        if (ok) rijen++;
+      });
+      week.hidden = rijen === 0;
+      zichtbaar += rijen;
+    });
+    const geen = document.querySelector<HTMLElement>('[data-geen]');
+    if (geen) geen.hidden = zichtbaar > 0;
+  });
+</script>
+<style>
+  .filter {
+    display: grid;
+    gap: 0.3rem;
+    font-weight: 600;
+    font-size: 0.9rem;
+    min-width: 220px;
+  }
+  .weken {
+    display: grid;
+    gap: 1.2rem;
+  }
+  .weken > * {
+    min-width: 0;
+  }
+  @media (max-width: 640px) {
+    .week th:nth-child(4),
+    .week td:nth-child(4) {
+      display: none;
+    }
+    .week th,
+    .week td {
+      padding: 0.55rem 0.6rem;
+    }
+  }
+  .week h3 {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    flex-wrap: wrap;
+  }
+  .week h3 :global(svg) {
+    color: var(--sea-500);
+  }
+  .week h3 .badge {
+    font-family: var(--font-body);
+  }
+  code {
+    font-family: ui-monospace, 'SFMono-Regular', Menlo, monospace;
+    font-size: 0.88rem;
+    background: var(--sea-50);
+    padding: 0.15rem 0.4rem;
+    border-radius: 6px;
+    color: var(--navy-800);
+  }
+  .startdag {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+    margin-top: 2rem;
+  }
+  .startdag :global(svg) {
+    color: var(--yellow-400);
+    flex: none;
+  }
+  .startdag p {
+    margin: 0;
+  }
+  .startdag h3 {
+    margin-bottom: 0.2rem;
+  }
+</style>

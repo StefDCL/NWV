@@ -1,0 +1,378 @@
+---
+import Base from '../layouts/Base.astro';
+import Icon from '../components/Icon.astro';
+import NewsCard from '../components/NewsCard.astro';
+import KampCard from '../components/KampCard.astro';
+import Kalender from '../components/Kalender.astro';
+import { kampen, seizoen } from '../data/kampen';
+import { partners, kalender } from '../data/club';
+import { vandaag } from '../lib/format';
+import { site } from '../data/site';
+import { alleBerichten } from '../lib/nieuws';
+import galerij from '../data/galerij.json';
+
+const berichten = (await alleBerichten()).slice(0, 3);
+const [hoofd, ...rest] = berichten;
+const heroBeelden = ['/media/site/hero-1.webp', '/media/site/hero-4.webp', '/media/site/hero-2.webp', '/media/site/hero-6.webp'];
+const recenteAlbums = [...galerij].sort((a, b) => b.title.localeCompare(a.title)).slice(0, 6);
+
+const pijlers = [
+  { titel: 'Zomerkampen', tekst: 'Externe kampen op de Nieuwdonk en interne zeilkampen aan zee en in Zeeland, voor kinderen van 6 tot 15 jaar.', href: '/zeilschool/zomerkampen/', icon: 'sail', img: '/media/site/kampen.webp' },
+  { titel: 'Jeugdtrainingen', tekst: 'Woensdaglessen vanaf 7 jaar en zaterdagtrainingen voor wie al kan zeilen. Doorgroeien naar wedstrijden kan.', href: '/zeilschool/jeugdtrainingen/', icon: 'users', img: '/media/site/jeugd.webp' },
+  { titel: 'Volwassenen', tekst: 'Leren zeilen op een ruime meermansboot met de lesgever aan boord: 5 dagen, in de week of in het weekend.', href: '/zeilschool/volwassenen/', icon: 'wind', img: '/media/site/zeilschool-2.webp' },
+  { titel: 'Clubleven & wedstrijden', tekst: 'Clubwedstrijden van april tot oktober, nationale wedstrijden, de nieuwjaarsbrunch en een gezellig clubhuis.', href: '/wedstrijden/', icon: 'trophy', img: '/media/site/wedstrijd.webp' },
+];
+---
+<Base>
+  <section class="hero">
+    <div class="hero-slides" aria-hidden="true">
+      {heroBeelden.map((src, i) => (
+        <img src={src} alt="" width="1600" height="1000" fetchpriority={i === 0 ? 'high' : 'low'} loading={i === 0 ? 'eager' : 'lazy'} style={`--i:${i}`} />
+      ))}
+    </div>
+    <div class="container hero-inner">
+      <p class="eyebrow">Recreatiedomein Nieuwdonk · Berlare</p>
+      <h1>Zeilen &amp; surfen<br /> op de Nieuwdonk</h1>
+      <p class="lead">
+        Zeilclub, erkende zeil- en surfschool en een bruisende jeugdwerking. Voor kinderen vanaf 6 jaar, jongeren en volwassenen,
+        van eerste kennismaking tot wedstrijdzeilen.
+      </p>
+      <div class="btn-row">
+        <a class="btn btn-yellow" href="/zeilschool/zomerkampen/">Ontdek de zomerkampen <Icon name="arrow" size={18} /></a>
+        <a class="btn btn-light" href="/club/lid-worden/">Lid worden</a>
+      </div>
+      <ul class="hero-facts">
+        <li><Icon name="shield" size={18} /> Erkende scholings- en trainingsclub WWSV</li>
+        <li><Icon name="users" size={18} /> Gebrevetteerde monitoren</li>
+        <li><Icon name="sail" size={18} /> Clubboten en -planken ter beschikking</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Ons aanbod</p>
+          <h2>Eén club voor iedereen die het water op wil</h2>
+          <p>De Nievdonckse Watersport Vereniging organiseert al vele jaren zeil- en windsurfcursussen via haar door Sport Vlaanderen en ISSA erkende watersportschool.</p>
+        </div>
+        <a href="/zeilschool/" class="link-arrow">Alles over de zeilschool</a>
+      </div>
+      <div class="grid grid-4">
+        {pijlers.map((p) => (
+          <a href={p.href} class="card pijler">
+            <div class="card-media"><img src={p.img} alt="" loading="lazy" width="600" height="375" /></div>
+            <div class="card-body">
+              <span class="pijler-icon"><Icon name={p.icon} size={22} /></span>
+              <h3>{p.titel}</h3>
+              <p>{p.tekst}</p>
+              <span class="card-foot link-arrow">Meer info</span>
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Zomer {seizoen}</p>
+          <h2>Zeilkampen voor elke leeftijd</h2>
+          <p>Van het Piratenkamp voor de allerjongsten tot Junior Sailing voor gevorderden. Inschrijven doe je online.</p>
+        </div>
+        <div class="btn-row">
+          <a href="/downloads/zomeraanbod-2026.pdf" class="btn btn-ghost btn-sm"><Icon name="download" size={16} /> Overzicht (PDF)</a>
+          <a href="/zeilschool/zomerkampen/" class="btn btn-sm">Alle kampen &amp; data</a>
+        </div>
+      </div>
+      {!site.inschrijvingen.open && <p class="kamp-melding"><Icon name="info" size={18} /> {site.inschrijvingen.melding}</p>}
+      <div class="grid grid-3">
+        {kampen.map((k) => <KampCard kamp={k} />)}
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container news-layout">
+      <div>
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Nieuws</p>
+            <h2>Laatste nieuws</h2>
+          </div>
+          <a href="/nieuws/" class="link-arrow">Alle berichten</a>
+        </div>
+        {hoofd && <NewsCard bericht={hoofd} groot />}
+        <div class="grid news-rest">
+          {rest.map((b) => <NewsCard bericht={b} />)}
+        </div>
+      </div>
+      <aside class="kalender-blok">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Agenda</p>
+            <h2>Komende activiteiten</h2>
+          </div>
+        </div>
+        <Kalender aantal={6} />
+        {kalender.filter((a) => a.datum >= vandaag()).length < 3 && (
+          <p class="seizoen-eind small muted">Het zeilseizoen {seizoen} loopt op zijn einde. De kalender voor volgend seizoen volgt later.</p>
+        )}
+        <a href="/wedstrijden/" class="link-arrow kal-link">Volledige kalender</a>
+      </aside>
+    </div>
+  </section>
+
+  <section class="section section-navy">
+    <div class="container split split-center">
+      <div>
+        <p class="eyebrow" style="color:var(--yellow-300)">Onze thuishaven</p>
+        <h2>Een beschutte watersportvijver, ideaal om te leren zeilen</h2>
+        <p>
+          Bij de aanleg van de E17 ontstond door zandwinning een kunstmatig meer op het recreatiedomein Nieuwdonk. Sinds 1989 is het
+          ingericht als watersportvijver om op te zeilen en te surfen. Ons clubhuis met kleedkamers en douches ligt aan de oever.
+        </p>
+        <div class="stat-row">
+          <div class="stat"><strong>21</strong>Optimisten</div>
+          <div class="stat"><strong>12</strong>windsurfplanken</div>
+          <div class="stat"><strong>1:7</strong>begeleiding op kamp</div>
+          <div class="stat"><strong>6+</strong>jaar om te starten</div>
+        </div>
+        <div class="btn-row" style="margin-top:1.5rem">
+          <a href="/club/" class="btn btn-yellow">Over de club</a>
+          <a href="/contact/route/" class="btn btn-light">Route</a>
+        </div>
+      </div>
+      <img class="rounded-img" src="/media/site/clubhuis.webp" alt="Het clubhuis van NWV aan de Nieuwdonk, met Optimisten op de oever" width="900" height="600" loading="lazy" />
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Media</p>
+          <h2>Sfeerbeelden</h2>
+          <p>Foto’s van onze wedstrijden en activiteiten, en aftermovies van de kampen.</p>
+        </div>
+        <a href="/media/" class="link-arrow">Naar de mediagalerij</a>
+      </div>
+      <div class="foto-grid">
+        {recenteAlbums.map((a) => (
+          <a href={`/media/${a.slug}/`} class="foto">
+            <img src={a.photos[0].replace('.webp', '-thumb.webp')} alt="" loading="lazy" width="480" height="320" />
+            <span>{a.title}</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section-tight section-sea">
+    <div class="container partner">
+      {partners.map((p) => (
+        <a href={p.url} class="partner-logo" rel="noopener" target="_blank"><img src={p.logo} alt={p.naam} width="220" height="90" loading="lazy" /></a>
+        <p><strong>Partner: {p.naam}.</strong> {p.tekst}</p>
+      ))}
+      <a href="/club/lid-worden/" class="btn btn-sm">Word lid</a>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .hero {
+    position: relative;
+    min-height: min(88vh, 760px);
+    display: flex;
+    align-items: flex-end;
+    color: var(--white);
+    background: var(--navy-950);
+    isolation: isolate;
+    overflow: hidden;
+  }
+  .hero-slides {
+    position: absolute;
+    inset: 0;
+    z-index: -2;
+  }
+  .hero-slides img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    animation: fade 28s infinite;
+    animation-delay: calc(var(--i) * 7s);
+  }
+  .hero-slides img:first-child {
+    opacity: 1;
+  }
+  @keyframes fade {
+    0% { opacity: 0; transform: scale(1.06); }
+    4% { opacity: 1; }
+    25% { opacity: 1; }
+    30% { opacity: 0; transform: scale(1); }
+    100% { opacity: 0; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .hero-slides img { animation: none; }
+  }
+  .hero::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background:
+      linear-gradient(180deg, rgb(10 20 51 / 0.2) 0%, rgb(10 20 51 / 0.1) 35%, rgb(10 20 51 / 0.85) 100%),
+      linear-gradient(90deg, rgb(10 20 51 / 0.75) 0%, rgb(10 20 51 / 0) 70%);
+  }
+  .hero-inner {
+    padding-block: 6rem 3.5rem;
+  }
+  .hero h1 {
+    color: var(--white);
+    font-size: clamp(2.6rem, 7vw, 4.8rem);
+    line-height: 1.02;
+    margin-bottom: 0.35em;
+  }
+  .hero .eyebrow {
+    color: var(--yellow-300);
+  }
+  .hero .lead {
+    color: #e3e9f8;
+    margin-bottom: 1.8rem;
+  }
+  .hero-facts {
+    list-style: none;
+    padding: 0;
+    margin: 2.2rem 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem 1.6rem;
+    font-size: 0.92rem;
+    color: #d5ddf2;
+  }
+  .hero-facts li {
+    display: flex;
+    gap: 0.45rem;
+    align-items: center;
+  }
+  .hero-facts :global(svg) {
+    color: var(--yellow-400);
+  }
+  .pijler .card-media {
+    aspect-ratio: 16 / 9;
+  }
+  .pijler-icon {
+    display: grid;
+    place-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 12px;
+    background: var(--yellow-400);
+    color: var(--navy-900);
+    margin-top: -2.6rem;
+    margin-bottom: 0.4rem;
+    position: relative;
+    box-shadow: var(--shadow-sm);
+  }
+  .kamp-melding {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    background: var(--white);
+    border: 1px dashed #e0c94d;
+    border-radius: var(--radius);
+    padding: 0.7rem 1rem;
+    font-size: 0.95rem;
+    margin-bottom: 1.5rem;
+  }
+  .news-layout {
+    display: grid;
+    gap: 3rem;
+  }
+  @media (min-width: 1000px) {
+    .news-layout {
+      grid-template-columns: 1fr 360px;
+    }
+  }
+  .news-rest {
+    margin-top: 1.5rem;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 260px), 1fr));
+  }
+  .seizoen-eind {
+    margin: 1rem 0 0;
+    padding: 0.8rem 1rem;
+    background: var(--sand-50);
+    border-radius: var(--radius-sm);
+  }
+  .kal-link {
+    display: inline-flex;
+    margin-top: 1rem;
+  }
+  .foto-grid {
+    display: grid;
+    gap: 0.75rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @media (min-width: 800px) {
+    .foto-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  .foto {
+    position: relative;
+    border-radius: var(--radius);
+    overflow: hidden;
+    aspect-ratio: 3 / 2;
+    color: var(--white);
+    text-decoration: none;
+  }
+  .foto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+  }
+  .foto::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, transparent 50%, rgb(10 20 51 / 0.8));
+  }
+  .foto span {
+    position: absolute;
+    left: 0.9rem;
+    bottom: 0.7rem;
+    right: 0.9rem;
+    z-index: 1;
+    font-weight: 600;
+    font-size: 0.95rem;
+  }
+  .foto:hover img {
+    transform: scale(1.05);
+  }
+  .foto:hover {
+    color: var(--yellow-300);
+  }
+  .partner {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .partner p {
+    margin: 0;
+    flex: 1 1 320px;
+  }
+  .partner-logo img {
+    border-radius: var(--radius-sm);
+    background: var(--white);
+    max-height: 70px;
+    width: auto;
+  }
+</style>

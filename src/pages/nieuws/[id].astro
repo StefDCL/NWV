@@ -1,0 +1,85 @@
+---
+import Base from '../../layouts/Base.astro';
+import PageHero from '../../components/PageHero.astro';
+import { render } from 'astro:content';
+import { alleBerichten, datumLabel, samenvatting, type Bericht } from '../../lib/nieuws';
+
+export async function getStaticPaths() {
+  const berichten = await alleBerichten();
+  return berichten.map((bericht, i) => ({
+    params: { id: bericht.id },
+    props: { bericht, nieuwer: berichten[i - 1], ouder: berichten[i + 1] },
+  }));
+}
+interface Props { bericht: Bericht; nieuwer?: Bericht; ouder?: Bericht }
+const { bericht, nieuwer, ouder } = Astro.props;
+const { Content } = await render(bericht);
+const beelden = [bericht.data.afbeelding, ...(bericht.data.extraAfbeeldingen ?? [])].filter(Boolean) as string[];
+---
+<Base title={bericht.data.titel} description={samenvatting(bericht, 160)} image={bericht.data.afbeelding}>
+  <PageHero title={bericht.data.titel} eyebrow={datumLabel(bericht)} image={bericht.data.afbeelding ?? '/media/site/hero-5.webp'} crumbs={[{ label: 'Nieuws', href: '/nieuws/' }, { label: bericht.data.titel }]} />
+  <article class="section">
+    <div class="container artikel">
+      <div class="prose">
+        <Content />
+      </div>
+      {beelden.length > 0 && (
+        <aside class="beelden">
+          {beelden.map((src) => (
+            <a href={src} target="_blank" rel="noopener"><img src={src} alt="" loading="lazy" width="700" height="500" /></a>
+          ))}
+        </aside>
+      )}
+    </div>
+    <div class="container">
+      <nav class="buren" aria-label="Andere berichten">
+        {nieuwer ? <a href={`/nieuws/${nieuwer.id}/`} class="panel buur"><small>← Nieuwer</small><strong>{nieuwer.data.titel}</strong></a> : <span />}
+        {ouder ? <a href={`/nieuws/${ouder.id}/`} class="panel buur rechts"><small>Ouder →</small><strong>{ouder.data.titel}</strong></a> : <span />}
+      </nav>
+      <p><a href="/nieuws/" class="link-arrow">Terug naar alle berichten</a></p>
+    </div>
+  </article>
+</Base>
+<style>
+  .artikel {
+    display: grid;
+    gap: 2.5rem;
+  }
+  @media (min-width: 960px) {
+    .artikel {
+      grid-template-columns: minmax(0, 1fr) 360px;
+    }
+  }
+  .beelden {
+    display: grid;
+    gap: 1rem;
+    align-content: start;
+  }
+  .beelden img {
+    border-radius: var(--radius);
+    width: 100%;
+    box-shadow: var(--shadow-sm);
+  }
+  .buren {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr));
+    gap: 1rem;
+    margin: 3rem 0 1.5rem;
+  }
+  .buur {
+    display: grid;
+    gap: 0.2rem;
+    text-decoration: none;
+    color: var(--navy-900);
+    transition: box-shadow 0.2s ease;
+  }
+  .buur:hover {
+    box-shadow: var(--shadow);
+  }
+  .buur small {
+    color: var(--ink-500);
+  }
+  .rechts {
+    text-align: right;
+  }
+</style>

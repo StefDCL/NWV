@@ -1,0 +1,51 @@
+TITLE: Links – NWV
+FILE: mirror/www.nwv-nd.be/links/index.html
+
+H1: Links
+H1: Handige Links
+H2: Optiteam
+[LINK https://www.optiteam.be :: Optiteam]
+[LINK https://www.optiteam.be :: ]
+[IMG https://www.nwv-nd.be/wp/wp-content/uploads/2019/01/optiteam.jpg alt=""]
+Onze leden kunnen 5% korting krijgen op hun aankopen bij Optiteam. Klik op het logo voor meer info.
+H2: Te veel regen ?
+[LINK http://www.buienradar.be :: ]
+[IMG http://api.buienradar.nl/image/1.0/radarmapbe?width=250 alt=""]
+H2: Te weinig wind ?
+[IFRAME https://embed.windy.com/embed2.html?lat=51.036&lon=3.991&zoom=11&level=surface&overlay=wind&menu=&message=&marker=&calendar=&pressure=&type=map&location=coordinates&detail=&detailLat=51.030&detailLon=4.100&metricWind=bft&metricTemp=default&radarRange=-1]
+H2: Federaties
+Wind en Watersport Vlaanderen
+[LINK https://www.wwsv.be/ :: Wind en Watersport Vlaanderen]
+Wind en Watersport Vlaanderen
+ISAF (International Sailing Federation)
+[LINK https://sailing.org/ :: ISAF (International Sailing Federation)]
+ISAF (International Sailing Federation)
+Royal Belgian Sailing Federation
+[LINK https://www.belgiansailing.be/ :: Royal Belgian Sailing Federation]
+Royal Belgian Sailing Federation
+Belgische Optimist klasse
+[LINK https://www.optimist.be/ :: Belgische Optimist klasse]
+Belgische Optimist klasse
+Laser klasse
+[LINK https://www.lasergroupbelgium.net/ :: Laser klasse]
+Laser klasse
+Spirou klasse
+[LINK http://spirouclass.be :: Spirou klasse]
+Spirou klasse
+H2: Theorie
+Alles over de werking van het zeil
+[LINK http://www.zeiltheorie.nl/ :: Alles over de werking van het zeil]
+Alles over de werking van het zeil
+Test uw kennis v/h wedstrijdreglement
+[LINK http://www.finckh.org/ :: Test uw kennis v/h wedstrijdreglement]
+Test uw kennis v/h wedstrijdreglement
+H2: Nog meer links
+Knopen voor zeilers
+[LINK https://blog.clickandboat.com/nl/leren-knopen/ :: Knopen voor zeilers]
+Knopen voor zeilers
+Clubracer:  zeilen en zeezeilen
+[LINK https://www.clubracer.be/ :: Clubracer:  zeilen en zeezeilen]
+Clubracer:  zeilen en zeezeilen
+Varen: kleinzeilerij
+[LINK https://www.varen.be/category/wedstrijd/kleinzeilerij/ :: Varen: kleinzeilerij]
+Varen: kleinzeilerij

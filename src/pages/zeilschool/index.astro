@@ -1,0 +1,132 @@
+---
+import Base from '../../layouts/Base.astro';
+import PageHero from '../../components/PageHero.astro';
+import KampCard from '../../components/KampCard.astro';
+import Icon from '../../components/Icon.astro';
+import { kampen, seizoen } from '../../data/kampen';
+import { site } from '../../data/site';
+const jv = site.jeugdverantwoordelijke;
+---
+<Base title="Zeilschool & jeugdwerking" description="Erkende zeil- en surfschool op de Nieuwdonk: zomerkampen, jeugdtrainingen, wedstrijdzeilen en cursussen voor volwassenen.">
+  <PageHero title="Zeilschool & jeugdwerking" eyebrow="Leren zeilen bij NWV" lead="Een club waar iedereen zich thuis voelt. Passie voor zeilen, een gezellig clubleven en enthousiaste, opgeleide monitoren. Zomerkampen, training en competitie: fun verzekerd!" image="/media/site/kampen.webp" crumbs={[{ label: 'Zeilschool' }]}>
+    <div class="btn-row" style="margin-top:1.5rem">
+      <a href="/zeilschool/zomerkampen/" class="btn btn-yellow">Zomerkampen {seizoen}</a>
+      <a href="/zeilschool/inschrijven/" class="btn btn-light">Inschrijven</a>
+    </div>
+  </PageHero>
+
+  <section class="section">
+    <div class="container split split-center">
+      <div>
+        <p class="eyebrow">Onze zeilschool</p>
+        <h2>Erkend door Sport Vlaanderen en ISSA</h2>
+        <p>
+          Om de watersport te promoten organiseert de NWV via haar door Sport Vlaanderen en ISSA erkende watersportschool zeil- en
+          windsurfcursussen in verschillende categorieën. Dat doen we al vele jaren voor kinderen vanaf 6 jaar, en ook voor volwassenen
+          zijn er specifieke cursussen.
+        </p>
+        <p>
+          Onze jeugdwerking is door Wind &amp; Watersport Vlaanderen erkend als <strong>scholings- en trainingsclub</strong> en werkt samen
+          met de <a href="https://www.optimist.be" rel="noopener" target="_blank">Optimist</a>-,
+          <a href="https://spirouclass.be" rel="noopener" target="_blank">Spirou</a>- en
+          <a href="https://www.europeclass.be" rel="noopener" target="_blank">Europe</a>klasse.
+        </p>
+        <div class="labels">
+          <img src="/media/logo/label-scholingsclub-2025.png" alt="Erkende scholings- en trainingsclub 2025" width="300" height="129" loading="lazy" />
+          <img src="/media/logo/label-trainingsclub.png" alt="Erkende trainingsclub" width="300" height="130" loading="lazy" />
+          <img src="/media/logo/label-wwsv-club.png" alt="Erkende WWSV-club" width="300" height="130" loading="lazy" />
+        </div>
+      </div>
+      <img class="rounded-img" src="/media/site/jeugd.webp" alt="Jeugdzeilers op de Nieuwdonk" width="900" height="600" loading="lazy" />
+    </div>
+  </section>
+
+  <section class="section section-alt">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Het hele jaar door</p>
+          <h2>Kies je traject</h2>
+        </div>
+      </div>
+      <div class="grid grid-4 traject">
+        <a class="panel" href="/zeilschool/zomerkampen/"><Icon name="sail" size={28} /><h3>Zomerkampen</h3><p>Externe kampen op de Nieuwdonk (10u–17u) en interne kampen met overnachting. 6 tot 15 jaar.</p><span class="link-arrow">Bekijk het aanbod</span></a>
+        <a class="panel" href="/zeilschool/jeugdtrainingen/"><Icon name="users" size={28} /><h3>Jeugdtrainingen</h3><p>Woensdaglessen vanaf 7 jaar doorheen het schooljaar en zaterdagtrainingen voor wie al kan zeilen.</p><span class="link-arrow">Trainingen</span></a>
+        <a class="panel" href="/wedstrijden/q-cup/"><Icon name="trophy" size={28} /><h3>Wedstrijdzeilen</h3><p>Proef van wedstrijden in de Q-Cup, of trek met het Optimist-team naar (inter)nationale regatta’s.</p><span class="link-arrow">Wedstrijden</span></a>
+        <a class="panel" href="/zeilschool/volwassenen/"><Icon name="wind" size={28} /><h3>Volwassenen</h3><p>Vijf dagen leren zeilen op een ruime meermansboot met de lesgever aan boord.</p><span class="link-arrow">Cursus volwassenen</span></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Zomer {seizoen}</p>
+          <h2>Onze kampen</h2>
+        </div>
+        <a href="/zeilschool/zomerkampen/" class="link-arrow">Alle data en prijzen</a>
+      </div>
+      <div class="grid grid-3">{kampen.map((k) => <KampCard kamp={k} />)}</div>
+    </div>
+  </section>
+
+  <section class="section section-navy">
+    <div class="container split split-center">
+      <div>
+        <p class="eyebrow" style="color:var(--yellow-300)">Ook dat kan</p>
+        <h2>Verjaardagsfeestjes op het water</h2>
+        <p>In september-oktober en mei-juni organiseren we ook verjaardagsfeestjes. Een onvergetelijke namiddag op en rond het water!</p>
+        <h2 style="margin-top:2rem">Vragen over de jeugdwerking?</h2>
+        <p>Contacteer {jv.naam}, {jv.rol.toLowerCase()}:</p>
+        <div class="btn-row">
+          <a class="btn btn-yellow" href={`tel:${jv.gsmLink}`}><Icon name="phone" size={18} /> {jv.gsm}</a>
+          <a class="btn btn-light" href={`mailto:${jv.email}`}><Icon name="mail" size={18} /> {jv.email}</a>
+        </div>
+      </div>
+      <img class="rounded-img" src="/media/site/kamp-paas.webp" alt="Jeugdzeilers met hun monitor" width="900" height="600" loading="lazy" />
+    </div>
+  </section>
+</Base>
+<style>
+  .labels {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+    margin-top: 1.5rem;
+  }
+  .labels img {
+    height: 64px;
+    width: auto;
+    border: 1px solid var(--line);
+    border-radius: var(--radius-sm);
+    padding: 0.3rem;
+    background: var(--white);
+  }
+  .traject .panel {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+  }
+  .traject .panel:hover {
+    box-shadow: var(--shadow);
+    transform: translateY(-3px);
+  }
+  .traject :global(svg) {
+    color: var(--sea-500);
+  }
+  .traject h3 {
+    margin: 0.4rem 0 0;
+  }
+  .traject p {
+    color: var(--ink-700);
+    font-size: 0.96rem;
+    margin: 0 0 0.6rem;
+  }
+  .traject .link-arrow {
+    margin-top: auto;
+  }
+</style>
